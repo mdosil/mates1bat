@@ -262,10 +262,84 @@ Com que hem comprovat totes les altres possibles arrels i el residu no ens ha do
 $$P(x)=x^4(x-2)(x^2+x+2)$$
 
 <!-------------------------------------------------->
-##mcd i mcm de dos polinomis
+
+##Màxim comú divisor i mínim comú múltiple de dos polinomis
+
+Per trobar el màxim comú divisor (mcd) i el mínim comú múltiple (mcm) de dos polinomis $P(x)$ i $Q(x)$ cal fer:
+
+1. Factoritzar cada polinomi
+2. $mcm(P(x),Q(x))=$ Factors comuns i no comuns amb l'exponent més gran
+3. $mcd(P(x),Q(x))=$ Factors comuns amb l'exponent més petit
+
+__Exemple 6__
+
+Troba el mcd i el mcm dels polinomis $P(x)=x^3+5x^2+3x-9$ i $Q(x)=x^3+4x^2-21x$
+
+Si els factoritzo aplicant el procediment anterior veig que:
+
+\begin{align}
+    P(x)&=x^3+5x^2+3x-9=(x-1)(x+3)^2\\
+    Q(x)&=x^3+4x^2-21x=x(x-3)(x+7)
+\end{align}
+
+Per tant:
+
+\begin{align}
+    mcm(P(x),Q(x))&=x(x-3)(x+7)(x-1)(x+3)^2\\
+    &=x^6+9x^5+2x^4-102x^3-99x^2+189x\\
+    mcd(P(x),Q(x))&=1
+\end{align}
+
+Quan dos polinomis només tenen com a mcd el nombre $1$ diem que són _polinomis primers entre ells_.
 
 <!-------------------------------------------------->
 
 ##Fraccions algebraiques
 
-__Exemple 5__
+De la mateixa manera que podem parlar de mcd i mcm entre dos polinomis, també podeu parlar de fraccions:
+
+>$\frac{P(x)}{Q(x)}$ és una fracció algebraica si $P(x)$ i $Q(x)$ són polinomis amb $Q(x) \ne 0$.
+
+###Fraccions equivalents
+
+>Dues fraccions algebraiques $\frac{P(x)}{Q(x)}$ i  $\frac{R(x)}{T(x)}$ són equivalents si es compleix: $P(x)\cdot T(x)=Q(x)\cdot R(x)$
+
+__Exemple 7__
+
+Les fraccions algebraiques $\frac{x^4-2x^3+2x-1}{x^3-3x+2}$ i $\frac{x^2-1}{x+2}$ són equivalents:
+
+\begin{align}
+    (x^4-2x^3+2x-1)(x+2)&=(x^3-3x+2)(x^2-1)\\
+    x^5-4x^3+2x^2+3x-2&=x^5-4x^3+2x^2+3x-2
+\end{align}
+
+
+
+###Fracció irreductible
+
+També podem trobar la fracció irreductible en aquest cas. Quan dividim numerador i denominador pel mcd dels dos polinomis obtenim una fracció irreductible. Per fer-ho, caldrà factoritzar els polinomis numerador i denominador i simplificar els factors comuns.
+
+
+__Exemple 8__
+
+
+$$\frac{x^4-2x^3+2x-1}{x^3-3x+2}=\frac{(x-1)^3(x+1)}{(x+2)(x-1)^2}=\frac{x^2-1}{x+2}$$
+
+###Suma i resta de fraccions algebraiques
+
+Per sumar o restar fraccions algebraiques, en cas de no tenir el mateix denominador, caldrà buscar el mcm dels denominadors i reduir-les a denominador comú.
+
+__Exemple 9__
+
+$$\frac{1}{x-1}+\frac{1}{x+1}=\frac{x+1}{x^2-1}+\frac{x-1}{x^2-1}=\frac{x+1+x-1}{x^2-1}=\frac{2x}{x^2-1}$$
+
+###Multiplicació i divisió
+
+Procedirem de la mateixa manera que ho fèiem amb les fraccions.
+
+__Exemple 10__
+
+\begin{align}
+    \frac{x+1}{x+2}\cdot \frac{x-1}{x+2}&=\frac{(x+1)(x-1)}{(x+2)(x+2)}=\frac{x^2-1}{(x+2)^2}\\
+    \frac{x+1}{x+2}\div \frac{x-1}{x+2}&=\frac{(x+1)(x+2)}{(x+2)(x-1)}=\frac{x^2+3x+2}{x^2+x-2}
+\end{align}
