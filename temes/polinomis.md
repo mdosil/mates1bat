@@ -221,9 +221,51 @@ Per tant,$P(x)$ té 3 arrels enteres: $1$, $2$ i $3$, i això vol dir que és di
 <!-------------------------------------------------->
 ##Factorització de polinomis
 
+Factoritzar un polinomi consisteix en descomposar-lo com a producte de polinomis de grau menor. Per fer-ho, seguirem els passos següents:
+
+1. __Treure factor comú__
+    
+    Mirarem primer si podem extreure algun factor numèric o de variable a davant del polinomi. Per exemple, donat el polinomi $P(x)=4x^4-2x^3+6x$, el podem començar a factoritzar com: $P(x)=2x(2x^3-x^2+3)$.
+
+2. __Identitats notables__
+
+    A vegades a simple vista, veiem que una expressió algebraica correspon a una de les tres identitats notables. Exemple, si hem de fatoritzar $P(x)=4x^4-20x^2+25$, primer mirarem si ho podem expressar com una identitat notable. Aquest cas és molt clar i el podem expressar com: $P(x)=(2x^2-5)^2$
+
+3. __Arrels del polinomi__
+
+    Un cop hem comprovat els dos estadis anteriors, prosseguirem a trobar les arrels del polinomi tal i com hem vist en l'apartat anterior. Vam veure que si $x=a$ és arrel de $P(x)$ llavors $P(x)$ era divisible per $(x-a)$. Això vol dir que puc expressar $P(x)$ com a producte d'un factor $(x-a)$ i un $Q(x)$. Aquest quocient pot tenir més arrels i el podem seguir descomposant. La idea és descomposar un polinomi de grau $n$ com a producte de polinomis de grau 1 amb factors del tipus $(x-a)$.
+
+__Exemple 5__
+
+Factoritza el polinomi $P(x)=x^7-x^6-4x^4$.
+
+Comprovem que podem treure factor comú:
+
+$$P(x)=x^7-x^6-4x^4=x^4(x^3-x^2-4)$$.
+
+Anem a factoritzar ara el segon factor: $x^3-x^2-4$. Veiem que no correspon a cap identitat notable. El pas següent és mirar els divisors del terme independent i provar quins són arrels del polinomi. 
+
+Divisors del terme independent: $\pm 1$, $\pm 2$, $\pm 4$. Provem cada cas, o bé per Ruffini comprovant que el residu de fer la divisió de $x^3-x^2-4$ per $(x-a)$ és zero o bé aplicant el Teorema del Residu i calculant el valor numèric del polinomi quan $x=a$. Si ho fem, veiem que només quan $a=2$ el residu esdevé zero:
+
+$$
+\begin{array}{c|r r r r}
+ & 1 & -1 & 0 & -4 \\
+ &  &  &  & \\
+2 &  & 2 & 2 & 4 \\
+\hline
+ & 1 & 1 & 2 & \boxed{0}
+\end{array}
+$$
+
+Com que hem comprovat totes les altres possibles arrels i el residu no ens ha donat zero, aquest polinomi no es pot descomposar més. Per tant, la descomposició en factors de $P(x)$ esdevé:
+
+$$P(x)=x^4(x-2)(x^2+x+2)$$
+
 <!-------------------------------------------------->
 ##mcd i mcm de dos polinomis
 
 <!-------------------------------------------------->
 
 ##Fraccions algebraiques
+
+__Exemple 5__
