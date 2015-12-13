@@ -89,8 +89,7 @@ Per multiplicar un nombre real $k$ per un vector només cal multiplicar les comp
 ###Producte escalar
 
 El producte escalar entre dos vectors és un **nombre real** i es defineix com:
-
->$$\vec{u}\cdot \vec{v}=|\vec{u}|\cdot|\vec{v}|\cdot cos \alpha$$
+      >$$\vec{u}\cdot \vec{v}=|\vec{u}|\cdot|\vec{v}|\cdot cos \alpha$$
 
 on $|\vec{u}|$ i $|\vec{v}|$ són els mòduls dels vectors i $\alpha$ l'angle que formen entre ells.
 
@@ -98,18 +97,72 @@ Més endavant demostrarem que el producte escalar de dos vectors també es pot e
 
 >$$\vec{u}\cdot \vec{v}=u_1\cdot v_1+u_2\cdot v_2$$
 
-Ja veiem que si dos vectors són perpendiculars ($\alpha=90^0$) el seu producte escalar serà $0$ i si són paral.lels ($\alpha=0^0$) el seu producte escalar serà el producte dels seus mòduls.
+Ja veiem que si dos vectors són perpendiculars (o **ortogonals**) ($\alpha=90^0$) el seu producte escalar serà $0$ i si són paral.lels ($\alpha=0^0$) el seu producte escalar serà màxim i serà igual al producte dels seus mòduls.
 
 El producte escalar té les propietats següents:
 
 1. Commutativa: $\vec{u} \cdot \vec{v}= \vec{v} \cdot \vec{u}$
 2. Associativa: $\lambda \cdot (\vec{u} \cdot \vec{v})= (\lambda \cdot \vec{u}) \cdot \vec{v}= \vec{u} \cdot (\lambda \cdot \vec{v})$
 3. Distributiva respecte la suma: $\vec{u} \cdot (\vec{v}+\vec{w})=\vec{u}\cdot \vec{v}+ \vec{u} \cdot \vec{w}$
-###Producte vectorial
+
+
+####Projecció d'un vector sobre un altre
+
+A vegades ens pot interessar calcular la projecció d'un vector sobre un altre o el que és el mateix, donats dos vectors, buscar quina part d'un d'ells està en la mateixa direcció de l'altre. Fixeu-vos en la construcció següent:
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2284605/width/1938/height/951/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="350px" style="border:0px;"> </iframe>
+
+Si considerem el triangle rectangle $ABD$, el cosinus de l'angle $\alpha$ es calcula segons:
+
+$$cos \alpha=\frac{AD}{|\vec{u}|} \Rightarrow AD=cos \alpha \cdot |\vec{u}| $$
+
+També sabem que:
+
+$$ \vec{u} \cdot \vec{v}= |\vec{u}| \cdot |\vec{v}| \cdot cos \alpha$$
+
+Per tant, ajuntant les dues expressions tenim que:
+
+$$AD=\frac{\vec{u}\cdot \vec{v}}{|\vec{v}|}$$
+
+El segment $AD$ és la projecció del vector $\vec{u}$ sobre el vector $\vec{v}$, $proj_{\vec{v}}(\vec{u})$, per tant:
+
+>$$proj_{\vec{v}}(\vec{u})=\frac{\vec{u}\cdot \vec{v}}{|\vec{v}|}$$
+
 
 <!---------------------------------------------------------->
 ##Combinació lineal entre vectors
+
+Donat un vector $\vec{u}$, si el multipliquem per un nombre real $\lambda$ obtenim una **combinació lineal** d'aquest vector: $\lambda \cdot \vec{u}$. Veiem també que necessàriament el vector i la combinació lineal han de ser **paral.lels** perquè si no, no podríem expressar un com l'altre multiplicat per un nombre.
+
+
+Per tant, si $\lambda$ i $\mu$ són nombres reals:
+
+>$\lambda \cdot \vec{u}+ \mu \cdot \vec{v}$ és una combinació lineal dels vectors $\vec{u}$ i $\vec{v}$  
+
+
+
+
 ###Vectors linealment independents i dependents
+
+Tenint en compte el que hem vist a dalt, diem que:
+
+1. Dos vectors que tenen la mateixa direcció diem que són **linealment dependents** i si tenen diferent direcció són **linealment independents**.
+2. Donat un conjunt de vectors, són **linealment dependents** si algun és *combinació lineal* dels altres i són **linealment independents** si cap es pot expressar com a combinació lineal dels vectors restants.
+
+**Exemple 2**
+
+Donats els vectors $\vec{u}=(2,5)$, $\vec{v}=(0,3)$ i $\vec{w}=(-1,1)$ són linealment dependents?
+
+Per comprovar-ho hem de trobar dos nombres $\lambda$ i $\mu$ que compleixin: $\vec{u}=\lambda \cdot\vec{v}+\mu \cdot \vec{w}$:
+
+
+$$(2,5)=\lambda (0,3)+ \mu (-1,1) \begin{cases} 2 = \lambda \cdot 0- \mu \rightarrow \mu=-2 \\ 5=\lambda \cdot 3 + \mu \rightarrow \lambda = \frac{7}{3}
+\end{cases}$$
+
+Veiem que sí que són linealment dependents, perquè podem expressar $\vec{u}$ com a combinació lineal dels altres dos:
+
+$$\vec{u}=\frac{7}{3} \vec{v}-2\vec{w}$$
+
 
 <!---------------------------------------------------------->
 ##Bases en el pla
