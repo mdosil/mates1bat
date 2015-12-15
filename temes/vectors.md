@@ -272,7 +272,7 @@ Troba les coordenades del baricentre del triangle de vèrtexs $A(-3,-2)$, $B(4,7
 
 Anem a calcular primer les coordenades del punt mig del costat $\bar{AB}$, diem-li $D$:
 
-$$D=(\frac{-3+4}{2},\frac{-2+7}{2})=(\frac{1}{2},{5}{2})$$
+$$D=(\frac{-3+4}{2},\frac{-2+7}{2})=(\frac{1}{2},\frac{5}{2})$$
 
 Anem a calcular ara les coordenades dels vectors $\vec{DG}$ i $\vec{GC}$:
 
