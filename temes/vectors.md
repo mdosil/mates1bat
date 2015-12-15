@@ -262,6 +262,7 @@ Volem calcular les coordenades del [baricentre](https://ca.wikipedia.org/wiki/Ba
 <iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2303721/width/1938/height/951/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="350px" style="border:0px;"> </iframe>
 
 Per trobar les coordenades del baricentre $G(x,y)$ haurem d'aplicar el que hem après en les dues aplicacions anteriors:
+
 1. Caldrà trobar les coordenades del punt mig d'un dels costats, per exemple del costat $\bar{AB}$ i que en el dibuix apareix amb la lletra $D$
 2. Caldrà trobar les coordenades el punt $G$ sabent que el vector $\vec{GC}$ és el doble de llarg que el vector $\vec{DG}$.
 
