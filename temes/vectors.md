@@ -167,7 +167,7 @@ $$\vec{u}=\frac{7}{3} \vec{v}-2\vec{w}$$
 <!---------------------------------------------------------->
 ##Bases en el pla
 
-Donats dos vectors linealment independents, anem a veure que qualsevol altre vector es pot expressar com a combinació lineal d'ells dos. Considerem els vectors $\vec{c}$ i $\vec{d}$, linealment independents. Anem a veure si podem expressar el vector $\vec{w}$ com a combinació lineal d'ells dos. Per fer-ho, els posem tots 3 amb origen comú. Prolonguem les rectes que contenen els vectors $\vec{c}$ i $vec\{d}$ fins a obtenir els vectors $\vec{u}$ i $\vec{v}$ i tracem un paral.lelogram com el de la figura:
+Donats dos vectors linealment independents, anem a veure que qualsevol altre vector es pot expressar com a combinació lineal d'ells dos. Considerem els vectors $\vec{c}$ i $\vec{d}$, linealment independents. Anem a veure si podem expressar el vector $\vec{w}$ com a combinació lineal d'ells dos. Per fer-ho, els posem tots 3 amb origen comú. Prolonguem les rectes que contenen els vectors $\vec{c}$ i $\vec{d}$ fins a obtenir els vectors $\vec{u}$ i $\vec{v}$ i tracem un paral.lelogram com el de la figura:
 
 <iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2303099/width/1600/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="350px" style="border:0px;"> </iframe>
 
