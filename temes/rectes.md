@@ -122,7 +122,107 @@ Per tant, l'equació de la recta és: $5x+3y-29=0$
 
 
 ### Rectes perpendiculars
+
+Tornem a considerar dues rectes i anem a veure què ha de passar per tal que siguin perpendiculars:
+
+\begin{align}
+    r:& \quad Ax+By+C=0 \Rightarrow \vec{v_r}=(-B,A) \\
+    s:& \quad A^\prime x+ B^\prime y+ C^ \prime= 0 \Rightarrow \vec{v_s}=(-B^\prime,A^\prime)
+\end{align}
+
+$r$ i $s$ seran rectes perpendiculars si els seus **vectors directors són ortogonals**, això és, formen un angle de $90^o$. S'haurà de complir, per tant, que el seu producte escalar sigui zero. Això és:
+
+>$$\vec{v_r}\cdot\vec{v_s}=AA^\prime+B B^\prime=0$$
+
+Donada una recta qualsevol, per trobar-ne una recta perpendicular només caldrà escriure un vector director que al efectuar el producte escalar doni zero.
+
+**Exemple 2**
+
+Troba l'equació de la recta perpendicular a la recta $r:2x+3y-5=0$ que passa pel punt $P(1,2)$.
+
+El vector director de la recta $r$ és $\vec{v}(-3,2)$. Un vector ortogonal a $\vec{v}$ seria $\vec{u}=(2,3)$ ja que el seu producte escalar dóna zero: $\vec{u}\cdot \vec{v}=-3\cdot 2+2\cdot (3)=0$.
+
+Per tant, la recta perpendicular tindria $B=-2$ i $A=3$. Ara només ens falta demanar que passi pel punt $P(1,2)$ per trobar $C$:
+
+$$3x-2y+C=0\rightarrow 3\cdot 1-2\cdot 2+C=0\rightarrow C=1$$
+
+Per tant, la recta que estem buscant és:
+
+$$3x-2y+1=0$$
+
+####Projecció ortogonal d'un punt sobre una recta.
+
+Donats un punt $P$ que no pertant a una recta i una recta $r$ qualsevol, sempre podem trobar la *projecció ortogonal* d'aquest punt sobre la recta. Ho entendrem millor amb un dibuix:
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2464393/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="300px" style="border:0px;"> </iframe>
+
+**$P_0$ és la projecció ortogonal de $P$ sobre la recta $r$**. També això ens dóna un punt **$P^\prime$ que és el punt simètric de $P$ sobre la recta $r$**. $P$ i $P^\prime$ estan a la mateixa distància de la recta $r$.
+
+Per trobar $P_0$ i $P^\prime$ farem el següent:
+
+1. Buscarem l'equació de la **recta perpendicular** a $r$ que passa per $P$.
+2. Buscarem el punt de tall de les dues rectes resolent el sistema d'equacions i ja tindrem $P_0$
+3. Per trobar les coordenades de $P^\prime$ utilitzarem la fórmula del punt mig d'un segment que vam veure en el [tema anterior](http://mdosil.cat/mates1batcientific/temes/vectors/#aplicacions-geometriques).
+
+Anem a veure-ho amb un exemple.
+
+**Exemple 3**
+
+Troba la projecció ortogonal del punt $P(1,2)$ sobre la recta $r:3x+2y-1=0$.
+
+
+<!--        s:Ax+By+C=0 & \vec{v}_s(-B,A)-->
+
+$$
+\left.\begin{aligned}
+r&:3x+2y-1=0 \rightarrow \vec{v}_r(-2,3)\\
+s&:Ax+By+C=0 \rightarrow \vec{v}_s(-B,A)
+\end{aligned}
+\right\}
+\vec{v}_r \cdot \vec{v}_s=0 \rightarrow 2B+3A=0 \rightarrow\text{ Solució possible: } B=-3, A=2
+$$
+
+Per tant, tindríem que $s:2x-3y+C=0$, per trobar $C$ només cal substituir el punt $P(1,2)$ en l'equació i obtindrem que $C=4$.
+
+L'equació de la recta $s$ és $2x-3y+4=0$.
+
+Ara ens cal trobar la projecció ortogonal del punt $P$ sobre la recta $r$, això és, el punt de tall de les dues rectes. Ens cal solucionar el sistema següent:
+
+$$
+\left.\begin{aligned}
+3x+2y-1&=0\\
+2x-3y+4&=0
+\end{aligned}
+\right\}
+\rightarrow ... \rightarrow x=\frac{-5}{13}, y=\frac{14}{13}
+$$
+
+$P_0=(\frac{-5}{13},\frac{14}{13})$
+
+D'aquí també podem trobar el punt simètric de $P$ respecte la recta $r$, $P^\prime$. Del tema anterior sabem que per trobar el [punt mig d'un segment](http://mdosil.cat/mates1batcientific/temes/vectors/#aplicacions-geometriques) només ens cal saber les coordenades dels punts dels extrems. Les coordenades del punt mig es troben fent la semisuma de les components x i y dels punts extrems. Anem a veure-ho en aquest cas:
+
+
+$$
+\left.\begin{aligned}
+P &=(1,2)\\
+P_0 &=\Big(\frac{-5}{13},\frac{14}{13}\Big)\\
+P^\prime &=(x,y)
+\end{aligned}
+\right\}
+\rightarrow \Big(\frac{-5}{13}, \frac{14}{13}\Big)=\Big(\frac{1+x}{2},\frac{2+y}{2}\Big)\rightarrow ... \rightarrow P^\prime=\Big(\frac{-23}{13},\frac{2}{13}\Big)
+$$
+
+Per tant el punt simètric de $P$ respecte la recta $r$ és $P^\prime=\Big(\frac{-23}{13},\frac{2}{13}\Big)$
+
 ## Angle entre dues rectes
+
+Donades dues rectes $r$ i $s$, si són secants podem definir l'angle entre elles dues com l'angle $\alpha \le 90^o$:
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2469765/width/1938/height/951/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="300px" style="border:0px;"> </iframe>
+
+o sigui, dels dos angles que es formen, el més petit. Si ens hi fixem, es compleix que: $\alpha=180-\beta$. Com que $cos(\alpha)=-cos(180-\alpha)$, per trobar l'angle apliquem la fórmula del producte escalar entre dos vectors i demanem que el cosinus sigui positiu:
+
+$$cos \alpha=\frac{|\vec{u}\cdot \vec{v}|}{|\vec{u}|\cdot|\vec{v}|}$$
+
+on $\vec{u}$ i $\vec{v}$ són els vectors directors de les rectes $r$ i $s$ respectivament.
 
 ##Distàncies
 ### Distància entre dos punts
