@@ -150,7 +150,7 @@ Per tant, la recta que estem buscant és:
 
 $$3x-2y+1=0$$
 
-####Projecció ortogonal d'un punt sobre una recta.
+####Projecció ortogonal d'un punt sobre una recta
 
 Donats un punt $P$ que no pertant a una recta i una recta $r$ qualsevol, sempre podem trobar la *projecció ortogonal* d'aquest punt sobre la recta. Ho entendrem millor amb un dibuix:
 <iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2464393/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="300px" style="border:0px;"> </iframe>
@@ -226,5 +226,57 @@ on $\vec{u}$ i $\vec{v}$ són els vectors directors de les rectes $r$ i $s$ resp
 
 ##Distàncies
 ### Distància entre dos punts
+
+La distància entre dos punts es defineix com el mòdul del vector entre aquests dos punts. Si tenim un punt $P(x_0,y_0)$ i un punt $Q(x_1,y_1)$ la distància entre $P$ i $Q$ es defineix com:
+
+>$$d(P,Q)=|\vec{PQ}|=\sqrt{(x_1-x_0)^2+(y_1-y_0)^2}|$$
+
 ### Distància d'un punt a una recta
+
+Es defineix la distància d'un punt $P$ a una recta $r:Ax+By+C=0$ com la longitud del segment perpendicular que uneix el punt amb la recta.
+Per calcular-la n'hi hauria prou amb trobar la projecció ortogonal del punt sobre la recta, diem-li $P^\prime$, i fer el mòdul del vector entre els 2 punts, o sigui $|\vec{PP^{\prime}}|$. Això potser resultaria una mica llarg i existeix una fòrmula més compacta per trobar-ho. Anem-la a deduir. Fixem-nos amb el dibuix de sota:
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2496881/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="300px" style="border:0px;"> </iframe>
+
+A part dels punt $P(x_0,y_0)$ i la seva projecció ortogonal sobre $r$, $P'$, considerem també un punt $Q(x_1,y_1)$ pertanyent a la recta. El triangle $QP^\prime P$ és rectangle en $P^\prime$. Sabent això tenim que:
+
+$$d(P,r)=d(P,P^\prime)=|\vec{PP^\prime}|=||\vec{QP}|\cdot cos \alpha|$$
+
+on $\alpha$ és l'angle que forma el segment $\overline{PP^\prime}$ amb el segment $\overline{QP}$.
+
+Considerem ara un vector unitari (mòdul 1) perpendicular a $r$, diem-li $\vec{u}$.
+
+Si ens tornem a fixar en el gràfic, el vector $\vec{QP}$ i el vector $\vec{u}$ formen un angle $\beta=\alpha$. Per tant, si ara calculem el producte dels vectors $\vec{QP}$ i $\vec{u}$ tenim que:
+
+$$\vec{QP}\cdot \vec{u}=|\vec{QP}|\cdot |\vec{u}|\cdot cos \alpha=|\vec{QP}|cos \alpha$$
+
+ja que $|\vec{u}|=1$ perquè és unitari.
+
+Si ajuntem les dues expressions anteriors tenim que:
+
+$$d(P,r)=|\vec{QP}\cdot \vec{u}|$$
+
+D'altra banda, si $\vec{v}=(-B,A)$ és el vector director de $r$, perquè $\vec{u}$ sigui unitari i perpendicular a $\vec{v}$ (això és, $\vec{u}\cdot \vec{v}=0$) ha de tenir necessàriament la forma:
+
+$$\vec{u}=\frac{1}{\sqrt{A^2+B^2}}(A,B)=\Big( \frac{A}{\sqrt{A^2+B^2}}, \frac{B}{\sqrt{A^2+B^2}} \Big)$$
+
+Agafant $\vec{QP}=(x_0-x_1,y_0-y_1)$ i substituïnt això a l'expressió de la distància tenim que:
+
+$$d(P,r)=|\vec{QP}\cdot \vec{u}|=|\frac{A}{\sqrt{A^2+B^2}}\cdot (x_0-x_1)+\frac{B}{\sqrt{A^2+B^2}}\cdot (y_0-y_1)|=\frac{|Ax_0+By_0-Ax_1-By_1|}{\sqrt{A^2+B^2}}=\frac{|Ax_0+By_0+C|}{\sqrt{A^2+B^2}}$$
+
+ja que si $Q(x_1,y_1) \in r$ necessàriament ha de complir l'equació de la recta: $Ax_1+By_1+C=0 \rightarrow C=-Ax_1-By_1$.
+
+Així doncs, la distància d'un punt $P(x_0,y_0)$ a una recta $r:Ax+By+C=0$ ve donada per:
+
+>$$\frac{|Ax_0+By_0+C|}{\sqrt{A^2+B^2}}$$
+
+
+
 ### Distància entre dues rectes
+
+Si les dues rectes es tallen, la seva distància serà $0$. En cas de tenir dues rectes paral.leles (ho sabrem si els seus vectors directors són proporcionals, o sigui, linealment dependents), calcularem la seva distància a partir de la fòrmula anterior. Només ens caldrà saber l'equació d'una de les rectes i un punt que pertanyi a una de les dues rectes:
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2499067/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="300px" style="border:0px;"> </iframe>
+
+Segons el gràfic:
+
+$$d(r,s)=d(P,r)=d(Q,s)$$
