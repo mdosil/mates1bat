@@ -16,7 +16,7 @@ Considerem ara una circumferència de centre $C(a,b)$ i radi $r$. Anem a veure q
 
 >$$(x-a)^2+(x-b)^2=r^2$$
 
-Aquesta és l'equació de la circumferència de centre $C(a,b)$ i radi $r$.
+Aquesta és l'**equació reduÏda de la circumferència de centre $C(a,b)$ i radi $r$**.
 
 Si desenvolupem aquesta equació fent els quadrats obtenim:
 
@@ -31,9 +31,27 @@ p \equiv a^2+b^2-r^2
 \rightarrow x^2+y^2+mx+ny+p=0
 $$
 
-Per tant, amb aquesta nova forma de l'eaquació d'una recta, els coeficients de $x$ i $y$ ens donen el centre de la circumferència $C(a,b)$ i el terme independent $p$ ens donarà el radi.
+Per tant, amb aquesta nova forma de l'equació d'una circumferència, **l'equació general**, els coeficients de $x$ i $y$ ens donen el centre de la circumferència $C(a,b)$ i el terme independent $p$ ens donarà el radi.
 
-###Circumferència que passa per 3 punts
+**Exemple 1**
+Troba el centre i el radi de la circumferència: $x^2+y^2-4x+2y-4=0$.
+
+Els coeficients de $x$ i de $y$ ens donaran el centre de la circumferència:
+
+\begin{align}
+-4=-2a \rightarrow a=2\\
+2=-2b \rightarrow b=-1
+\end{align}
+
+El centre és doncs el punt $C(2,-1)$. Anem a veure quin serà el radi. Això bé donat pel terme independent de l'equació:
+
+$$-4=a^2+b^2-r^2 \rightarrow -4= 4+1-r^2 \rightarrow r=\sqrt{9}=3$$
+
+
+
+
+
+
 
 ###Posicions relatives entre recta i circumferència
 
