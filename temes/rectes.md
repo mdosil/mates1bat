@@ -229,7 +229,7 @@ on $\vec{u}$ i $\vec{v}$ són els vectors directors de les rectes $r$ i $s$ resp
 
 La distància entre dos punts es defineix com el mòdul del vector entre aquests dos punts. Si tenim un punt $P(x_0,y_0)$ i un punt $Q(x_1,y_1)$ la distància entre $P$ i $Q$ es defineix com:
 
->$$d(P,Q)=|\vec{PQ}|=\sqrt{(x_1-x_0)^2+(y_1-y_0)^2}|$$
+>$$d(P,Q)=|\vec{PQ}|=|\sqrt{(x_1-x_0)^2+(y_1-y_0)^2}|$$
 
 ### Distància d'un punt a una recta
 
