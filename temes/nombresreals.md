@@ -6,7 +6,7 @@ Un [nombre real](https://en.wikipedia.org/wiki/Real_number) és aquell que es po
 
 La [__recta numèrica__](https://ca.wikipedia.org/wiki/Recta_num%C3%A8rica) està formada pel conjunt de tots els nombres reals. Els nombres reals són un __conjunt ordenat__ ja que donats dos nombres, sempre podem determinar-ne el més gran: si $a> b$ al representar-los sobre la recta, $a$ estarà a la dreta de $b$.
 
-Si recordeu de cursos anteriors, els nombres reals es dividien en diversos subconjunts. 
+Si recordeu de cursos anteriors, els nombres reals es dividien en diversos subconjunts.
 
 ![fig1.1](img/classificacio_reals_1.png)
 
@@ -23,11 +23,11 @@ Els nombres __decimals__ es divideixen en exactes i periòdics. Si el període c
 
 ## Recta real
 
-Representar nombres sobre la recta real és ben fàcil si són racionals. Si estem parlant d'enters, els sabrem situar sobre la recta sense problema. Però què passa quan hem de situar per exemple, $\frac{3}{7}$ sobre la recta real? Hi ha varis mètodes. El mètode més ràpid és agafar la unitat, fer-ne 7 parts i agafar-ne 3. El mètode més exacte és utilitzant la tècnica de dibuixar un segment des del 0 amb un angle qualsevol i dividir-lo en 7 parts iguals. Seguidament, uneixes l'última part amb l'$1$ de la recta real i traces línies paral.leles a aquesta que passin per les altres divisions. Els punts d'intersecció amb la recta real i aquestes rectes paral.leles et donaran les diferents fraccions $\frac{1}{7}$, $\frac{2}{7}$, $\frac{3}{7}$, etc. Si ho desitges, pots descarregar-te el [fitxer geogebra](ggb/fraccions_recta_real_1.ggb).
+Representar nombres sobre la recta real és ben fàcil si són racionals. Si estem parlant d'enters, els sabrem situar sobre la recta sense problema. Però què passa quan hem de situar per exemple, $\frac{3}{7}$ sobre la recta real? Hi ha varis mètodes. El mètode més ràpid és agafar la unitat, fer-ne 7 parts i agafar-ne 3. El mètode més exacte és utilitzant la tècnica de dibuixar un segment des del 0 amb un angle qualsevol i dividir-lo en 7 parts iguals. Seguidament, uneixes l'última part amb l'$1$ de la recta real i traces línies paral.leles a aquesta que passin per les altres divisions. Els punts d'intersecció amb la recta real i aquestes rectes paral.leles et donaran les diferents fraccions $\frac{1}{7}$, $\frac{2}{7}$, $\frac{3}{7}$, etc.
 
 ![*Representació de $\frac{3}{7}$ sobre la recta real*](img/fraccions_recta_real_1.png)
 
-Per representar radicals irracionals sobre la recta real, cal utilitzar el [teorema de Pitàgores](https://ca.wikipedia.org/wiki/Teorema_de_Pit%C3%A0gores). A la figura següent s'hi pot veure la representació gràfica de $\sqrt{2}$ ([fitxer geogebra](ggb/arrel_de_dos_1.ggb)).
+Per representar radicals irracionals sobre la recta real, cal utilitzar el [teorema de Pitàgores](https://ca.wikipedia.org/wiki/Teorema_de_Pit%C3%A0gores). A la figura següent s'hi pot veure la representació gràfica de $\sqrt{2}$. 
 
 ![*Representació de $\sqrt{2}$ sobre la recta real*](img/arrel_de_dos_1.png)
 
@@ -37,11 +37,11 @@ Per representar radicals irracionals sobre la recta real, cal utilitzar el [teor
 
 ![*Representació de $x > 4$ sobre la recta real*](img/interval1_rectareal_1.png)
 
-Hi ha 3 maneres d'indicar un interval: 
+Hi ha 3 maneres d'indicar un interval:
 
 * gràficament (gràfic anterior)
 * mitjançant una desigualtat, $x>4$
-* mitjançant un interval: $(4,+\infty)$. 
+* mitjançant un interval: $(4,+\infty)$.
 
 #### Tipus d'intervals
 
@@ -86,8 +86,8 @@ En aquest cas, quan canviem de signe a una banda de la desigualtat, cal recordar
 __Exemple 3__
 
 
-\begin{cases} 
-3x - 3 \ge 18 \Rightarrow 3x \ge 21 \Rightarrow x \ge 7 \\ 
+\begin{cases}
+3x - 3 \ge 18 \Rightarrow 3x \ge 21 \Rightarrow x \ge 7 \\
 4 (x-10) \lt 12 \Rightarrow 4x - 40 \lt 12 \Rightarrow 4x \lt 52 \Rightarrow x \lt 13
 \end{cases}
 
@@ -144,8 +144,8 @@ D'aquesta manera, $\sqrt{2}=2^{\frac{1}{2}}$.
 Com ja hem explicat, els radicals són potències d'exponent fraccionari. Per tant, les seves propietats deriven de les propietats de les potències:
 
 
-1. >$\sqrt[n]{a \cdot b}=\sqrt[n]{a} \cdot \sqrt[n]{b}$ 
-2. >$\sqrt[n]{a}=\sqrt[n \cdot r]{a^r} (r \ne 0)$ 
+1. >$\sqrt[n]{a \cdot b}=\sqrt[n]{a} \cdot \sqrt[n]{b}$
+2. >$\sqrt[n]{a}=\sqrt[n \cdot r]{a^r} (r \ne 0)$
 3. >$\sqrt[n]{\frac{a}{b}}=\frac{\sqrt[n]{a}}{\sqrt[n]{b}}$
 4. >$(\sqrt[n]{a})^m=\sqrt[n]{a^m}$
 5. >$\sqrt[n]{\sqrt[m]{a}}=\sqrt[m \cdot n]{a}$
@@ -156,7 +156,7 @@ Per introduir nombres dins d'un radical, s'ha d'elevar el nombre a una potència
 
 __Exemple 4__
 
-Introdueix tots els factors dins de l'arrel: 
+Introdueix tots els factors dins de l'arrel:
 
 $$3^5 \cdot 2^8 \cdot 7^3 \cdot \sqrt[3]{2^5 \cdot 7}= \sqrt[3]{(3^5)^3 \cdot (2^8)^3 \cdot (7^3)^3 \cdot 2^5 \cdot 7}=\sqrt[3]{3^{15} \cdot 2^{24} \cdot 7^9 \cdot 2^5 \cdot 7}=\sqrt[3]{2^{29} \cdot 3^{15} \cdot 7^{10}}$$
 
@@ -212,13 +212,13 @@ $$\frac{5}{1+\sqrt{3}}=\frac{5}{1+\sqrt{3}}\cdot \frac{1-\sqrt{3}}{1-\sqrt{3}}=\
 
 ## Logaritmes
 
-El $log_a b$, això és, logaritme en base $a$ de $b$, és aquella potència a la qual hem d'elevar $a$ per obtenir $b$ de resultat. 
+El $log_a b$, això és, logaritme en base $a$ de $b$, és aquella potència a la qual hem d'elevar $a$ per obtenir $b$ de resultat.
 
-Per exemple, $log_2 8$ és $3$, perquè $2^3=8$. De la mateixa manera, $log_{10} 1000 = 3$ perquè $10^3=1000$. Però quan és $log_2 36$? Quin nombre cal elevar el $2$ per obtenir $36$ de resultat? 
+Per exemple, $log_2 8$ és $3$, perquè $2^3=8$. De la mateixa manera, $log_{10} 1000 = 3$ perquè $10^3=1000$. Però quan és $log_2 36$? Quin nombre cal elevar el $2$ per obtenir $36$ de resultat?
 
 $$log_2 36=5'169925....$$
 
-Per tant, el resultat d'un logaritme, que tal i com hem dit, expressa una potència, no té perquè ser enter. 
+Per tant, el resultat d'un logaritme, que tal i com hem dit, expressa una potència, no té perquè ser enter.
 
 D'altra banda, com que la base $a$ sempre és positiva, $b$ també ho ha de ser. Això és, l'operació $log_a b$ només està definida per a nombres $b$ que siguin positius.
 
@@ -230,13 +230,13 @@ $$log_a{b}=x \Leftrightarrow a^x=b$$
 
 1. >$a^{log_a b}=b$   
 
-    
-    **Demostració** 
+
+    **Demostració**
 
     $log_a b=x \Leftrightarrow a^x=b$  
     Com que $x=log_a{b}$, llavors s'obté el resultat desitjat:  
     $a^{log_a{b}}=b$
-    
+
 
 2. >$log_a a=1$
 
@@ -272,10 +272,10 @@ $$log_a{b}=x \Leftrightarrow a^x=b$$
     $x+y=log_a(p \cdot q)$
 
     Substituïm $x$ i $y$ pels seus valors:
-    
+
     $log_a p+log_a q=log_a(p \cdot q)$
 
-    
+
 
 
 5. >$log_a(\frac{p}{q})=log_a p - log_a q$
@@ -284,10 +284,10 @@ $$log_a{b}=x \Leftrightarrow a^x=b$$
 
 6. >$log_a{b^m}=m\cdot log_a b$
 
-    
+
     **Demostració**
 
-    Definim: 
+    Definim:
 
     $$x=log_a b\Rightarrow a^x=b$$
 
@@ -311,7 +311,7 @@ $$log_a{b}=x \Leftrightarrow a^x=b$$
 
     $$m \cdot log_a b=log_a b^m$$
 
-   
+
 
 ###Canvi de base
 
@@ -354,8 +354,8 @@ Entenent $log 5$ com el logaritme en base $10$ de $5$.
 
 
 ###El nombre $e$ i els logaritmes neperians
- 
-El [nombre $e$](https://ca.wikipedia.org/wiki/Nombre_e) és una constant matemàtica que és la base principal de molts càlculs, com per exemple, en l'estudi de [l'interès compost](http://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_3eso_cat_progressions-JS/index.htm) d'un crèdit o dipòsit. 
+
+El [nombre $e$](https://ca.wikipedia.org/wiki/Nombre_e) és una constant matemàtica que és la base principal de molts càlculs, com per exemple, en l'estudi de [l'interès compost](http://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_3eso_cat_progressions-JS/index.htm) d'un crèdit o dipòsit.
 
 És un nombre irracional, això és, té infinits decimals:
 
@@ -366,5 +366,3 @@ Els __logaritmes naturals__ o __logaritmes neperians__ ($ln x$) són aquells que
 $$ln (2)= 0'6931471.... \Leftrightarrow e^{0'6931471....}=2 $$
 
 Així mateix, per calcular qualsevol logaritme en qualsevol base, podem fer servir la fórmula del canvi de base anterior amb els logaritmes en base l0 ($log$) o base $e$ ($ln$).
-
-
