@@ -34,6 +34,7 @@ $$
 Per tant, amb aquesta nova forma de l'equació d'una circumferència, **l'equació general**, els coeficients de $x$ i $y$ ens donen el centre de la circumferència $C(a,b)$ i el terme independent $p$ ens donarà el radi.
 
 **Exemple 1**
+
 Troba el centre i el radi de la circumferència: $x^2+y^2-4x+2y-4=0$.
 
 Els coeficients de $x$ i de $y$ ens donaran el centre de la circumferència:
