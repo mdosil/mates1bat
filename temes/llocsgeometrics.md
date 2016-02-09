@@ -120,6 +120,83 @@ $$
 
 ###Posicions relatives entre un punt i una circumferència
 
+En el cas d'un punt $P(x,y)$ i una circumferència de radi $r$ i centre $C(a,b)$ ens podem trobar 3 casos:
+
+1. El punt és exterior a la circumferència: $d(P,C)>r$
+2. El punt pertany a la circumferència: $d(P,C)=r$
+3. El punt és interior a la circumferènccia: $d(P,C)<r$
+
+**Exemple 3**
+
+Donat el punt $P(9,-1)$ exterior a la circumferència $x^2+(y+4)^2=9$, trobeu les rectes tangents a la circumferència des d'aquest punt.
+
+Anem a veure si entenem el problema. Sempre que tinguem  un punt exterior a una circumferència es poden traçar dues rectes tangents des del punt fins a la circumferència. Per a resoldre aquest problema hi ha vàries maneres:
+
+1. Trobar el feix de rectes que passen pel punt donat i fer que la distància de la recta al centre sigui igual al radi.
+
+    * Sabem que l'equació de la recta té la forma $y=mx+n$. Totes les rectes que passen pel punt $P(9,-1)$ tenen la forma:
+
+    $$-1=9m+n \Rightarrow n=-1-9m \Rightarrow y=mx-1-9m \Rightarrow y=m(x-9)+1 \Rightarrow m(x-9)-y-1=0$$
+
+    * Per a solucionar una equació amb valors absolut hem de considerar els 2 casos possibles:
+
+      $$\frac{|3-9m|}{\sqrt{m^2+1}}=3 \begin{cases} \frac{3-9m}{\sqrt{m^2+1}}=3 \\ \frac{3-9m}{\sqrt{m^2+1}}=-3
+      \end{cases}$$
+
+    * Agafem i desenvolupem la solució positiva:
+
+      \begin{align}
+      \frac{3-9m}{\sqrt{m^2+1}}&=3\\
+      (3-9m)^2&=(3\sqrt{m^2+1})^2\\
+      81m^2-54m+9&=9m^2+9\\
+      72m^2-54m&=0\\
+      18m(4m-3)&=0 \begin{cases} m=0 \\ m=\frac{3}{4} \end{cases}
+      \end{align}
+
+    * Fixeu-vos que si agafem l'opció negativa obtenim les mateixes solucions, ja que a l'elevar al quadrat el signe negatiu esdevé positiu.
+
+
+    * Fer que la distància de cada recta al centre de la circumferència serà igual al radi (perquè són tangents)
+
+    * Per l'equació de la circumferència veiem que té centre $C(0,-4)$ i radi $r=3$. Anem a imposar aquesta condició:
+
+      $$d(recta, C)=\frac{|m(0-9)+4-1|}{\sqrt{m^2+(-1)^2}}=3$$
+
+2. Una altra manera de resoldre el problema és, fer que el sistema format per les equacions de la recta tangent i la circumferència tingui solució única, perquè si tingués solució doble voldria dir que la recta és secant i no tangent.
+
+    * Solucionem el sistema per substitució:
+
+    $$
+    \left.\begin{aligned}
+    y=m(x-9)-1\\
+    x^2+(y+4)^2=9
+    \end{aligned}
+    \right\}
+    \Rightarrow x^2+\Big( m(x-9)-1+4 \Big)^2=9 \Rightarrow ... \Rightarrow (1+m^2)x^2+2m(3-9m)x+(3-9m)^2-9=0
+    $$
+
+    * Ara ens cal exigir que només hi hagi una parella de valors $(x,y)$ que siguin solució. Per fer-ho, igualarem el discriminant de l'equació de segon grau ($b^2-4ac$) a zero:
+
+    \begin{align}
+    \Big(2m(3-9m)\Big)^2-4(1+m^2)\Big((3-9m)^2-9\Big)&=0\\
+    4m^2(3-9m)^2-(4+4m^2)(9+81m^2-54m-9)&=0\\
+    4m^2(9+81m^2-54m)-324 m^2+216m-324 m^4+216 m^3&=0\\
+    36m^2+324m^4-216m^3-324 m^2+216m-324 m^4+216m^3&=0\\
+    216m-288m^2&=0\\
+    -72m(4m-3)&=0\\
+    m(4m-3)&=0 \begin{cases} m=0 \\ m=\frac{3}{4} \end{cases}
+    \end{align}
+
+    * Evidentment obtenim la mateixa solució.
+
+3. Tant si triem l'opció 1 o la 2, ens caldrà finalment trobar l'equacions de les rectes tangents:
+
+$$
+y=m(x-9)-1 \begin{cases} m=0 \Rightarrow n=-1 \Rightarrow y= -1 \\ m=\frac{3}{4} \Rightarrow n=-\frac{31}{4} \Rightarrow y= \frac{3}{4}x-\frac{31}{4} \end{cases}
+$$
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2625505/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
+
 ###Potència d'un punt respecte d'una circumferència
 
 
