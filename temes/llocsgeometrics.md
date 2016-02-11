@@ -130,13 +130,21 @@ En el cas d'un punt $P(x,y)$ i una circumferència de radi $r$ i centre $C(a,b)$
 
 Donat el punt $P(9,-1)$ exterior a la circumferència $x^2+(y+4)^2=9$, trobeu les rectes tangents a la circumferència des d'aquest punt.
 
-Anem a veure si entenem el problema. Sempre que tinguem  un punt exterior a una circumferència es poden traçar dues rectes tangents des del punt fins a la circumferència. Per a resoldre aquest problema hi ha vàries maneres:
+Anem a veure si entenem el problema. Sempre que tinguem  un punt exterior a una circumferència es poden traçar dues rectes tangents des del punt fins a la circumferència.
 
-1. Trobar el feix de rectes que passen pel punt donat i fer que la distància de la recta al centre sigui igual al radi.
+
+1. Per començar ens cal trobar l'equació del *feix de rectes* que passen pel punt $P(9,-1)$:
 
     * Sabem que l'equació de la recta té la forma $y=mx+n$. Totes les rectes que passen pel punt $P(9,-1)$ tenen la forma:
 
     $$-1=9m+n \Rightarrow n=-1-9m \Rightarrow y=mx-1-9m \Rightarrow y=m(x-9)+1 \Rightarrow m(x-9)-y-1=0$$
+
+2. Una manera de solucionar el problema és **exigir que la distància de la recta al centre de la circumferència sigui igual al radi** i d'aquesta manera ens assegurem que recta i circumferència són tangents.
+
+    * Anem a imposar aquesta condició:
+
+      $$d(recta, C)=\frac{|m(0-9)+4-1|}{\sqrt{m^2+(-1)^2}}=3$$
+
 
     * Per a solucionar una equació amb valors absolut hem de considerar els 2 casos possibles:
 
@@ -156,13 +164,9 @@ Anem a veure si entenem el problema. Sempre que tinguem  un punt exterior a una 
     * Fixeu-vos que si agafem l'opció negativa obtenim les mateixes solucions, ja que a l'elevar al quadrat el signe negatiu esdevé positiu.
 
 
-    * Fer que la distància de cada recta al centre de la circumferència serà igual al radi (perquè són tangents)
 
-    * Per l'equació de la circumferència veiem que té centre $C(0,-4)$ i radi $r=3$. Anem a imposar aquesta condició:
 
-      $$d(recta, C)=\frac{|m(0-9)+4-1|}{\sqrt{m^2+(-1)^2}}=3$$
-
-2. Una altra manera de resoldre el problema és, fer que el sistema format per les equacions de la recta tangent i la circumferència tingui solució única, perquè si tingués solució doble voldria dir que la recta és secant i no tangent.
+2. Una altra manera de resoldre el problema és, fer que **el sistema format per les equacions de la recta tangent i la circumferència tingui solució única**, perquè si tingués solució doble voldria dir que la recta és secant i no tangent a la circumferència.
 
     * Solucionem el sistema per substitució:
 
@@ -197,7 +201,43 @@ $$
 
 <iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2625505/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
 
-###Potència d'un punt respecte d'una circumferència
+####Potència d'un punt respecte d'una circumferència
+
+Considerem un punt exterior a una circumferència i tracem dues secants d'aquest punt a la circumferència tal i com mostra el dibuix.
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2639115/width/1920/height/934/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
+
+Considerem els triangles $PAB^\prime$ i $PA^\prime B$. Els angles inscrits a la circumferència $B^\prime$ i $A^\prime$ són iguals, $B^\prime=A^\prime$ ja que abarquen el mateix arc de circumferència $\widehat{BA}$. Com que els dos triangles comparteixen un angle $P$, i tenen 2 angles iguals, el tercer ha de ser necessàriament igual (la suma d'angles d'un triangle és sempre $180^o$): $B=A$.
+
+Per tant, si dos triangles tenen els seus 3 angles iguals 2 a 2 vol dir que són triangles semblants](http://recursostic.educacion.es/secundaria/edad/4esomatematicasB_cat/semejanza/quincena6_contenidos_1c.htm) i en conseqüència els seus costats seran proporcionals:
+
+$$\frac{PA}{PB}=\frac{PB^\prime}{PA^\prime}\Rightarrow PA\cdot PA^\prime=PB\cdot PB^\prime$$
+
+Aquest producte de distàncies es defineix com a la **potència d'un punt respecte una circumferència**:
+
+$$p=PA\cdot PA^\prime$$
+
+Considerem ara una recta secant des d'un punt exterior $P(x_0,y_0)$ que passi pel centre d'una circumferència de centre $C(a,b)$ i radi $r$. Definim $d$ com la distància del punt $P$ al centre $C$.
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2642273/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
+
+La potència del punt $P$ respecte la circumferència és:
+
+$$
+\left.\begin{aligned}
+p&=PA\cdot PA^\prime=(d-r)(d+r)=d^2-r^2\\
+d&=|\vec{CP}|=\sqrt{(x_0-a)^2+(y_0-b)^2}
+\end{aligned}
+\right\}
+\Rightarrow p=d^2-r^2=(x_0-a)^2+(y_0-b)^2-r^2
+$$
+
+Per tant, la potència d'un punt respecte una circumferència ens dóna idea de la situació del punt respecte la circumferència:
+
+$$  p=d^2-r^2=(x_0-a)^2+(y_0-b)^2-r^2 \begin{cases} d>r\rightarrow p>0 \Rightarrow \text{p és exterior} \\
+d<r\rightarrow p<0 \Rightarrow \text{p és interior} \\ d=r\rightarrow p=0 \Rightarrow \text{p pertany a la circumferència}
+\end{cases}$$
+
 
 
 ##L'el.lipse
