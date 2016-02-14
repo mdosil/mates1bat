@@ -209,7 +209,7 @@ Considerem un punt exterior a una circumferència i tracem dues secants d'aquest
 
 Considerem els triangles $PAB^\prime$ i $PA^\prime B$. Els angles inscrits a la circumferència $B^\prime$ i $A^\prime$ són iguals, $B^\prime=A^\prime$ ja que abarquen el mateix arc de circumferència $\widehat{BA}$. Com que els dos triangles comparteixen un angle $P$, i tenen 2 angles iguals, el tercer ha de ser necessàriament igual (la suma d'angles d'un triangle és sempre $180^o$): $B=A$.
 
-Per tant, si dos triangles tenen els seus 3 angles iguals 2 a 2 vol dir que són triangles semblants](http://recursostic.educacion.es/secundaria/edad/4esomatematicasB_cat/semejanza/quincena6_contenidos_1c.htm) i en conseqüència els seus costats seran proporcionals:
+Per tant, si dos triangles tenen els seus 3 angles iguals 2 a 2 vol dir que són [triangles semblants](http://recursostic.educacion.es/secundaria/edad/4esomatematicasB_cat/semejanza/quincena6_contenidos_1c.htm) i en conseqüència els seus costats seran proporcionals:
 
 $$\frac{PA}{PB}=\frac{PB^\prime}{PA^\prime}\Rightarrow PA\cdot PA^\prime=PB\cdot PB^\prime$$
 
@@ -239,9 +239,91 @@ d<r\rightarrow p<0 \Rightarrow \text{p és interior} \\ d=r\rightarrow p=0 \Righ
 \end{cases}$$
 
 
+##La paràbola
+
+A 4t d'eso havíeu treballat les paràboles com la representació gràfica [d'una funció polinòmica de segon grau](http://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_B_funciones2-JS/index.htm) del tipus $y=f(x)=ax^2+bx+c$. Vèiem que la paràbola és una funció amb simetria parell i que té un vèrtex amb abcissa $(x=-\frac{b}{2a})$.
+
+La paràbola també es pot entendre però com el **lloc geomètric** dels punts del pla que equidisten d'un punt $F$ anomenat **focus** i d'una recta $r$ anomenada **directriu**.
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2657653/width/986/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
+
+Si mirem al dibuix hi podem veure els elements següents:
+
+1. **Eix de la paràbola**: és la recta perpendicular a la directriu que passa pel focus. En el cas específic del dibuix és l'eix $x$.
+2. **Vèrtex de la paràbola**: és el punt d'intersecció de la paràbola amb el seu eix. En aquest cas és el punt $(0,0)$.
+3. **Paràmetre**: és la distància del focus $F$ a la directriu $r$. L'anomenem **$p$**.
+
+###Equació reduïda de la paràbola
+
+Fixem-nos ara en una paràbola com la del dibuix que té el seu eix situat sobre l'eix de les abscisses i el vèrtex a l'origen de coordenades. Com que els punts de la paràbola, i el vèrtex en particular, compleixen la propietat que equidisten del focus i de la directriu, podem afirmar que les coordenades del focus són $F(\frac{p}{2},0)$ i l'equació de la recta directriu és $r:x=-\frac{p}{2}$.
+
+Si $P(x,y)$ és un punt qualsevol de la paràbola es compleix que: $d(P,r)=d(P,F)$:
+
+
+$$
+\left.\begin{aligned}
+d(P,r)&=\frac{|x+\frac{p}{2}|}{\sqrt{0^2+1}}\\
+d(P,F)&=|\vec{FP}|=\sqrt{(x-\frac{p}{2})^2+y^2}
+\end{aligned}
+\right\}
+\Rightarrow |x+\frac{p}{2}|=\sqrt{(x-\frac{p}{2})^2+y^2} \Rightarrow x^2+px+\frac{p^2}{4}=x^2-px+\frac{p^2}{4}+y^2
+$$
+
+Si simplifiquem tenim **l'equació reduïda de la paràbola**:
+
+>$$y^2=2px$$
+
+En cas que l'eix estigui situat sobre **l'eix d'ordenades**, el focus seria **$F(0,\frac{p}{s})$** i l'equació de la recta directriu seria **$r:y=-\frac{p}{2}$**. L'equació reduïda de la paràbola seria llavors:
+
+>$$x^2=2py$$
+
+###Equació de la paràbola d'eix paral.lel a l'eix d'abscisses o d'ordenades
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2657815/width/1600/height/951/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
+
+Considerem ara que l'eix de la paràbola és paral.lel a l'eix d'abscisses. El vèrtex ha passat de ser el punt $(0,0)$ al punt $(x_0,y_0)$. Si comparem la nova paràbola amb l'anterior, amb eix l'eix de les abscisses i vèrtex el punt $(0,0)$ veiem que els punts $P(x,y)$ de la nova paràbola seran els de la paràbola anterior $P^\prime(x^\prime, y^\prime)$ però amb una translació $x_0$ en $x$ i $y_0$ en $y$:
+
+$$
+\left.\begin{aligned}
+x&=x^\prime+x_0\\
+y&=y^\prime+y_0\\
+\end{aligned}
+\right\}
+$$
+
+Per tant, si l'equació de la paràbola "vella" era $y^{\prime 2}=2px^\prime$ si fem el canvi anterior obtenim:
+
+>$$(y-y_0)^2=2p(x-x_0)$$
+
+que és l'**equació d'una paràbola amb l'eix paral.lel a l'eix d'abscisses i amb vèrtex el punt $(x_0,y_0)$**. Si intercanviem $x$ i $y$ obtenim l'equació d'una paràbola amb eix paral.lel a l'eix d'ordenades:
+
+>$$(x-x_0)=2p(y-y_0)$$
+
+Si desenvolupem les dues expressions anteriors obtenim **l'equació general de la paràbola**:
+
+\begin{align}
+(y-y_0)^2&=2p(x-x_0)\\
+y^2+y_0^2-2yy_0&=2px-2px_0\\
+-2px&=-y^2+2y_0y-y_0^2-2px_0\\
+2px&=y^2-2y_0y+y_0^2+2px_0\\
+x&=\frac{1}{2p}y^2-\frac{y_0}{p}y+\big( \frac{y_0^2}{2p}+x_0 \big)
+\end{align}
+
+>$$x&=ay^2+by+c$$
+
+que és l'equació general d'una paràbola amb l'eix paral.lel a l'eix d'abscisses i on
+
+\begin{align}
+a&=\frac{1}{2p}\\
+b&=-\frac{y_0}{p}\\
+c&=\frac{y_0^2}{2p}+x_0
+\end{align}
+
+El mateix podem fer amb una paràbola amb eix paral.lel a l'eix d'ordenades:
+
+>$$y=ax^2+bx+c$$
+
 
 ##L'el.lipse
-
-##La paràbola
 
 ##L'hipèrbola
