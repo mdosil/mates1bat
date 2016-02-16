@@ -8,7 +8,7 @@ Aquests llocs geomètrics també s'anomenen [Còniques](https://ca.wikipedia.org
 
 ##La circumferència
 
-La circumferència és el lloc geomètric dels punts del pla que equidisten d'un mateix punt anomenat centre.
+>La circumferència és el lloc geomètric dels punts del pla que equidisten d'un mateix punt anomenat centre.
 
 <iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2575689/width/1938/height/951/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
 
@@ -243,7 +243,7 @@ d<r\rightarrow p<0 \Rightarrow \text{p és interior} \\ d=r\rightarrow p=0 \Righ
 
 A 4t d'eso havíeu treballat les paràboles com la representació gràfica [d'una funció polinòmica de segon grau](http://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_B_funciones2-JS/index.htm) del tipus $y=f(x)=ax^2+bx+c$. Vèiem que la paràbola és una funció amb simetria parell i que té un vèrtex amb abcissa $(x=-\frac{b}{2a})$.
 
-La paràbola també es pot entendre però com el **lloc geomètric** dels punts del pla que equidisten d'un punt $F$ anomenat **focus** i d'una recta $r$ anomenada **directriu**.
+>La paràbola també es pot entendre però com el **lloc geomètric** dels punts del pla que equidisten d'un punt $F$ anomenat **focus** i d'una recta $r$ anomenada **directriu**.
 
 <iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2657653/width/986/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
 
@@ -309,7 +309,7 @@ y^2+y_0^2-2yy_0&=2px-2px_0\\
 x&=\frac{1}{2p}y^2-\frac{y_0}{p}y+\big( \frac{y_0^2}{2p}+x_0 \big)
 \end{align}
 
->$$x&=ay^2+by+c$$
+>$$x=ay^2+by+c$$
 
 que és l'equació general d'una paràbola amb l'eix paral.lel a l'eix d'abscisses i on
 
@@ -325,5 +325,109 @@ El mateix podem fer amb una paràbola amb eix paral.lel a l'eix d'ordenades:
 
 
 ##L'el.lipse
+
+>L'el.lipse és el lloc geomètric de punts del pla que la suma de distàncies a dos punts fixos anomenats focus és constant i es designa 2a.
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2669619/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
+
+Si mirem el dibuix, podem llistar aquí les característiques de l'el.lipse:
+
+1. Focus: punts $F$ i $F^\prime$ sobre l'eix x.
+2. Distància focal: distància entre els 2 focus. Es designa per $2c$: $|\vec{F^\prime F}|=2c$
+3. Radis vectors: són els dos segments que uneixen qualsevol punt de l'el.lipse amb cadascun dels focus. La suma dels 2 radis vectors, per definició, és $2a$.
+4. Eix focal: recta que passa pels 2 Focus
+5. Eix major: és el segment que uneix els punts més allunyats de l'el.lipse, $A$ i $A^\prime$.
+6. Eix menor: és el segment que uneix els punts més propers de l'el.lipse, $B$ i $B^\prime$.
+7. Centre: és el punt mig del segment $\overline{FF^\prime}$.
+8. Vèrtexs: són els punts d'interesecció dels eixos amb l'el.lipse: $A$, $A^\prime$, $B$, $B^\prime$.
+9. Excentricitat: $e=\frac{c}{a}$.
+
+Anem a veure quina és la distància entre els dos punts $A$ i $A^\prime$. Com que pertanyen a l'el.lipse compleixen que la suma de les seves distàncies als focus és $2a$:
+
+$$
+\left.\begin{aligned}
+\overline{AF}+\overline{AF^\prime}&=2a\\
+\overline{A^\prime F}+\overline{A^\prime F^\prime}&=2a
+\end{aligned}
+\right\} \overline{AF}+\overline{AF^\prime}+\overline{A^\prime F}+\overline{A^\prime F^\prime}=4a
+$$
+
+Però també es compleix que: $\overline{AF}+\overline{A^\prime F}=\overline{AF}+\overline{F A^\prime}= \overline{A A^\prime}$. El mateix passa amb: $\overline{AF^\prime}+\overline{A^\prime F^\prime}=\overline{AF^\prime}+\overline{F^\prime A^\prime}= \overline{A A^\prime}$
+
+Per tant, si posem això a l'expressió de dalt, trobem que la distància entre els punts $A$ i $A^\prime$ és:
+
+$$d(A A^\prime)=2a$$
+
+Podem fer un procediment anàleg pels punts $B$ i $B^\prime$ i obtindrem:
+
+$$d(B B^\prime)=2b$$
+
+D'aquí es dedueix també que l'excentricitat d'una el.lipse és un nombre entre $0$ i $1$, ja que $c>a$:
+
+$$0<e=\frac{c}{a}<1$$
+
+###Relació entre els paràmetres $a$, $b$ i $c$ d'una el.lipse
+
+Si ens fixem una mica més en detall amb l'el.lipse podem veure que:
+
+* Com que el punt $B$ pertany a l'el.lipse compleix: $\overline{BF^\prime}+\overline{BF}=2a\Rightarrow BF^\prime=BF=a$
+
+* Si ens fixem en l'eix menor: $\overline{B B^\prime}=2b \Rightarrow \overline{O B^\prime}=\overline{OB}=b$
+
+Com que $a$, $b$ i $c$ formen un triangle rectangle es relacionen a través del Teorema de Pitàgores:
+
+>$$a^2+b^2=c^2$$
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2671775/width/800/height/600/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="600px" style="border:0px;"> </iframe>
+
+###Equació reduïda de l'el.lipse
+
+Considerem una el.lipse centrada en l'origen de coordenades i amb els seus eixos coincidents amb els eixos cartesians, com la del dibuixa anterior. Si $P(x,y)$ és un punt que pertany a l'el.lipse i $F'(-c,0)$ i $F(c,0)$ són els focus de l'el.lipse es compleix que:
+
+$$
+\left.\begin{aligned}
+d(P,F)+d(P,F^\prime)&=2a\\
+d(P,F)=|\vec{PF}|=\sqrt{(x-c)^2+y^2}\\
+d(P,F^\prime)=|\vec{PF^\prime}|=\sqrt{(x+c)^2+y^2}
+\end{aligned}
+\right\} \sqrt{(x-c)^2+y^2}+\sqrt{(x+c)^2+y^2}=2a
+$$
+
+Deixem un radical en una banda i elevem al quadrat a banda i banda i operem:
+
+\begin{align}
+\Big(\sqrt{(x-c)^2+y^2} \Big)^2&=\Big(2a-\sqrt{(x+c)^2+y^2} \Big)^2 \\
+(x-c)^2+y^2&=4a^2+(x+c)^2+y^2-4a\sqrt{(x+c)^2+y^2}\\
+4a \sqrt{(x+c)^2+y^2}&=4a^2+x^2+c^2+2xc-x^2-c^2+2xc\\
+4a \sqrt{(x+c)^2+y^2}&=4a^2+4xc\\
+\Big( a \sqrt{(x+c)^2+y^2}\Big)^2&=(a^2+xc)^2\\
+a^2 \Big( (x+c)^2+y^2  \Big)&=a^4+x^2+c^2+2a^2 xc\\
+a^2 \Big( x^2+c^2+2xc+y^2  \Big)&=a^4+x^2+c^2+2a^2 xc\\
+a^2x^2+a^2c^2+2a^2xc+a^2y^2&=a^4+x^2c^2+2a^2xc\\
+(a^2-c^2)x^2+a^2y^2&=a^2(a^2-c^2)
+\end{align}
+
+Com que es compleix $a^2=b^2+c^2$, llavors l'expressió anterior es transforma:
+
+$$b^2x^2+a^2y^2=a^2b^2$$
+
+Si dividim a banda i banda per $a^2b^2$:
+
+>$$\frac{x^2}{a^2}+\frac{y^2}{b^2}=1$$
+
+Si l'eix focal està situat sobre l'eix de les ordenades, les coordenades dels focus són $F(0,c)$ i $F^\prime(0,-c)$ i l'equació esdevé:
+
+>$$\frac{x^2}{b^2}+\frac{y^2}{a^2}=1$$
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2672599/width/800/height/500/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
+
+###Equació d'una el.lipse amb eixos paral.lels als eixos de coordenades
+
+Igual que passava amb el cas de la paràbola, podem escriure l'equació d'una el.lipse amb eixos paral.lels als eixos d'ordenades i centre el punt $C(x_0,y_0)$. Llavors aplicarem una translació igual que fèiem abans:
+
+\begin{align}
+\frac{(x-x_o)^2}{a^2}+\frac{(y-y_0)^2}{b^2}&=1\\
+\frac{(x-x_o)^2}{b^2}+\frac{(y-y_0)^2}{a^2}&=1
+\end{align}
 
 ##L'hipèrbola
