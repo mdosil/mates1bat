@@ -506,3 +506,14 @@ Igual que passava amb el cas de l'el.lipse, podem escriure l'equació d'una hip�
 
 
 ##Excentricitat d'una corba cònica
+
+L'excentricitat és un paràmentre que ens dóna idea del tipus de corba cònica de la qual estem parlant. L'hem definida només per l'el.lipse i la hipèrbola com el quocient: $e=\frac{c}{a}$. Aquest paràmetree ens permet entendre la transició entre una cònica i una altra:
+
+* **$e=0$**: La cònica té un sol focus del qual equidisten tots els punts. Estem en el cas de la **circumferència** i el focus n'ès el centre.
+* **$0<e<1$**: El focus es desdobla en 2 i el cercle es deforma per esdevenir una **el.lipse**. A mida que la distància entre focus creix, augmenta l'excentricitat i l'el.lipse es va allargant.
+* **$e=1$**: En el límit que els dos focus es separen infinitament, l'el.lipse es trenca per un costat i es transforma en una **paràbola**.
+* **$e>1$**: La paràbola es transforma en dues branques i esdevé una **hipèrbola**.
+
+Podem veure fàcilment aquesta transició en l'animació següent. L'animació s'ha extret d'aquest [enllaç](http://corbesconiques.blogspot.com.es/).
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2700315/width/800/height/500/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
