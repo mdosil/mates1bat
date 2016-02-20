@@ -326,7 +326,7 @@ El mateix podem fer amb una paràbola amb eix paral.lel a l'eix d'ordenades:
 
 ##L'el.lipse
 
->L'el.lipse és el lloc geomètric de punts del pla que la suma de distàncies a dos punts fixos anomenats focus és constant i es designa 2a.
+>L'el.lipse és el lloc geomètric de punts del pla que la suma de distàncies a dos punts fixos anomenats focus és constant i es designa $2a$.
 
 <iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2669619/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
 
@@ -401,8 +401,8 @@ Deixem un radical en una banda i elevem al quadrat a banda i banda i operem:
 4a \sqrt{(x+c)^2+y^2}&=4a^2+x^2+c^2+2xc-x^2-c^2+2xc\\
 4a \sqrt{(x+c)^2+y^2}&=4a^2+4xc\\
 \Big( a \sqrt{(x+c)^2+y^2}\Big)^2&=(a^2+xc)^2\\
-a^2 \Big( (x+c)^2+y^2  \Big)&=a^4+x^2+c^2+2a^2 xc\\
-a^2 \Big( x^2+c^2+2xc+y^2  \Big)&=a^4+x^2+c^2+2a^2 xc\\
+a^2 \Big( (x+c)^2+y^2  \Big)&=a^4+x^2c^2+2a^2 xc\\
+a^2 \Big( x^2+c^2+2xc+y^2  \Big)&=a^4+x^2c^2+2a^2 xc\\
 a^2x^2+a^2c^2+2a^2xc+a^2y^2&=a^4+x^2c^2+2a^2xc\\
 (a^2-c^2)x^2+a^2y^2&=a^2(a^2-c^2)
 \end{align}
@@ -426,8 +426,83 @@ Si l'eix focal està situat sobre l'eix de les ordenades, les coordenades dels f
 Igual que passava amb el cas de la paràbola, podem escriure l'equació d'una el.lipse amb eixos paral.lels als eixos d'ordenades i centre el punt $C(x_0,y_0)$. Llavors aplicarem una translació igual que fèiem abans:
 
 \begin{align}
-\frac{(x-x_o)^2}{a^2}+\frac{(y-y_0)^2}{b^2}&=1\\
-\frac{(x-x_o)^2}{b^2}+\frac{(y-y_0)^2}{a^2}&=1
+\frac{(x-x_o)^2}{a^2}+\frac{(y-y_0)^2}{b^2}&=1 \text{   Eix focal paral.lel a l'eix d'abscisses}\\
+\frac{(x-x_o)^2}{b^2}+\frac{(y-y_0)^2}{a^2}&=1 \text{   Eix focal paral.lel a l'eix d'ordenades}
 \end{align}
 
+
+
+
 ##L'hipèrbola
+
+>L'hipèrbola és el lloc geomètric format pel conjunt de punts del pla que la diferència entre les distàncies d'aquest punt a dos punts fixos anomenats focus és constant i igual a $2a$.
+
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2699703/width/800/height/500/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
+
+La hipèrbola té els elements següents:
+
+* Focus de la hipèrbola: són els punts $F$ i $F^\prime$. La distància entre els 2 focus s'anomena $2c$.
+* Vèrtexs de la hipèrbola: els punts $A$ i $A^\prime$. La distància entre els vèrtexs és $2a$.
+* Eix real: recta que uneix els punts $A$ i $A^\prime$.
+* Eix focal: és la recta que uneix els punts $F$ i $F^\prime$.
+* Eix imaginari: mediatriu del segment $\overline{FF^\prime}$.
+* Centre $O$: punt mitjà del segment $\overline{FF^\prime}$.
+* Excentricitat: $e=\frac{c}{a}$. Com que mirant el dibuix $c>a \Rightarrow e>1$.
+
+###Equació reduïda d'una hipèrbola
+
+Anem a trobar com hem fet fins ara l'equació d'una hipèrbola amb centre l'origen de coordenades, eix focal l'eix de les abscisses i eix imaginari l'eix de les ordenades. Si $P(x,y)$ és un punt que pertany a la hipèrbola i $F'(-c,0)$ i $F(c,0)$ són els focus es compleix que:
+
+$$
+\left.\begin{aligned}
+d(P,F^\prime)-d(P,F)&=2a\\
+d(P,F^\prime)=|\vec{PF^\prime}|=\sqrt{(x+c)^2+y^2}\\
+d(P,F)=|\vec{PF}|=\sqrt{(x-c)^2+y^2}
+\end{aligned}
+\right\} \sqrt{(x+c)^2+y^2}-\sqrt{(x-c)^2+y^2}=2a
+$$
+
+(En aquest cas hem exigit que $d(P,F^\prime)-d(P,F)=2a$, però obtindríem el mateix resultat si exigim que $d(P,F)-d(P,F^\prime)=2a$)
+
+Deixem un radical en una banda i elevem al quadrat a banda i banda i operem:
+
+\begin{align}
+\Big(\sqrt{(x+c)^2+y^2} \Big)^2&=\Big(2a+\sqrt{(x-c)^2+y^2} \Big)^2 \\
+(x+c)^2+y^2&=4a^2+(x-c)^2+y^2+4a\sqrt{(x-c)^2+y^2}\\
+x^2+c^2+2xc&=4a^2+x^2+c^2-2xc+4a\sqrt{(x-c)^2+y^2}\\
+\Big(4xc-4a^2 \Big)^2&=\Big ( 4a \sqrt{(x-c)^2+y^2}\Big)^2\\
+x^2c^2+a^4-2xca^2&=a^2\Big( (x-c)^2+y^2\Big)\\
+x^2c^2+a^4-2xca^2&=a^2x^2+a^2c^2-2xca^2+a^2y^2\\
+x^2(c^2-a^2)-a^2y^2&=a^2(c^2-a^2)
+\end{align}
+
+Com que es compleix $a^2=b^2+c^2$ (mireu la representació gràfica), llavors l'expressió anterior es transforma:
+
+$$b^2x^2-a^2y^2=a^2b^2$$
+
+Si dividim a banda i banda per $a^2b^2$:
+
+>$$\frac{x^2}{a^2}-\frac{y^2}{b^2}=1$$
+
+Si l'eix focal està situat sobre l'eix de les ordenades, les coordenades dels focus són $F(0,c)$ i $F^\prime(0,-c)$ i l'equació esdevé:
+
+>$$\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$$
+
+
+###Equació d'una hipèrbola amb eixos paral.lels als eixos de coordenades
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2700029/width/800/height/500/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
+
+Igual que passava amb el cas de l'el.lipse, podem escriure l'equació d'una hipèrbola amb eixos paral.lels als eixos d'ordenades i centre el punt $C(x_0,y_0)$. Llavors aplicarem una translació igual que fèiem abans:
+
+
+
+
+\begin{align}
+\frac{(x-x_0)^2}{a^2}-\frac{(y-y_0)^2}{b^2}&=1 \text{   Eix focal paral.lel a l'eix d'abscisses}\\
+\frac{(y-y_0)^2}{a^2}-\frac{(x-x_0)^2}{b^2}&=1 \text{   Eix focal paral.lel a l'eix d'ordenades}
+\end{align}
+
+
+##Excentricitat d'una corba cònica
