@@ -1,4 +1,3 @@
-#Tema 7: Llocs geomètrics
 
 ##Introducció
 
@@ -489,6 +488,17 @@ Si l'eix focal està situat sobre l'eix de les ordenades, les coordenades dels f
 
 >$$\frac{y^2}{a^2}-\frac{x^2}{b^2}=1$$
 
+###Assímptotes d'una hipèrbola amb centre l'origen de coordenades
+
+Mireu el gràfic següent:
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2718789/width/800/height/500/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
+
+Hi hem representat dues hipèrboles, en blau la hipèrbola $\frac{x^2}{4}-\frac{y^2}{9}=1$ i en negre la hipèrbola $\frac{y^2}{4}-\frac{x^2}{9}=1$. Si us hi fixeu, cada una d'elles té dues assímptotes tal i com s'indica el dibuix. En general, les hipèrboles amb centre l'origen de coordenades tenen les **assímptotes**:
+
+* $\frac{x^2}{a^2}-\frac{y^2}{b^2}=1\Rightarrow y=\pm\frac{b}{a}x$
+* $\frac{y^2}{a^2}-\frac{x^2}{b^2}=1\Rightarrow y=\pm\frac{a}{b}x$
+
 
 ###Equació d'una hipèrbola amb eixos paral.lels als eixos de coordenades
 
@@ -507,7 +517,7 @@ Igual que passava amb el cas de l'el.lipse, podem escriure l'equació d'una hip�
 
 ##Excentricitat d'una corba cònica
 
-L'excentricitat és un paràmentre que ens dóna idea del tipus de corba cònica de la qual estem parlant. L'hem definida només per l'el.lipse i la hipèrbola com el quocient: $e=\frac{c}{a}$. Aquest paràmetree ens permet entendre la transició entre una cònica i una altra:
+L'excentricitat és un paràmentre que ens dóna idea del tipus de corba cònica de la qual estem parlant. L'hem definida només per l'el.lipse i la hipèrbola com el quocient: $e=\frac{c}{a}$. Aquest paràmetre ens permet entendre la transició entre una cònica i una altra:
 
 * **$e=0$**: La cònica té un sol focus del qual equidisten tots els punts. Estem en el cas de la **circumferència** i el focus n'ès el centre.
 * **$0<e<1$**: El focus es desdobla en 2 i el cercle es deforma per esdevenir una **el.lipse**. A mida que la distància entre focus creix, augmenta l'excentricitat i l'el.lipse es va allargant.
