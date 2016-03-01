@@ -272,7 +272,7 @@ Si simplifiquem tenim **l'equació reduïda de la paràbola**:
 
 >$$y^2=2px$$
 
-En cas que l'eix estigui situat sobre **l'eix d'ordenades**, el focus seria **$F(0,\frac{p}{s})$** i l'equació de la recta directriu seria **$r:y=-\frac{p}{2}$**. L'equació reduïda de la paràbola seria llavors:
+En cas que l'eix estigui situat sobre **l'eix d'ordenades**, el focus seria **$F(0,\frac{p}{2})$** i l'equació de la recta directriu seria **$r:y=-\frac{p}{2}$**. L'equació reduïda de la paràbola seria llavors:
 
 >$$x^2=2py$$
 
@@ -375,7 +375,7 @@ Si ens fixem una mica més en detall amb l'el.lipse podem veure que:
 
 Com que $a$, $b$ i $c$ formen un triangle rectangle es relacionen a través del Teorema de Pitàgores:
 
->$$a^2+b^2=c^2$$
+>$$a^2=b^2+c^2$$
 
 <iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2671775/width/800/height/600/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="600px" style="border:0px;"> </iframe>
 
