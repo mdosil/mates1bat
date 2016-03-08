@@ -275,7 +275,6 @@ Anem a definir un parell de conceptes:
 1. Diem que una successió està **fitada inferiorment** si tots els membres de la successió són més grans o iguals que un nombre real $k$: $a_n\ge k, \forall n \in \mathbb{N}, k\in \mathbb{R}$.Diem que $k$ és una **fita inferior** de la successió.
 2. Diem que una successió està **superiorment** si tots els membres de la successió són més petits o iguals que un nombre real $k$: $a_n\le k, \forall n \in \mathbb{N}, k\in \mathbb{R}$. Diem que $k$ és una **fita superior** de la successió.
 3. Si una successió està fitada superiorment i inferiorment diem que és una successió **fitada**.
-4. Una successió **no està fitada** si per qualsevol valor de $k$ arbitràriament gran podem trobar un valor de $n$ tal que $|an|>k$: $\forall k \in \mathbb{R} \exists n\in \mathbb{N} | |a_n|>k$.
 
 **Exemple 7**
 
@@ -292,6 +291,37 @@ Dels dos sumands anteriors, ja veiem que el segon es fa molt petit fins arribar 
 
 ##Límit d'una succesió
 
+En l'apartat anterior hem vist que existeixen successions fitades inferiorment i fitades superiorment. Pensem en un exemple  concret de successió decreixent: $a_n=\frac{1}{n}$. Si escrivim uns quants termes: $1,\frac{1}{2}, \frac{1}{3}, \frac{1}{4},...$. Veiem que a mida que $n$ es fa molt gran, els termes cada vegada són més petits. Aquesta successió és evidentment fitada. Anem a pensar ara algunes fites inferiors. Una fita inferior seria $k_1=-1$ perquè tots els termes de la successió són més grans que aquest nombre. Una altra fita inferior també podria ser $k_2=-2$, perquè es dóna el mateix cas. Però quina seria la **més gran** de les fites inferiors quan $n$ es fa molt gran? Si ho pensem una mica veiem que és $K=0$.
+
+En l'exemple anterior de successió decreixent, veiem que tots els termes s'acosten cada vegada més a $0$ quan $n$ es fa molt gran. Diem doncs que el **límit** de la successió $a_n=\frac{1}{n}$ és 0.
+
+El mateix podem fer amb una successió creixent, si aquesta està fitada superiorment, la **més petita** de les fites superiors és el límit de la sucessió quan $n$ es fa molt i molt gran. Podries donar algun exemple?
+
+###Definició de límit
+
+Hi ha una manera més formal de definir límit d'una successió. Anem a veure-ho.
+
+>Donada una sucessió de nombres reals ${a_n}$, diem que $l$ és el **límit** d'aquesta successió si per qualsevol nombre real $\epsilon>0$ existeix un enter positiu $N$ depenent de $\epsilon$ tal que: per $n \ge N \Rightarrow |a_n-l|<\epsilon$.
+
+Dit amb paraules planeres, a partir d'un cert índex de la successió, la diferència entre els termes i el límit es fa arbitràriament petita. Això s'escriu de la següent manera:
+
+>$$\lim_{n\to\infty} a_n=l$$
+
+No totes les successions tenen un límit. En l'exemple anterior, veiem clarament que:
+
+$$\lim_{n\to\infty}\frac{1}{n}=0$$
+
+Però si considerem la successió $a_n=n\Rightarrow 1,2,3,4,5,6,....$ veiem de seguida que:
+
+$$\lim_{n\to\infty}n=+\infty$$
+
+Aquest límit no és numèric, la successió *tendeix a més infinit*, que no és cap nombre.
+
+D'aquí podem deduir vàries coses:
+
+1. Diem que una sucessió és **convergent** si té com a límit un nombre real. Si el límit és $\pm \infty$ diem que la sucessió és **divergent**.
+2. Les successions creixents i fitades superioment sempre tenen límit. Aquest límit és la més petita de les fites superiors.
+3. De la mateixa manera, les succesions decreixents i fitades inferiorment també tenen límit. Aquest límit és la més gran de les fites inferiors.
 
 ###Operacions amb Successions
 
