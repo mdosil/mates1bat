@@ -325,6 +325,46 @@ D'aquí podem deduir vàries coses:
 
 ###Operacions amb Successions
 
+1. Suma de successions
+
+    Donades dues successions $\{a_n\}$ i $\{b_n\}$, la successió suma s'obté sumant terme a terme les successions:
+
+     $$\{a_n+b_n\}=\{a_n\}+\{b_n\}$$
+
+2. Diferència de successions
+
+    Donades dues successions $\{a_n\}$ i $\{b_n\}$ podem calcular la successió diferència restant terme a terme les successions:
+
+    $$\{a_n-b_n\}=\{a_n\}-\{b_n\}$$
+
+3. Producte de successions
+
+    Donades dues successions $\{a_n\}$ i $\{b_n\}$, la successió producte s'obté multiplicant terme a terme les successions:
+
+    $$\{a_n \cdot b_n\}=\{a_n\}\cdot \{b_n\}$$
+
+
+4. Quocient de successions
+
+    Donades dues successions $\{a_n\}$ i $\{b_n\}$, **amb la condició que $\{b_n\}$ no s'anul.li en cap terme**, la successió producte s'obté dividint terme a terme les successions:
+
+    $$\{ \frac{a_n}{b_n} \} = \frac{ \{ a_n \} }{ \{ b_n \} }$$
+
+    Com sabem si una sucessió quocient s'anul.la alguna vegada? Doncs buscant els zeros en el denominador.
+
+**Exemple 7**
+
+Troba les successions suma, diferència, producte i quocient de:  $\{a_n\}=n-3$ i $\{b_n\}=\frac{1}{n+2}$:
+
+\begin{align}
+a_n+b_n &= n-3+\frac{1}{n+2}=\frac{(n-3)(n+2)+1}{n+2}=\frac{n^2+2n-3n-6+1}{n+2}=\frac{n^2-n-5}{n+2}\\
+a_n-b_n &= n-3-\frac{1}{n+2}=\frac{(n-3)(n+2)-1}{n+2}=\frac{n^2+2n-3n-6-1}{n+2}=\frac{n^2-n-7}{n+2}\\
+a_n \cdot b_n &= (n-3)\cdot \frac{1}{n+2}=\frac{n-3}{n+2}\\
+\frac{a_n}{b_n} &= (n-3)\div \frac{1}{n+2}=(n-3)(n+2)
+\end{align}
+
 
 
 ###Càlcul de límits
+
+Estudiarem aquí diferents mètodes per al càlcul de límits. Veient les operacions amb successions explicades anteriorment, podem afirmar que si dues successions $\{a_n\}$ i $\{b_n\}$ són convergents, les successions obtingudes de fer-ne la suma, la diferència, el producte i el quocient també ho són (en el cas del quocient, sempre hem de mirar primer que la segona successió no s'anul.li mai).
