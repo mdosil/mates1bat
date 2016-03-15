@@ -346,7 +346,7 @@ D'aquí podem deduir vàries coses:
 
 4. Quocient de successions
 
-    Donades dues successions $\{a_n\}$ i $\{b_n\}$, **amb la condició que $\{b_n\}$ no s'anul.li en cap terme**, la successió producte s'obté dividint terme a terme les successions:
+    Donades dues successions $\{a_n\}$ i $\{b_n\}$, **amb la condició que $\{b_n\}$ no s'anul.li en cap terme**, la successió quocient s'obté dividint terme a terme les successions:
 
     $$\{ \frac{a_n}{b_n} \} = \frac{ \{ a_n \} }{ \{ b_n \} }$$
 
@@ -363,8 +363,48 @@ a_n \cdot b_n &= (n-3)\cdot \frac{1}{n+2}=\frac{n-3}{n+2}\\
 \frac{a_n}{b_n} &= (n-3)\div \frac{1}{n+2}=(n-3)(n+2)
 \end{align}
 
+>NOTA:
+
+>Si dues successions són **convergents** ,la successió suma, diferència, producte o quocient que se'n resulti també serà **convergent**.
 
 
 ###Càlcul de límits
 
 Estudiarem aquí diferents mètodes per al càlcul de límits. Veient les operacions amb successions explicades anteriorment, podem afirmar que si dues successions $\{a_n\}$ i $\{b_n\}$ són convergents, les successions obtingudes de fer-ne la suma, la diferència, el producte i el quocient també ho són (en el cas del quocient, sempre hem de mirar primer que la segona successió no s'anul.li mai).
+
+####Límit d'un quocient
+
+Volem calcular el límit d'una expressió del tipus $\frac{P(n)}{Q(n)}$ on $P$ i $Q$ són polinomis en $n$. Abans de calcular-ho fem un pas previ i anem a calcular què val el límit d'una expressió del tipus: $\frac{A}{n^P}$ on $A \in \mathbb{R}$ i $p \in \mathbb{N}$.
+
+Recordeu que:
+
+$$\lim_{n\to\infty}\frac{1}{n}=0$$
+
+per tant:
+
+$$\lim_{n\to\infty}\frac{A}{n^P}=0=\lim_{n\to\infty}(A\cdot \frac{1}{n}\cdot \frac{1}{n}\cdot \frac{1}{n}... \text{p vegades})=A\cdot \lim_{n\to\infty} \frac{1}{n}\cdot \lim_{n\to\infty} \frac{1}{n}\cdot \lim_{n\to\infty} \frac{1}{n}...\text{p vegades}=A\cdot 0 \cdot 0 \cdot 0 \cdot 0...=0$$
+
+Així doncs, el mètode per calcular un límit del tipus $\lim_{n\to\infty}\frac{P(n)}{Q(n)}$ serà dividir numerador i denominador per **la màxima potència de $n$**. Anem a veure un exemple.
+
+**Exemple 8**
+
+$$\lim_{n\to\infty}\frac{3n^3+4n^2-8n+7}{2n^3-8n^2+n-8}=\lim_{n\to\infty}\frac{3n^3/n^3+4n^2/n^3-8n/n^3+7/n^3}{2n^3/n^3-8n^2/n^3+n/n^3-8/n^3}=\lim_{n\to\infty}\frac{3+4/n-8/n^2+7/n^3}{2-8/n+1/n^2-8/n^3}=\frac{3+0-0+0}{2-0+0-0}=\frac{3}{2}$$
+
+D'aquí es poden deduir 3 coses quan calculem $\lim_{n\to\infty}\frac{P(n)}{Q(n)}$:
+
+1. Si grau $P(n)=$grau $Q(n)$, el límit del quocient és el quocient de coeficients dels termes de major grau de $P(n)$ i $Q(n)$, com a l'exemple anterior.
+2. Si grau $P(n)>$grau $Q(n)$, el límit del quocient és $\pm \infty$ depenent del signe del coeficient de més grau del numerador.
+3. Si grau $P(n)<$grau $Q(n)$, el límit del quocient és 0.
+
+*Nota: A partir d'ara prescidirem del símbol $n\to\infty$ en el càlcul dels límits*
+
+###Límit d'una potència
+
+>$$lim(a_n)^b_n=\big(lim \qquad a_n \big)^{lim \qquad b_n}$$
+
+**Exemple 9**
+
+
+
+
+$$lim \Big( \sqrt{\frac{7-n}{n^2+1}} \Big)^{\frac{n-2}{n}}=lim \sqrt{\frac{7-n}{n^2+1}}=lim \big( \frac{7-n}{n^2+1}\big)^{\frac{1}{2}}=0^\frac{1}{2}=0$$
