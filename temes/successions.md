@@ -368,11 +368,15 @@ a_n \cdot b_n &= (n-3)\cdot \frac{1}{n+2}=\frac{n-3}{n+2}\\
 >Si dues successions són **convergents** ,la successió suma, diferència, producte o quocient que se'n resulti també serà **convergent**.
 
 
-###Càlcul de límits
+##Càlcul de límits
 
-Estudiarem aquí diferents mètodes per al càlcul de límits. Veient les operacions amb successions explicades anteriorment, podem afirmar que si dues successions $\{a_n\}$ i $\{b_n\}$ són convergents, les successions obtingudes de fer-ne la suma, la diferència, el producte i el quocient també ho són (en el cas del quocient, sempre hem de mirar primer que la segona successió no s'anul.li mai).
+Estudiarem aquí diferents mètodes per al càlcul de límits. Veient les operacions amb successions explicades anteriorment, si dues successions $\{a_n\}$ i $\{b_n\}$ són convergents, que és el mateix que dir que existeix el seu límit, les successions obtingudes de fer-ne la suma, la diferència, el producte i el quocient també seran convergents i tindran un límit segons:
 
-####Límit d'un quocient
+1. $\lim_{n\to\infty}(a_n\pm b_n)=\lim_{n\to\infty}a_n\pm \lim_{n\to\infty}b_n$
+2. $\lim_{n\to\infty}(a_n\cdot b_n)=\lim_{n\to\infty}a_n\cdot \lim_{n\to\infty}b_n$
+3. $\lim_{n\to\infty}(\frac{a_n}{b_n})=\frac{\lim_{n\to\infty}a_n}{\lim_{n\to\infty}b_n}$
+
+###Límit d'un quocient
 
 Volem calcular el límit d'una expressió del tipus $\frac{P(n)}{Q(n)}$ on $P$ i $Q$ són polinomis en $n$. Abans de calcular-ho fem un pas previ i anem a calcular què val el límit d'una expressió del tipus: $\frac{A}{n^P}$ on $A \in \mathbb{R}$ i $p \in \mathbb{N}$.
 
@@ -408,3 +412,86 @@ D'aquí es poden deduir 3 coses quan calculem $\lim_{n\to\infty}\frac{P(n)}{Q(n)
 
 
 $$lim \Big( \sqrt{\frac{7-n}{n^2+1}} \Big)^{\frac{n-2}{n}}=lim \sqrt{\frac{7-n}{n^2+1}}=lim \big( \frac{7-n}{n^2+1}\big)^{\frac{1}{2}}=0^\frac{1}{2}=0$$
+
+###Operacions amb $\infty$
+
+Quan calculem el límit d'una successió composta (això és, una successió que s'ha obtingut operant dues o més successions) ens podem trobar que a l'hora de calcular-ne el resultat ens surti algun $\infty$. A continuació llistem els casos més comuns i la seva resolució:
+
+1. $a\pm \infty=\pm \infty$ on $a \in \mathbb{R}$
+2. $\infty + \infty = + \infty$
+3. $-\infty - \infty = - \infty$
+4. $\frac{a}{\pm \infty}=0$ on $a \in \mathbb{R}$
+5. $\frac{a}{0}=\infty$ on $a \in \mathbb{R}$
+6. $+\infty \cdot (-\infty)=-\infty$
+7. $+\infty \cdot (+\infty)=+\infty$
+8. $a\cdot (\pm \infty)=\pm \infty$ on $a \in \mathbb{R}$
+
+###Indeterminacions
+
+No obstant, hi ha un tipus d'expressions que matemàticament no es poden calcular. S'anomenen **indeterminacions**. Aquestes són:
+
+1. $\frac{\infty}{\infty}$
+2. $\frac{0}{0}$
+3. $\infty-\infty$
+4. $0\cdot \infty$
+5. $1^\infty$
+6. $0^0$
+7. $\infty^0$
+
+Cadascuna d'aquestes indeterminacions té un mètode concret de resolució. Per exemple, en el cas de fraccions algebraiques com les de l'exemple 8, si substituïm $n$ per $\infty$ a la seva expressió obtenim la indeterminació  $\frac{\infty}{\infty}$ però ja hem vist que aquesta es pot resoldre dividint numerador i denominador per la potència màxima de $n$. Aquí només veurem com resoldre les indeterminacions $\infty -\infty$ i $1^\infty$.
+
+####Indeterminació $\infty-\infty$
+
+En general la resoldrem multiplicant i dividint pel conjugat. Vegem-ne un exemple.
+
+**Exemple 10**
+
+\begin{align}
+lim(\sqrt{n+1}-\sqrt{n})&=\sqrt{+\infty}-\sqrt{+\infty}=+\infty-\infty=ind\\
+&=lim\frac{(\sqrt{n+1}-\sqrt{n})(\sqrt{n+1}+\sqrt{n})}{\sqrt{n+1}+\sqrt{n}}\\
+&=lim\frac{(\sqrt{n+1})^2-(\sqrt{n})^2}{\sqrt{n+1}+\sqrt{n}}\\
+&=lim\frac{n+1-n}{\sqrt{n+1}+\sqrt{n}}\\
+&=lim\frac{1}{\sqrt{n+1}+\sqrt{n}}\\
+&=\frac{1}{\infty + \infty}=0\\
+\end{align}
+
+#### Indeterminació $1^\infty$
+
+Anem a veure quina forma té el límit següent:
+
+$$\lim_{n\to\infty}\Big( 1+ \frac{1}{n}\Big)^n=(1+0)^{+\infty}=1^{+\infty}=ind$$
+
+Primer de tot, per a calcular aquest límit, mirarem si la successió és fitada i en cas afirmatiu, si és convergent. Calculem ara els 10 primers termes:
+
+\begin{align}
+a_1&=\Big(1+\frac{1}{1} \Big)^1=2\\
+a_2&=\Big(1+\frac{1}{2} \Big)^2=\Big(\frac{3}{2}\Big)^2=\frac{9}{4}=2.25\\
+a_3&=\Big(1+\frac{1}{3} \Big)^3=\Big(\frac{4}{3}\Big)^3=\frac{64}{27}\sim 2.3703\\
+a_4&=\Big(1+\frac{1}{4} \Big)^4=\Big(\frac{5}{4}\Big)^4=\frac{625}{256}\sim 2.4414\\
+a_5&=\Big(1+\frac{1}{5} \Big)^5=\Big(\frac{6}{5}\Big)^5=\frac{7776}{3125}=2.48832\\
+a_6&=\Big(1+\frac{1}{6} \Big)^6=\Big(\frac{6}{5}\Big)^6=\frac{117649}{46656}\sim 2.5216\\
+a_7&=\Big(1+\frac{1}{7} \Big)^7=\Big(\frac{8}{7}\Big)^7=\frac{2097152}{823543}\sim 2.5464\\
+a_8&=\Big(1+\frac{1}{8}\Big)^8=\Big(\frac{9}{8}\Big)^8=\frac{43046721}{16777216}\sim 2.5657\\
+a_9&=\Big(1+\frac{1}{9} \Big)^9=\Big(\frac{10}{9}\Big)^9=\frac{10^9}{387420490}\sim 2.5811\\
+a_10&=\Big(1+\frac{1}{10} \Big)^10=\Big(\frac{11}{10}\Big)^{10}=1.1^{10}\sim 2.5937\\
+...
+\end{align}
+
+Si calculéssim més termes veuríem que és una successió *monòtona creixent i fitada*. Podríem establir $3$ com a fita superior i $2$ com a fita inferior. Per tant, aquesta successió ha de tenir *límit*. Es pot demostrar que el **límit existeix i és el nombre $e=2.71828...$**. Per tant:
+
+>$$\lim_{n\to\infty}\Big( 1+ \frac{1}{n}\Big)^n=e$$
+
+La indeterminació $1^\infty$ engloba a totes les indeterminacions: $1^{+\infty}$, $1^{-\infty}$, $(-1)^{+\infty}$ i $(-1)^{-\infty}$. Quan donada una successió $a_n$ el seu límit és alguna de les indeterminacions anteriors, intentarem transformar $a_n$ amb una expressió del tipus $\Big( 1+\frac{1}{A} \Big)^A$ on $A$ és una expressió algebraica en $n$. Això ho fem perquè llavors:
+
+$$\lim_{n\to\infty}\Big( 1+ \frac{1}{A}\Big)^A=e$$
+
+Anem a veure'n un exemple per entendre-ho millor:
+
+**Exemple 11**
+
+\begin{align}
+\lim_{n\to\infty}\Big( \frac{n+1}{n+2}\Big) ^{n^2+3} &=1^{+\infty}=ind\\
+\lim_{n\to\infty}\Big( \frac{n+1}{n+2}\Big) ^{n^2+3} &=\lim_{n\to\infty}\Big( 1+\frac{n+1}{n+2}-1\Big) ^{n^2+3} = \lim_{n\to\infty}\Big( 1+\frac{-1}{n+2}\Big) ^{n^2+3} = \lim_{n\to\infty}\Big( 1+\frac{1}{\frac{n+2}{-1}}\Big) ^{n^2+3}\\
+&=\lim_{n\to\infty}\Big( 1+\frac{1}{\frac{n+2}{-1}}\Big) ^{(n^2+3)\cdot \frac{n+2}{-1}\cdot \frac{-1}{n+2}}\\
+&=e^{\lim_{n\to\infty}(n^2+3)\cdot \frac{-1}{n+2}}=e^{\lim_{n\to\infty}\frac{-n^2-3}{n+2}}=e^{-\infty}=\frac{1}{+\infty}=0
+\end{align}
