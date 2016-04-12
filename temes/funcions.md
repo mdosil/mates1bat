@@ -61,7 +61,7 @@ $$
 
 Una aplicació és exhaustiva quan tot element del conjunt final té **com a mínim** una antiimatge.
 
-> f és exhaustiva $\Longleftrightarrow \forall y \in B \quad \exists x \in A \quad | f(x)=y$
+> f és exhaustiva $\Longleftrightarrow \forall y \in B \quad \exists \quad x \in A \quad | f(x)=y$
 
 **Exemple 3**
 
@@ -100,7 +100,10 @@ f:& {\mathbb{R}_0}^+ \rightarrow \mathbb{R} \\
 
 ##Domini d'una funció
 
-Anomenem domini d'una funció al conjunt de tots els elements originals, és a dir, el conjunt o subconjunt dels nombres reals que aplicant l'equació associada obtenim una imatge real.
+Anomenem domini d'una funció al conjunt de tots els elements originals, és a dir, el conjunt o subconjunt dels nombres reals que aplicant l'equació associada obtenim una imatge real:
+
+$$D=\{x \in \mathbb{R} \quad | \quad \exists \quad y \in \mathbb{R} \quad \text{on} \quad y=f(x) \}$$
+
 
 ###Domini de funcions polinòmiques
 
@@ -112,7 +115,7 @@ $$D=\mathbb{R}$$
 
 Aquestes funcions són del tipus: $y=f(x)=\frac{P(x)}{Q(x)}$ on $P(x)$ i $Q(x)$ són polinomis.
 
-$$D=\mathbb{R}-\{\text{zeros del denominador}\}$$
+$$Dom \quad f=\mathbb{R}-\{\text{zeros del denominador}\}$$
 
 **Exemple 4**
 
@@ -141,15 +144,46 @@ D=\mathbb{R}-(-1,1)
 \end{align}
 
 
+###Domini de funcions logarítmiques
+
+Tal i com veure al principi, només existeixen els logaritmes de nombres positius. Per tant, per funcions del tipus $y=f(x)=log_a(g(x))$, el domini seran els valors que facin $g(x) > 0$.
 
 
 ##Recorregut d'una funció
 
-El recorregut d'una funció és el conjunt de totes les imatges. També s'anomena conjunt imatge. És difícil veure quin és el recorregut a partir de l'equació d'una funció. El millor és fer-ho a partir de la gràfica i projectar-la sobre l'eix $y$. El recorregut serà l'interval de l'eix $y$ que queda *pintat* per la gràfica.
+El recorregut d'una funció és el conjunt de totes les imatges. També s'anomena conjunt imatge. És difícil veure quin és el recorregut a partir de l'equació d'una funció. El millor és fer-ho a partir de la gràfica i projectar-la sobre l'eix $y$. El recorregut serà l'interval de l'eix $y$ que queda *pintat* per la gràfica. Dit amb altres paraules, el recorregut d'una funció són tots aquells valors de $y$ que tenen com a mínim una antiimatge:
 
+
+
+$$R=\{y \in \mathbb{R} \quad | \quad \exists \quad x \in \mathbb{R} \quad \text{on} \quad f(x)=y \}$$
 
 ##Funcions a trossos
 
+Anomenem funció a trossos aquella funció real on el seu domini és *partit en intervals* i cadascun dels quals té una funció associada diferent.
+
+**Exemple 6**
+
+$$
+f(x) = \begin{cases} x &\mbox{si } x > 2 \\
+3-x & \mbox{ si } -1<x \le 2 \\
+4 & \mbox{ si } x \le -1 \end{cases}
+$$
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/DrFcgB7v/width/1161/height/728/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="300px" style="border:0px;"> </iframe>
+
+El domini d'aquesta funció ens el dóna els intervals de $x$: en auqest cas, el domini serien tots els nombres reals:
+
+$$D=\mathbb{R}$$
+
+El recorregut serien aquells valors de les $y$ pels quals existeix una antiimatge:
+
+$$R= [ +1, +\infty) $$
+
+Anem a veure gràficament quin tipus d'aplicació tenim al davant:
+
+* És injectiva (els elements del conjunt final tenen com a màxim una antiimatge)? Això vol dir que si dos elements tenen la mateixa imatge necessàriament la seva antiimatge ha de ser la mateixa. Això no passa: ho podem veure traçant una línia horitzonal en el gràfic en $y=3$. Hi ha 2 valors de $x$ pels quals la seva imatge és $3$: en $x=0$ i en $x=3$. Per tant, no és injectiva.
+
+* És exhaustiva (els elements del conjunt final tenen com a mínim una antiimatge)? No, perquè si tracem una línia horitzonal en $y=-3$ no talla cap punt de la gràfica, i això vol dir que hi ha elements del conjunt final que no tenen antiimatge.
 
 
 ##Operacions amb funcions
