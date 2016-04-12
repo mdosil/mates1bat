@@ -188,11 +188,68 @@ Anem a veure gràficament quin tipus d'aplicació tenim al davant:
 
 ##Operacions amb funcions
 
+Considerem dues funcions $f$ i $g$ d'equacions associades $y=f(x)$ i $y=g(x)$ amb dominis $D_f=A$ i $D_g=B$ respectivament. Anem a operar aquestes funcions i anem a veure què passa amb els seus dominis.
+
 ###Suma i diferència de funcions
+
+Anomenem suma de les funcions $f$ i $g$ a aquella funció representada per $f+g$ que es defineix com:
+
+\begin{align}
+y&=(f+g)(x)=f(x)+g(x)\\
+D_{f+g}&=A \cap B
+\end{align}
+
+Per la funció diferència, només cal sumar a $f$ l'oposat de la funció $g$. El domini es calcula de la mateixa manera.
+
+**Exemple 7**
+
+Donades les funcions $f(x)=\frac{x^2-1}{x}$ i $g(x)=\frac{x+1}{x-1}$ troba la funció suma, $(f+g)(x)$ i el seu domini.
+
+Ràpidament veiem que:
+
+\begin{align}
+y&=(f+g)(x)=\frac{x^2-1}{x}+\frac{x+1}{x-1}=\frac{(x^2-1)(x-1)+x(x+1)}{x(x-1)}=...=\frac{x^3+1}{x^2-x}\\
+D_f&=\mathbb{R}-\{0\}\\
+D_g&=\mathbb{R}-\{1\}\\
+D_{f+g}&=\mathbb{R}-\{0,1\}
+\end{align}
+
 
 ###Producte de funcions
 
+Anomenem producte i ho representem per $f\cdot g$ a la funció que es defineix com:
+
+\begin{align}
+y&=(f\cdot g)(x)=f(x)\cdot g(x)\\
+D_{f\cdot g}&=A \cap B
+\end{align}
+
+En l'exemple anterior:
+
+\begin{align}
+y&=(f\cdot g)(x)=\frac{x^2-1}{x}\cdot \frac{x+1}{x-1}=\frac{(x^2-1)(x+1)}{x(x-1)}=...=\frac{x^2+2x+1}{x}\\
+D_{f\cdot g}&=\mathbb{R}-\{0,1\}
+\end{align}
+
 ###Quocient de funcions
+
+Per al quocient de funcions $\frac{f}{g}$, es procedeix igual que la suma o el producte, però aquesta vegada hem de treure també del domini aquells punts que anul.len la funció $g$:
+
+\begin{align}
+y&=\Big(\frac{f}{g}\Big)(x)=\frac{f(x)}{g(x)}\\
+D_{f/g}&=A \cap B - \{ x \mbox{ pels quals g(x)=0}\}
+\end{align}
+
+En l'exemple anterior:
+
+\begin{align}
+y&=\Big(\frac{f}{g}\Big)(x)=\frac{x^2-1}{x}\div \frac{x+1}{x-1}=\frac{(x^2-1)(x-1)}{x(x+1)}=...=\frac{(x-1)^2}{x}=\frac{x^2-2x+1}{x}\\
+D_{f/g}&=\mathbb{R}-\{0,1, -1\}
+\end{align}
+
+
+
+
 
 ###Composició de funcions
 
