@@ -253,6 +253,72 @@ D_{f/g}&=\mathbb{R}-\{0,1, -1\}
 
 ###Composició de funcions
 
+Sigui una funció:
+
+\begin{align}
+f:& A \rightarrow B \\
+&x \rightarrow y=f(x)
+\end{align}
+
+amb $D_f=A$ i $R_f=B$. Sigui una altra funció:
+
+\begin{align}
+g:& C \rightarrow \mathbb{R} \\
+&x \rightarrow y=g(x)
+\end{align}
+
+amb $D_g=C$ i $R_g=\mathbb{R}$. Si $B \subseteq C$, o el que és el mateix, les imatges de $f$ estan dins el domini de $g$, definim la composició de $f$ amb $g$ i ho escrivim com $g \circ f$ ($f$ composat en $g$) a la funció:
+
+\begin{align}
+g\circ f:& A \rightarrow B \\
+&x \rightarrow y=(g \circ f)(x)=g(f(x))\\
+D_{g \circ f}&=D_f=A
+\end{align}
+
+Expressat d'una altra manera, el que fa la composició de funcions és el següent:
+
+\begin{align}
+&A \xrightarrow{f} B \xrightarrow{g} \mathbb{R}\\
+&x \rightarrow f(x) \rightarrow g(f(x))=(g \circ f)(x)
+\end{align}
+
+
+La composició de funcions no és commutativa: $g \circ f \neq f \circ g$.
+
+**Exemple 8**
+
+Donades les funcions $f(x)=x^2$ i $g(x)=\sqrt{x+1}$ calcula si és possible $(g \circ f)$ i $(f \circ g)$.
+
+1. $(g \circ f)$
+
+
+    Primer hem de comprovar que el recorregut de $f$ està dins el domini de $g$.
+
+    \begin{align}
+    D_f&=\mathbb{R}\\
+    R_f&={\mathbb{R}_0}^+\\
+    D_g&=[-1, + \infty]\\
+    R_g&={\mathbb{R}_0}^+
+    \end{align}
+
+    Per tant, com que $R_f \subseteq D_g$, podem calcular la seva composició.
+
+    \begin{align}
+    y&=(g \circ f)(x)=g(f(x))=g(x^2)=\sqrt{x^2+1}\\
+    D_{g \circ f}&=D_f=\mathbb{R}
+    \end{align}
+
+2. $(f \circ g)$
+
+
+    Primer hem de comprovar que el recorregut de $g$ està dins el domini de $f$. De l'apartat anterior veiem que sí. Per tant, com que $R_g \subseteq D_f$, podem calcular la seva composició.
+
+    \begin{align}
+    y&=(f \circ g)(x)=f(g(x))=f(\sqrt{x+1})=(\sqrt{x+1})^2=x+1\\
+    D_{f \circ g}&=D_g=[-1, + \infty]
+    \end{align}
+
+
 ##Funció inversa
 
 ###Teorema
