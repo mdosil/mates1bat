@@ -321,8 +321,52 @@ Donades les funcions $f(x)=x^2$ i $g(x)=\sqrt{x+1}$ calcula si és possible $(g 
 
 ##Funció inversa
 
-###Teorema
+Donada una funció real $f$ anomenarem inversa de $f$ i ho representarem com $f^{-1}$ a tota funció $g$ tal que:
+
+$$g \circ f=f \circ g=I$$
+
+on $I(x)=x$ (funció identitat).
+
+Es pot demostrar que **una funció $f$ té inversa únicament quan és bijectiva**.
+
+
 
 ###Càlcul de la inversa
 
+1. Comprovarem si la funció és bijectiva (injectiva i exhaustiva alhora). Les funcions polinòmiques de 1r grau ho són totes, les de segon grau no ho són mai, per exemple.
+2. Si ho és canviarem la $x$ per la $y$ a l'equació associada.
+3. Aïllarem la $y$ i ja tindrem l'equació per a $f^{-1}(x)$.
+
+**Exemple 9**
+
+Calcula la funció inversa de la funció $f(x)=x^3+2$.
+
+La manera més fàcil de veure si una funció és bijectiva és fer-ho gràficament: si per qualsevol línia horitzontal que tracem sobre la gràfica aquesta talla la funció només en un punt, la funció és bijectiva. En cas contrari no ho és.
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/XfbujWBj/width/736/height/533/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="736px" height="533px" style="border:0px;"> </iframe>
+
+Veiem que aquesta sí que és bijectiva. Per tant, podem calcular-ne la inversa.
+
+\begin{align}
+y=x^3+2\rightarrow x&=y^3+2\\
+y^3+2&=x\\
+y&=\sqrt[3]{x-2}
+\end{align}
+
+Per tant la funció inversa de $f$ és $f^{-1}=\sqrt[3]{x-2}$.
+
+Per acabar de comprovar-ho caldria veure que efectivament $f \circ g= g\circ f= I$. Cal remarcar que no totes les funcions cúbiques són bijectives.
+
+
+
 ###Representació gràfica de la inversa
+
+La gràfica d'una funció i la seva inversa són **simètriques respecte la bisectriu del 1r i 3r quadrants**. Per tant representem una funció i fem una simetria axial respecte la recta $y=x$.
+
+**Exemple 10**
+
+Dibuixa la funció inversa trobada a l'exemple anterior.
+
+Fem una *simetria axial* de la funció respecte la recta $y=x$ i tenim representada la funció inversa $f^{-1}=\sqrt[3]{x-2}$.
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/C36kVebw/width/400/height/400/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="400px" height="400px" style="border:0px;"> </iframe>
