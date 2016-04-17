@@ -67,12 +67,12 @@ Una aplicació és exhaustiva quan tot element del conjunt final té **com a mí
 
 Demostra que l'aplicació del primer exemple no és exhaustiva.
 
-\begin{cases}
-f(x)=y\\
-\frac{x+5}{2}=y\\
-x+5=2y\\
-x=2y-5
-\end{cases}
+\begin{align}
+f(x)&=y\\
+\frac{x+5}{2}&=y\\
+x+5&=2y\\
+x&=2y-5
+\end{align}
 
 i si prenem $y=1$ veiem que $x=-3$, que no és un nombre natural. Per tant, hem trobat un punt que no té antiimatge.
 
