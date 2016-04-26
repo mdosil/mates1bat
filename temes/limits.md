@@ -75,7 +75,7 @@ en cas contrari (els límits laterals no coincideixen) el límit **no existeix**
 
 En aquest apartat volem veure què passa amb una funció quan prenem $x$ molt i molt petites $(x\rightarrow - \infty)$ i molt i molt grans $(x\rightarrow + \infty)$. Quan calculem aquests límits, si el resultat és un nombre, podrem assegurar que la funció té una assímptota horitzonal:
 
-> Si $\lim_{x\to \pm \infty} f(x)=a \Rightarrow$ en $x=a$ hi ha una assímptota horitzontal
+> Si $\lim_{x\to \pm \infty} f(x)=a \Rightarrow$ en $y=a$ hi ha una assímptota horitzontal
 
 En canvi,
 
@@ -139,15 +139,15 @@ Veiem que la funció té una **assímptota vertical per l'esquerra** en $x=1$ i 
 
 ###Mètode per a resoldre indeterminacions del tipus $\frac{0}{0}$
 
-Ens podem trobar que com a conseqüència del càlcul d'un límit, ens trobem amb alguna indeterminació. Al tema passat ja vam veure [com resoldre indeterminacions del tipus] (http://mdosil.cat/mates1batcientific/temes/successions/#calcul-de-limits) $\frac{\infty}{\infty}$, $0\cdot \infty$ i $1^\infty$. Anem a veure aquí una altra indeterminació: $\frac{0}{0}$. En general ens hi trobarem amb fraccions algebraiques. En aquest cas ens caldrà descomposar els polinomis numerador i denominador de les fraccions algebraiques com a  [producte de polinomis irreductibles](http://mdosil.cat/mates1batcientific/temes/polinomis/#factoritzacio-de-polinomis). Això segurament ens permetrà simplificar algun factor i podrem calcular el límit.
+Ens podem trobar que com a conseqüència del càlcul d'un límit, ens trobem amb alguna indeterminació. Al tema passat ja vam veure [com resoldre indeterminacions del tipus](http://mdosil.cat/mates1batcientific/temes/successions/#calcul-de-limits) $\frac{\infty}{\infty}$, $0\cdot \infty$ i $1^\infty$. Anem a veure aquí una altra indeterminació: $\frac{0}{0}$. En general ens hi trobarem amb fraccions algebraiques. En aquest cas ens caldrà descomposar els polinomis numerador i denominador de les fraccions algebraiques com a  [producte de polinomis irreductibles](http://mdosil.cat/mates1batcientific/temes/polinomis/#factoritzacio-de-polinomis). Això segurament ens permetrà simplificar algun factor i podrem calcular el límit.
 
 **Exemple 4**
 
 Calcula aquest límit:
 
 \begin{align}
-\lim_{x\to 1}\sqrt[3]{\frac{x^3-x^2+x+1}{x^3-1}}&=\frac{0}{0}=\text{ind}\\
-\lim_{x\to 1}\sqrt[3]{\frac{x^3-x^2+x+1}{x^3-1}}&=\lim_{x\to 1}\sqrt[3]{\frac{(x-1)(x^2+1)}{(x-1)(x^2+x+1)}}=\sqrt[3]{\frac{2}{3}}
+\lim_{x\to 1}\sqrt[3]{\frac{x^3-x^2+x-1}{x^3-1}}&=\frac{0}{0}=\text{ind}\\
+\lim_{x\to 1}\sqrt[3]{\frac{x^3-x^2+x-1}{x^3-1}}&=\lim_{x\to 1}\sqrt[3]{\frac{(x-1)(x^2+1)}{(x-1)(x^2+x+1)}}=\sqrt[3]{\frac{2}{3}}
 \end{align}
 
 
@@ -175,17 +175,31 @@ Quan el que hem explicat en l'apartat anterior no passa, tindrem que la funció 
 
 ###Discontinuïtat evitable
 
-S'anomena **discontinuïtat evitable** de $f(x)$ en $x=a$ quan no existeix $f(a)$ però en canvi sí que existeix el seu límit: $\noexists f(a) \text{i} \exists \lim_{x\to a}f(x)$.
+S'anomena **discontinuïtat evitable** de $f(x)$ en $x=a$ quan no existeix $f(a)$ però en canvi sí que existeix el seu límit: $\nexists f(a) \text{i} \exists \lim_{x\to a}f(x)$.
 
 La discontinuïtat es pot evitar assignant-li a $a$ com a imatge el seu límit: $f(a)=\lim_{x\to a}f(x)$. La funció que en resulta s'anomena *funció prolongada de $f$ per continuïtat*.
 
 Es pot demostrar que això passa quan **la indeterminació obtinguda en calcular el límit és $\frac{0}{0}$**.
 
+**Exemple 5**
+
+Anem a estudiar la continuïtat de la funció $f(x)=\frac{x^2-4}{x-2}$ en $x=2$. Si ens hi fixem, el domini de la funció és $D_f=\mathbb{R}-{2}$. Si estudiem una mica més la funció, veiem que:
+
+$$\lim_{x\to 2}\frac{x^2-4}{x-2}=\frac{0}{0}=\text{ ind } \rightarrow \lim_{x\to 2}\frac{x^2-4}{x-2}=\lim_{x\to 2}\frac{(x-2)(x+2)}{x-2}=\lim_{x\to 2}(x+2)=4$$
+
+Hi ha una discontinuïtat evitable en $x=2$ tal i com podem veure a la representació gràfica:
+
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/YSe6Grgm/width/766/height/672/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="766px" height="672px" style="border:0px;"> </iframe>
+
+Per prolongar aquesta funció per continuïtat n'hi hauria prou d'assignar: $f(2)=4$.
+
+
 ###Discontinuïtat de salt
 
 Tenim una **discontinuïtat de salt** quan els límits laterals d'una funció en un punt no coincideixen:
 
-$$\lim_{x\to a^-}f(x)\neq \lim_{x\to a^+}f(x)\rightarrow \noexists \lim_{x\to a}f(x)$$
+$$\lim_{x\to a^-}f(x)\neq \lim_{x\to a^+}f(x)\rightarrow \nexists \lim_{x\to a}f(x)$$
 
 Llavors el tamany del salt $S$ equivaldrà a la distància entre límits:
 
@@ -203,3 +217,5 @@ $$S=\lim_{x\to a^+}f(x)=\infty \text{ i/o } \lim_{x\to a^-}f(x)=\infty$$
 En aquest cas podem afirmar que en $x=a$ hi ha una **assímptota vertical**.
 
 Es pot demostrar que això passa quan **$\lim_{x\to a}f(x)=\frac{A}{0}$**.
+
+L'exemple 2 i l'exemple 3 il.lustren aquest cas.
