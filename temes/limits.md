@@ -212,7 +212,7 @@ En aquest cas pot ser que existeixi o no $f(a)$. Un exemple d'això seria la fun
 
 Tenim una **discontinuïtat assimptòtica** quan un límit lateral o tots dos tenen com a resultat infinit:
 
-$$S=\lim_{x\to a^+}f(x)=\infty \text{ i/o } \lim_{x\to a^-}f(x)=\infty$$
+$$\lim_{x\to a^+}f(x)=\infty \text{ i/o } \lim_{x\to a^-}f(x)=\infty$$
 
 En aquest cas podem afirmar que en $x=a$ hi ha una **assímptota vertical**.
 

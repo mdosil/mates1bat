@@ -32,3 +32,4 @@ Els materials s'estructuren en 3 blocs diferents. Podeu trobar cada tema despleg
 | [10. Límits i continuïtat de funcions](temes/limits.md)  |
 | [11. Funció exponencial i logarítmica](temes/funcioexponencial.md)  |
 | [12. Funcions trigonomètriques](temes/funcionstrigonometriques.md)  |
+| [13. Derivades](temes/derivades.md)  |

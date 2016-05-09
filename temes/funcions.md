@@ -1,4 +1,4 @@
-#Tema 8: Funcions
+#Tema 9: Funcions
 
 ##Aplicació entre dos conjunts
 
