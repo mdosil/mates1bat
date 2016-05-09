@@ -4,7 +4,7 @@ En aquest tema estudiarem les característiques bàsiques de les funcions expone
 
 ##La funció exponencial
 
-Les funcions exponencials són totes aquelles expressades per potències on l'incògnita és un nombre real i la base un nombre real positiu.
+Les funcions exponencials són totes aquelles expressades per potències on a l'exponent hi figura la incògnita (un nombre real) i la base un nombre real positiu.
 
 ###Definició
 
@@ -28,6 +28,7 @@ E_a:& \mathbb{R} \rightarrow \mathbb{R}^+ \\
 D'entrada podem distingir 2 casos, el cas en que $a>1$ i el cas en que $0<a<1$. Observa amb atenció el gràfic de sota. Varia el valor de $a$ i estudia què passa amb cadascun dels casos.
 
 <iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/GY44rnNn/width/600/height/787/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="787px" style="border:0px;"> </iframe>
+
 
 
 **Exemple 1**
@@ -67,10 +68,69 @@ Veiem que **Les dues funcions són simètriques respecte els eixos de coordenade
   \end{cases}
   $$
 5. La funció exponencial té en l'eix de les $x$ una assímptota horitzontal
+
 ##La funció logarítmica
+Ja vam veure els logaritmes i les seves propietats al [tema 1](http://mdosil.cat/mates1batcientific/temes/nombresreals/#logaritmes). Aquí ho estudiarem des d'una perspectiva diferent, el logaritme com a funció.
+
 
 ###Definició
 
+S'anomena funció logarítmica en base $a$ ($a\neq 1, a>0$) a l'aplicació que representarem com $log_a$ i que compleix:
+
+\begin{align}
+log_a:& \mathbb{R}^+ \rightarrow \mathbb{R} \\
+&x \rightarrow y=log_a(x) \leftrightarrow x=a^y\\
+&2 \rightarrow log_a(2)\\
+&3 \rightarrow log_a(3)\\
+&.\\
+&.\\
+&.\\
+\end{align}
+
+La funció logarítmica és **la inversa de la funció exponencial**, de tal manera que si $f(x)=a^x$ i $g(x)=log_a(x)$ es compleix:
+
+
+$$f \circ g = g \circ f= \mathbb{I}$$
+
 ###Representació gràfica
 
+A sota veiem representada la funció $log_a(x)$ per a diferents valors del paràmetre $a$. Veieu que és una funció amb domini els reals positius, perquè no existeix el logaritme d'un nombre negatiu. Podeu anar variant el paràmetre i veureu com canvia la forma de la funció.
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/bZ4MarpD/width/600/height/400/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="400px" style="border:0px;"> </iframe>
+
+**Exemple 2**
+Representa sobre els mateixos eixos les funcions $f(x)=e^x$ i $g(x)=lnx$ i compara-les.
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/raVq3Wne/width/600/height/400/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="400px" style="border:0px;"> </iframe>
+
+Veiem que són simètriques respecte la bisectriu del 1r i el 3r quadrants, la recta $y=x$. Això ha de ser d'aquesta manera, perquè ja hem dit abans que són l'una l'inversa de l'altra. També veiem que mentre que la corba exponencial passa pel punt $(0,1)$, la corba logarítmica passa pel punt $(1,0)$ (el logaritme de $1$ sempre és $0$ ja que qualsevol nombre elevat a $0$ és $1$).
+
+
 ###Propietats
+
+####Propietats generals
+1. És contínua en $\mathbb{R}$
+2. El domini són tots els reals positius i el recorregut són tots els nombres reals: $D_f=\mathbb{R}^+, R_f=\mathbb{R}$
+3. $log_a 1=0 \Leftrightarrow a^0=1$
+4. $log_a a=1 \Leftrightarrow a^1=a$
+5. $log_a a^n=n \Leftrightarrow a^n=a^n$
+6. $log_a (x\cdot y)=log_a x+log_a y$
+7. $log_a \Big(\frac{x}{y} \Big)= log_a x- log_a y$
+8. $log_a x^n= n log_a x$
+9. $log_a \sqrt[p]{x}=\frac{1}{p} log_a x$
+
+
+
+####Propietats particulars
+
+1. Si $a>1$ la funció és **creixent**
+2. Si $0<a<1$ la funció és **decreixent**
+3. $$\mbox{Si } a>1 \rightarrow \begin{cases} \lim_{x\to + \infty} log_a x=+\infty \\
+     \lim_{x\to 0^+} log_a x= -\infty
+    \end{cases}
+    $$
+4. $$\mbox{Si } 0<a<1 \rightarrow \begin{cases} \lim_{x\to + \infty} log_a x= - \infty \\
+   \lim_{x\to 0^+} log_a x=+\infty
+  \end{cases}
+  $$
+5. La funció logarítmica té en l'eix de les $y$ una assímptota vertical
