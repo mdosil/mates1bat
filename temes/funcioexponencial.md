@@ -68,6 +68,8 @@ Veiem que **Les dues funcions són simètriques respecte els eixos de coordenade
   \end{cases}
   $$
 5. La funció exponencial té en l'eix de les $x$ una assímptota horitzontal
+6. La funció exponencial no té ni màxims ni mínims
+7. La funció exponencial és sempre cóncava
 
 ##La funció logarítmica
 Ja vam veure els logaritmes i les seves propietats al [tema 1](http://mdosil.cat/mates1batcientific/temes/nombresreals/#logaritmes). Aquí ho estudiarem des d'una perspectiva diferent, el logaritme com a funció.
@@ -118,6 +120,7 @@ Veiem que són simètriques respecte la bisectriu del 1r i el 3r quadrants, la r
 7. $log_a \Big(\frac{x}{y} \Big)= log_a x- log_a y$
 8. $log_a x^n= n log_a x$
 9. $log_a \sqrt[p]{x}=\frac{1}{p} log_a x$
+10. $log_a x=\frac{log_b x}{log_a x}$ (canvi de base)
 
 
 
@@ -134,3 +137,7 @@ Veiem que són simètriques respecte la bisectriu del 1r i el 3r quadrants, la r
   \end{cases}
   $$
 5. La funció logarítmica té en l'eix de les $y$ una assímptota vertical
+6. La funció logarítmica no té màxims ni mínims
+7. Si $a>1$ la funció és còncava
+8. Si $0<a<1$ la funció és convexa
+9. La funció logarítmica no té ni màxims ni mínims
