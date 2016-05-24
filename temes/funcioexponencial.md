@@ -39,6 +39,38 @@ Representa gràficament la funció $f(x)=2^x$ i la funció $g(x)=(\frac{1}{2})^x
 
 Veiem que **Les dues funcions són simètriques respecte els eixos de coordenades**. Ambdues passen pel punt $(0,1)$, ja que qualsevol nombre elevat a zero és $1$. $f(x)=2^x$ és sempre creixent i té una **assímptota horitzontal** cap a $-\infty$ en $y=0$ i $g(x)=(\frac{1}{2})^x$ és sempre decreixent i té una **assímptota horitzontal** cap a $+\infty$ en $y=0$.
 
+**Exemple 2**
+
+En qualsevol desintegració radioactiva es compleix l'expressió següent:
+
+$$N=N_0e^{-\lambda t}$$
+
+on $N_0$ és la quantitat inicial d'àtoms i $\lambda$ és una constant que depèn de l'element radioactiu i s'anomena **constant de desintegració**. De fet, $\lambda$ té unitats de $t^{-1}$. Així, l'expressió anterior també es pot escriure com:
+
+$$N=N_0e^{-\frac{t}{\tau}}$$
+
+on $\tau=\frac{1}{\lambda}$ s'anomena **temps de desintegració** (*mean lifetime* en anglès) i és el temps que triga la mostra a reduir-se en un factor $e$ (de passar de $N$ àtoms a $\frac{N}{e}$). En mostres radioactives també es defineix el **període de semidesintegració** o **vida mitjana** (*half life* en anglès) que és el temps que triga la mostra a reduir-se a la meitat.
+
+Amb aquesta explicació, calculeu el temps de desintegració i la vida mitjana d'una mostra radioactiva que es redueix el $9.5 \%$ al cap d'un any.
+
+
+\begin{align}
+N&=N_0 e^{-\lambda t}\\
+90.5&=100 e^{-\lambda \cdot 1}\\
+ln (\frac{90.5}{100})&=-\lambda\\
+\lambda &=-ln 0.905=0.0998\\
+\tau &=\frac{1}{\lambda}=10.2
+\end{align}
+
+Per calcular la vida mitjana, $t_{1/2}$, recordem que és el temps que triga la mostra a reduir-se a la meitat:
+
+\begin{align}
+N&=N_0 e^{-0.0998 t}\\
+\frac{N_0}{2}&=N_0 e^{-0.0998 t_{1/2}}\\
+ln (\frac{1}{2})&=-0.0998 t_{1/2}\\
+t_{1/2} &=6.94 \mbox{ anys}
+\end{align}
+
 ###Propietats
 
 ####Propietats generals
