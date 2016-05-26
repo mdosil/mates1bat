@@ -203,7 +203,7 @@ Definim la funció **$arcsin (x)$ o $sin^{-1}(x)$** com aquella funció que a ca
 arcsin:[-1,1] & \rightarrow [-\frac{\pi}{2},\frac{\pi}{2}] \\
 x & \rightarrow y=arcsin (x) \leftrightarrow x=sin (y)\\
 0 & \rightarrow 0\\
-\frac{1}{2} & \rightarrow \frac{\pi}{6}(60^o)
+\frac{1}{2} & \rightarrow \frac{\pi}{6}(30^o)
 \end{align}
 
 ####Representació gràfica
@@ -215,4 +215,62 @@ Veiem que la funció $arcsin (x)$ és contínua i creixent en tot el seu domini.
 
 ###La funció arc cosinus
 
+####Definició
+Abans de definir la funció $arccos (x)$ o $cos^{-1}(x)$, definim la **funció cosinus restringida** com aquella funció que compleix:
+
+\begin{align}
+cos:[0,\pi] & \rightarrow [-1,1] \\
+x &\rightarrow y=cos (x)
+\end{align}
+
+Veiem que hem restringit el domini de la funció a l'interval $[0,\pi]$ i el recorregut continua essent el mateix que la funció cosinus complerta. En aquest interval de $x$ la funció sí que és bijectiva, per tant, podrem calcular-ne la inversa.
+
+Definim la funció **$arccos (x)$ o $cos^{-1}(x)$** com aquella funció que a cada nombre entre $-1$ i $1$ li fa correspondre el seu angle en radiants:
+
+\begin{align}
+arccos:[-1,1] & \rightarrow [0,\pi] \\
+x & \rightarrow y=arccos (x) \leftrightarrow x=cos (y)\\
+0 & \rightarrow \frac{\pi}{2}\\
+\frac{1}{2} & \rightarrow \frac{\pi}{6}(60^o)
+\end{align}
+
+####Representació gràfica
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/u2KarMB8/width/500/height/400/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="500px" height="400px" style="border:0px;"> </iframe>
+
+Veiem que la funció $arccos (x)$ és contínua i decreixent en tot el seu domini. També és simètrica respecte la bisectriu del 1r i 3r quadrants amb la funció $cos (x)$, la seva inversa.
+
 ###La funció arc tangent
+
+
+Abans de definir la funció $arctan (x)$ o $tan^{-1}(x)$, definim la **funció tangent restringida** com aquella funció que compleix:
+
+\begin{align}
+tan:[-\frac{\pi}{2},\frac{\pi}{2}] & \rightarrow \mathbb{R} \\
+x &\rightarrow y=tan (x)
+\end{align}
+
+Veiem que hem restringit el domini de la funció a l'interval $[-\frac{\pi}{2},\frac{\pi}{2}]$ i el recorregut continua essent el mateix que la funció tangent complerta. En aquest interval de $x$ la funció sí que és bijectiva, per tant, podrem calcular-ne la inversa.
+
+Definim la funció **$arctan (x)$ o $tan^{-1}(x)$** com aquella funció que a cada nombre **real** li fa correspondre el seu angle en radiants:
+
+\begin{align}
+arctan:\mathbb{R} & \rightarrow [-\frac{\pi}{2},\frac{\pi}{2}] \\
+x & \rightarrow y=arctan (x) \leftrightarrow x=tan (y)\\
+0 & \rightarrow 0\\
+1 & \rightarrow \frac{\pi}{4}(45^o)
+\end{align}
+
+El domini d'aquesta funció són **tots els nombres reals** i el recorregut està restringit a l'interval $(-\frac{\pi}{2},\frac{\pi}{2})$.
+
+####Representació gràfica
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/fTUcPqBW/width/830/height/700/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="830px" height="700px" style="border:0px;"> </iframe>
+
+La funció $arctan (x)$ és contínua i creixent en tot el seu domini ($D=\mathbb{R}$). ÉS còncava de $(\infty,0)$ i convexa de $(0,+\infty)$. No té màxims ni mínims, i té un punt d'inflexió en el $(0,0)$ que és l'únic punt de tall amb els eixos. També té dues assímptotes horitzontals:
+
+
+\begin{align}
+\lim_{x\to - \infty} arctan(x)&=-\frac{\pi}{2} \rightarrow \mbox{ Assímptota horitzontal en } y=-\frac{\pi}{2} \mbox{ cap a } - \infty\\
+\lim_{x\to + \infty} arctan(x)&=\frac{\pi}{2} \rightarrow \mbox{ Assímptota horitzontal en } y=\frac{\pi}{2} \mbox{ cap a } + \infty\\
+\end{align}
