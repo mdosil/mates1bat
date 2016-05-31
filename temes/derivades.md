@@ -63,11 +63,15 @@ Fixem-nos amb el gràfic de la funció f. Considerem dos punts, un punt $A$ de c
 
 $$m=tan \alpha= \frac{\Delta y}{\Delta x}=\frac{f(x)-f(a)}{x-a}$$
 
+D'altra banda, segurament a cursos anteriors vèieu que aquesta expressió també s'anomena **taxa de variació mitjana (TVM) entre $x$ i $a$**.
+
 Si ens fixem aquesta fórmula és molt semblant a la de la definició de la derivada d'una funció en el punt $a$, $f^{\prime}(a)$. La diferència està en el **límit**.
 
 Si ara anem acostant cada vegada més el punt $B$ al punt $A$, veiem que aquesta recta secant, en **el límit** que $A=B$ es converteix en una **recta tangent en $x=a$**, i per tant:
 
 >La derivada en $x=a$ de $f(x)$, $f^\prime(a)$, és **el pendent de la recta tangent a la gràfica de la funció en el punt $x=a$**  i es calcula a partir del límit: $f^{\prime}(a)=\lim_{x\to a} \frac{f(x)-f(a)}{x-a}$  
+
+Per tant, també podem assegurar que si en $x=a$ la funció és **creixent$\Rightarrow f^{\prime}(a)>0$**, i al revés, si en $x=a$ la funció és **decreixent$\Rightarrow f^{\prime}(a)<0$**.
 
 ###Definició de recta tangent a una corba en un punt
 
@@ -98,6 +102,85 @@ $$y-0=1(x-1)\Rightarrow y=x-1$$
 
 
 ###Relació entre la derivada i la continuïtat d'una funció en un punt
+
+Anem a demostrar el **teorema** següent:
+
+> Si una funció $f$ és **derivable** en $x=a$ $\Rightarrow$ $f$ és **contínua** en aquest punt $x=a$
+
+(Cal notar que el recíproc de l'afirmació anterior no és cert: una funció pot ser contínua i no derivable en un punt)
+
+**Demostració**
+
+Que una funció sigui derivable en el punt $x=a$ vol dir que està definida la seva derivada i en particular existeix el límit:
+
+$$f^{\prime}(a)=\lim_{x\to a} \frac{f(x)-f(a)}{x-a}$$
+
+Si existeix el límit del quocient anterior, podem fer:
+
+
+
+$$\lim_{x\to a} \big(f(x)-f(a)\big)=\lim_{x\to a} \frac{f(x)-f(a)}{x-a}\cdot (x-a)=\lim_{x\to a} \frac{f(x)-f(a)}{x-a}\cdot \lim_{x\to a}(x-a)=f^{\prime}(a)\cdot 0=0$$
+
+Per tant es compleix que:
+
+$$ \lim_{x\to a} \big(f(x)-f(a)\big)=0 \Rightarrow \lim_{x\to a} f(x)-\lim_{x\to a}f(a)=0 \Rightarrow \lim_{x\to a} f(x)=\lim_{x\to a}f(a)=f(a)$$
+
+I arribem a la definció de funció contínua en un punt $x=a$: existeix el límit de la funció quan $x$ s'acosta a $a$ i aquest límit és igual a la imatge de $a$, $f(a)$:
+
+$$\lim_{x\to a} f(x)=f(a)$$
+
+**Exemple 4**
+
+Digues si la funció a trossos
+
+$$f(x)= \begin{cases} 2x^2-3x-1 \mbox{ si } x \le -1 \\
+     4x+1 \mbox{ si } -1 < x < 2 \\
+     9 \mbox{ si } x \ge 2
+    \end{cases}$$
+
+
+és:
+
+1. Derivable en $x=-1$, $x=0$ i $x=2$
+2. És contínua en aquests punts
+
+Anem a veure si és derivable en aquests punts. Calcularem la derivada a partir del límit i en els casos que la funció estigui definida de manera diferent per la dreta i per l'esquerra dels punts calcularem els límits laterals.
+
+$$f^{\prime}(-1)= \lim_{x\to -1} \frac{f(x)-f(-1)}{x+1} \begin{cases} \lim_{x\to -1^+} \frac{4x+1-4}{x+1}= \lim_{x\to -1^+} \frac{4x-3}{x+1}=\frac{-7}{0}=+\infty\\
+     \mbox {no cal buscar el límit lateral per l'esquerra perquè al no existir l'altre límit lateral, el límit no existeix}
+    \end{cases}$$
+
+$f(x)$ no és derivable en $x=-1$.
+
+$$f^{\prime}(0)= \lim_{x\to 0} \frac{f(x)-f(0)}{x-0}= \lim_{x\to 0} \frac{4x+1-1}{x}=4$$
+
+**$f(x)$ és derivable en $x=0$** i $f^{\prime}(0)=4$.
+
+
+$$f^{\prime}(2)= \lim_{x\to 2} \frac{f(x)-f(2)}{x-2} \begin{cases} \lim_{x\to 2^+} \frac{9-9}{x-2}= 0\\
+    \lim_{x\to 2^-} \frac{4x+1-9}{x-2}= \lim_{x\to 2^-} \frac{4(x-2)}{x-2}=4
+    \end{cases}$$
+
+$f(x)$ no és derivable en $x=2$ ja que els límits laterals no coincideixen.
+
+En els casos que la funció és derivable la funció serà contínua en aquests punts. Per tant, **en $x=0$ la funció és contínua i derivable**. Però pot ser que no sigui derivable i en canvi, sí que sigui contínua. Anem a veure què passa en $x=-1$ i $x=2$:
+
+$$\lim_{x\to -1} f(x)=\begin{cases} \lim_{x\to -1^+} (4x+1)= -3\\
+     \lim_{x\to -1^-} (2x^2-3x-1)= 4
+    \end{cases}$$
+
+Com que els límits laterals no coincideixen **$f(x)$ no és derivable ni contínua en $x=-1$**
+
+
+$$\lim_{x\to 2} f(x)=\begin{cases} \lim_{x\to 2^+} 9= 9\\
+     \lim_{x\to 2^-} (4x+1)= 9
+    \end{cases}$$
+
+Com que els límits laterals sí que coincideixen **$f(x)$ no és derivable però sí contínua en $x=-1$**
+
+Si mireu la representació gràfica de la funció i què passa en aquests punts en concret, entendreu més coses.
+
+<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/FU6xp4g7/width/700/height/500/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="700px" height="500px" style="border:0px;"> </iframe>
 
 ##La funció derivada
 
