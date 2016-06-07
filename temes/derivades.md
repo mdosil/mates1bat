@@ -71,7 +71,7 @@ Si ara anem acostant cada vegada més el punt $B$ al punt $A$, veiem que aquesta
 
 >La derivada en $x=a$ de $f(x)$, $f^\prime(a)$, és **el pendent de la recta tangent a la gràfica de la funció en el punt $x=a$**  i es calcula a partir del límit: $f^{\prime}(a)=\lim_{x\to a} \frac{f(x)-f(a)}{x-a}$  
 
-Per tant, també podem assegurar que si en $x=a$ la funció és **creixent$\Rightarrow f^{\prime}(a)>0$**, i al revés, si en $x=a$ la funció és **decreixent$\Rightarrow f^{\prime}(a)<0$**.
+Per tant, també podem assegurar que si en $x=a$ la funció és **creixent(pendent positiu) $\Rightarrow f^{\prime}(a)>0$**, i al revés, si en $x=a$ la funció és **decreixent (pendent negatiu)$\Rightarrow f^{\prime}(a)<0$**.
 
 ###Definició de recta tangent a una corba en un punt
 
@@ -107,7 +107,9 @@ Anem a demostrar el **teorema** següent:
 
 > Si una funció $f$ és **derivable** en $x=a$ $\Rightarrow$ $f$ és **contínua** en aquest punt $x=a$
 
-(Cal notar que el recíproc de l'afirmació anterior no és cert: una funció pot ser contínua i no derivable en un punt)
+Cal notar que el recíproc de l'afirmació anterior no és cert: una funció pot ser contínua i no derivable en un punt. Però el que sí que es compleix és el contrari del teorema enunciat:
+
+> Si una funció $f$ és **no és contínua** en $x=a$ $\Rightarrow$ $f$ **no és derivable** en aquest punt $x=a$
 
 **Demostració**
 
@@ -186,8 +188,56 @@ Si mireu la representació gràfica de la funció i què passa en aquests punts 
 
 ###Definició de funció derivada
 
+Sigui $f$ una funció real de domini $A$ i **derivable** en tot $a \in A$. Anomenem **funció derivada de $f$** (o derivada de $f$) a aquella funció que representem per $f^\prime$ de domini $A$ que associa a tot element d'$A$ la derivada d'aquesta funció en aquest punt:
+
+\begin{align}
+f^\prime : A & \rightarrow \mathbb{R} \\
+x & \rightarrow y=f^\prime (x)= \lim_{x\to a} \frac{f(x)-f(a)}{x-a}
+\end{align}
+
+**Exemple 5**
+
+Calcula la funció derivada de la funció $f(x)=x^2+1$.
+
+
+$$f^{\prime}(a)=\lim_{x\to a} \frac{f(x)-f(a)}{x-a}=\lim_{x\to a} \frac{x^2+1-a^2-1}{x-a}=lim_{x\to a} \frac{(x+a)(x-a)}{x-a}=a+a=2a \forall a \in \mathbb{R}$$
+
+Per tant: $f^\prime (x)=2x$ és la derivada de $f(x)=x^2+1$.
+
+
 ###Derivació o càlcul de Derivades
+
+Tot seguit llistarem i demostrarem una sèrie de regles. Això ens permetrà tenir un llistat de derivades per les funcions més comunes.
 
 ####Regla 1
 
+>Si $f(x)=k$, $k\in \mathbb{R} \Rightarrow f^\prime(x)=0$
+
+**Demostració**
+
+$$f^{\prime}(a)=\lim_{x\to a} \frac{f(x)-f(a)}{x-a}=\lim_{x\to a} \frac{c-c}{x-a}=\lim_{x\to a} \frac{0}{x-a}=\lim_{x\to a} 0= 0$$
+
 ####Regla 2
+
+>Si $f(x)=x \Rightarrow f^\prime(x)=1$
+
+**Demostració**
+
+$$f^{\prime}(a)=\lim_{x\to a} \frac{f(x)-f(a)}{x-a}=\lim_{x\to a} \frac{x-a}{x-a}=\lim_{x\to a} 1=1$$
+
+####Regla 3
+
+>Si $f$ i $g$ són funcions derivables $\Rightarrow f+g$ també és derivable i es compleix: $(f+g)^\prime (x)=f^\prime(x)+g^\prime(x)$.
+
+**Demostració**
+
+$$f^{\prime}(a)=\lim_{x\to a} \frac{f(x)-f(a)}{x-a}=\lim_{x\to a} \frac{(f+g)(x)-(f+g)(a)}{x-a}=\lim_{x\to a} \frac{f(x)+g(x)-f(a)-g(a)}{x-a}=\lim_{x\to a} \frac{f(x)-f(a)}{x-a}=\lim_{x\to a} \frac{g(x)-g(a)}{x-a}=f^\prime(a)+g^\prime(a) \forall a$$
+
+
+####Regla 4
+
+>Si $f$ és una funció derivable $\Rightarrow K\cdot f$ on $K \in \mathbb{R}$ també és derivable i es compleix: $(K\cdot f)^\prime (x)=K \cdot f^\prime(x)$.
+
+**Demostració**
+
+$$f^{\prime}(a)=\lim_{x\to a} \frac{f(x)-f(a)}{x-a}=\lim_{x\to a} \frac{(K\cdot f)(x)-(K \cdot f)(a)}{x-a}=\lim_{x\to a} \frac{K\cdot (f(x)-f(a)}{x-a}=\lim_{x\to a} K \cdot  \lim_{x\to a} \frac{f(x)-f(a)}{x-a}=K \cdot f^\prime (a)$$
