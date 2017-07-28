@@ -1,5 +1,6 @@
 #Matemàtiques 1r batxillerat científico-tecnològic
 
+
 | Bloc 1: Numeració i càlcul   |      Bloc 2: Geometria      |  Bloc 3: Funcions |
 |----------|--------------|------- |
 | [1. Nombres reals](temes/nombresreals.md) |  [5. Vectors en el pla](temes/vectors.md)  | [8. Successions](temes/successions.md)|
