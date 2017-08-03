@@ -1,4 +1,4 @@
-# _Matemàtiques 1r batxillerat científico-tecnològic
+# Matemàtiques 1r batxillerat científico-tecnològic
 
 
 | Bloc 1: Numeració i càlcul   |      Bloc 2: Geometria      |  Bloc 3: Funcions |
