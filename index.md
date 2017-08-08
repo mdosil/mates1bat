@@ -7,5 +7,4 @@
 | [2. Trigonometria](temes/trigonometria.md) |    [6. Rectes en el pla](temes/rectes.md)    | [9. Funcions](temes/funcions.md) |
 | [3. Nombres complexos](temes/complexos.md) |  [7. Llocs geomètrics](temes/llocsgeometrics.md) | [10. Límits i continuïtat de funcions](temes/limits.md)  |
 |  [4. Polinomis](temes/polinomis.md) |  |  [11. Funció exponencial i logarítmica](temes/funcioexponencial.md) |
-|  |  | [12. Funcions trigonomètriques](temes/funcionstrigonometriques.md)   |
-|   |  |  [13. Derivades](temes/derivades.md) |
+|  |  | [12. Funcions trigonomètriques](temes/funcionstrigonometriques.md)    |
