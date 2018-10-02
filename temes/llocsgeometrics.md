@@ -361,7 +361,7 @@ Podem fer un procediment anàleg pels punts $B$ i $B^\prime$ i obtindrem:
 
 $$d(B B^\prime)=2b$$
 
-D'aquí es dedueix també que l'excentricitat d'una el.lipse és un nombre entre $0$ i $1$, ja que $c>a$:
+D'aquí es dedueix també que l'excentricitat d'una el.lipse és un nombre entre $0$ i $1$, ja que $c<a$:
 
 $$0<e=\frac{c}{a}<1$$
 

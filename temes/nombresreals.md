@@ -27,7 +27,7 @@ Representar nombres sobre la recta real és ben fàcil si són racionals. Si est
 
 ![*Representació de $\frac{3}{7}$ sobre la recta real*](img/fraccions_recta_real_1.png)
 
-Per representar radicals irracionals sobre la recta real, cal utilitzar el [teorema de Pitàgores](https://ca.wikipedia.org/wiki/Teorema_de_Pit%C3%A0gores). A la figura següent s'hi pot veure la representació gràfica de $\sqrt{2}$. 
+Per representar radicals irracionals sobre la recta real, cal utilitzar el [teorema de Pitàgores](https://ca.wikipedia.org/wiki/Teorema_de_Pit%C3%A0gores). A la figura següent s'hi pot veure la representació gràfica de $\sqrt{2}$.
 
 ![*Representació de $\sqrt{2}$ sobre la recta real*](img/arrel_de_dos_1.png)
 
@@ -105,6 +105,47 @@ $$x \in \lbrack 7, 13)$$
 
 Aquí no hem parlat de les inequacions de segon grau i una incògnita, per exemple: $ 2x^2-5x+3 > 4$. Per resoldre aquest tipus d'inequacions cal primer resoldre l'equació de segon grau. En [aquest enllaç](http://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_B_cat_inequacions-JS/index.htm) hi podeu trobar el procediment.
 
+###Valor absolut. Distància. Entorn
+
+De cursos anteriors sabem que el **valor absolut** d'un nombre consisteix en prescindir del seu signe, és a dir: $|-3|=|+3|=3$, i és per tant, positiu.
+
+El valor absolut però es defineix tècnicament com *la distància d'un nombre a l'origen de coordenades*. Per tant, $|x|$ és la distància de $x$ al $0$ de la recta real, i que $|-3|=|+3|=3$ vol dir que tant el $+3$ com el $-3$ es troben a $3$ unitats de distància de l'origen.
+
+Prenent això com a exemple, la **distància** $d$ entre dos nombres de la recta real $a$ i $b$ es defineix com:
+
+$$d_{a,b}=|b-a|=|a-b|$$
+
+i és per tant, sempre un nombre positiu.
+
+####Propietats
+
+La distància compleix també les propietats següents:
+
+1. >$d_{a,b} \ge 0 \forall a,b \in \mathbb{R}$
+2. >$d_{a,b} = 0 \Leftrightarrow a=b$
+3. >$d_{a,b}= d_{b,a}$
+4. >$d_{a,b} \le  d_{a,c}+ d_{c,b} \forall a, b, c  \in \mathbb{R}$
+
+De la mateixa manera podem definir un **entorn** $B$ d'un punt $a$ i radi $r$ com aquell segment de la recta real format pels punts que estan a una distància de $a$ menor que $r$:
+
+$$B(a;r)=\{x \in \mathbb{R} | d(x,a) < r\}$$
+
+o dit d'una altra manera:
+
+$$|x-a|<r$$
+
+__Exemple 4__
+
+Trobeu aquells punts que es troben a una distància de 3 menor que 5 unitats.
+
+Ens estan demanant que resolem la inequació següent:
+
+$$|x-3|<5$$
+
+Només cal trobar un entorn amb centre $3$ i sumar i restar 5 unitats a esquerra i dreta. La solució d'aquesta inequació és l'interval $(-2,8)$:
+
+![*Solució a la inequació $|x-3|<5$*](img/exemple4_1.png)
+
 ## Potències
 
 Una potència és una expressió del tipus $a^b$ on $a$ és la base i $b$ l'exponent, ambdós nombres reals. No cal afegir que $a^b$ significa multiplicar $a$ $b$ vegades per ell mateix. En [aquest enllaç](http://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_B_cat_radicals-JS/index.htm) hi podreu repassar el capítol de potències i radicals de 4t d'ESO.
@@ -113,7 +154,7 @@ Una potència és una expressió del tipus $a^b$ on $a$ és la base i $b$ l'expo
 
 1. >$a^0=1$
 2. >$a^1=a$
-3. >$a^{-n}=\frac{1}{a}$
+3. >$a^{-n}=\frac{1}{a^n}$
 4. >$a^m \cdot a^n= a^{m+n}$
 5. >$\frac{a^m}{a^n}= a^{m-n}$
 6. >$(a^m)^n=a^{n \cdot m}$
@@ -134,7 +175,7 @@ $a$ s'anomena __radicand__ i $n$ és l'__índex__ de l'arrel.
 
 Podem també entendre un radical com una potència d'exponent fraccionari:
 
-$$ \sqrt[n]{a^m}= a^{\frac{n}{m}}$$
+$$ \sqrt[n]{a^m}= a^{\frac{m}{n}}$$
 
 D'aquesta manera, $\sqrt{2}=2^{\frac{1}{2}}$.
 
@@ -154,7 +195,7 @@ Com ja hem explicat, els radicals són potències d'exponent fraccionari. Per ta
 
 Per introduir nombres dins d'un radical, s'ha d'elevar el nombre a una potència igual a l'índex de l'arrel.
 
-__Exemple 4__
+__Exemple 5__
 
 Introdueix tots els factors dins de l'arrel:
 
@@ -163,7 +204,7 @@ $$3^5 \cdot 2^8 \cdot 7^3 \cdot \sqrt[3]{2^5 \cdot 7}= \sqrt[3]{(3^5)^3 \cdot (2
 
 Per extreure factors d'un radical, primer cal mirar si l'exponent del radicand és més gran que l'índex. Si és així, es podrà treure a fora el factor dividint l'exponent per l'índex del radical. A fora de l'arrel hi quedarà el nombre elevat al quocient de la divisió anterior, i a dins, el nombre elevat al residu de la divisió. Si no tenim el radicand expressat com a producte de factors de nombres primers, caldrà fer abans aquesta operació. Fixeu-vos en l'exemple següent.
 
-__Exemple 5__
+__Exemple 6__
 
 Treu tots els factors que puguis del radical:
 
@@ -175,7 +216,7 @@ Diem que dos radicals són __semblants__ si tenen el mateix índex i el mateix r
 
 Només es poden sumar o restar radicals si són semblants.
 
-__Exemple 6__
+__Exemple 7__
 
 $$2\sqrt[5]{21}+4 \sqrt[5]{21}=6 \sqrt[5]{21}$$
 
@@ -183,7 +224,7 @@ $$2\sqrt[5]{21}+4 \sqrt[5]{21}=6 \sqrt[5]{21}$$
 
 Per multiplicar o dividir radicals han de tenir el __mateix índex__. Si tenen diferent índex els hem de reduir a __índex comú__ tal i com fem amb les fraccions. Llavors es multipliquen o divideixen els radicands.
 
-__Exemple 7__
+__Exemple 8__
 
 $$\sqrt[3]{5}\cdot \sqrt{8}=\sqrt[6]{5^2}\cdot\sqrt[6]{8^3}=\sqrt[6]{5^2\cdot 8^3}$$
 
@@ -191,7 +232,7 @@ $$\sqrt[3]{5}\cdot \sqrt{8}=\sqrt[6]{5^2}\cdot\sqrt[6]{8^3}=\sqrt[6]{5^2\cdot 8^
 
 Per treure l'arrel d'una arrel, es multipliquen els índexs.
 
-__Exemple 8__
+__Exemple 9__
 
 $$\sqrt[7]{\sqrt[3]{4}}=\sqrt[21]{4}$$
 
@@ -199,11 +240,11 @@ $$\sqrt[7]{\sqrt[3]{4}}=\sqrt[21]{4}$$
 
 En general no es considera elegant donar com a resultat un radical en un denominador. És per això que sempre que tinguem radicals en el denominador d'una fracció s'han d'intentar buscar fraccions equivalents. Mireu els exemples següents.
 
-__Exemple 9__
+__Exemple 10__
 
 $$\frac{2}{\sqrt[3]{5}}=\frac{2 \cdot \sqrt[3]{5^2}}{\sqrt[3]{5}\cdot \sqrt[3]{5^2}}=\frac{2 \cdot \sqrt[3]{5^2}}{\sqrt[3]{5^3}}=\frac{2\cdot\sqrt[3]{5^2}}{5}$$
 
-__Exemple 10__
+__Exemple 11__
 
 Si en el denominador hi tenim una suma o una resta que contingui radicals, multiplicarem la fracció a dalt i a baix pel conjugat (si és suma, multiplicarem per la mateixa expressió restada i viceversa).
 
@@ -212,7 +253,7 @@ $$\frac{5}{1+\sqrt{3}}=\frac{5}{1+\sqrt{3}}\cdot \frac{1-\sqrt{3}}{1-\sqrt{3}}=\
 
 ## Logaritmes
 
-El $log_a b$, això és, logaritme en base $a$ de $b$, és aquella potència a la qual hem d'elevar $a$ per obtenir $b$ de resultat.
+El $log_a b$, això és, logaritme en base $a$ de $b$, és aquell exponent al qual hem d'elevar $a$ per obtenir $b$ de resultat.
 
 Per exemple, $log_2 8$ és $3$, perquè $2^3=8$. De la mateixa manera, $log_{10} 1000 = 3$ perquè $10^3=1000$. Però quan és $log_2 36$? Quin nombre cal elevar el $2$ per obtenir $36$ de resultat?
 
@@ -343,8 +384,17 @@ Aïllant $log_a x$ obtenim:
 
 $$log_a x = \frac{log_b x}{log_b a}$$
 
+De les propietats anteriors també se'n dedueixen les següents:
 
-__Exemple 11__
+\begin{align}
+log_a(a) &= 1\\
+log_a(1) &=0\\
+log_a\big(\frac{1}{a}\big) &=-1\\
+log_a(0) &=\nexists\\
+\end{align}
+
+
+__Exemple 12__
 
 Per calcular el $log_5{10}$ a la calculadora, haurem de fer doncs:
 

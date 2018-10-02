@@ -4,7 +4,7 @@
 
 Segur que tots coneixeu la [successió de Fibonacci](https://ca.wikipedia.org/wiki/Successi%C3%B3_de_Fibonacci), que comença amb dos uns i cada terme s'obté sumant els dos anteriors:
 
-$$1,1,3,5,8,13,21,34,55,...$$
+$$1,1,2,3,5,8,13,21,34,55,...$$
 
 En aquest tema estudiarem en profunditat el món de les successions o també conegudes com a progressions. Segur que algunes coses ja us sonaran de l'eso, però hi afegirem coses noves com és ara el concepte de *límit* que apareixerà també al llarg dels temes següents.
 
@@ -397,14 +397,14 @@ $$\lim_{n\to\infty}\frac{3n^3+4n^2-8n+7}{2n^3-8n^2+n-8}=\lim_{n\to\infty}\frac{3
 D'aquí es poden deduir 3 coses quan calculem $\lim_{n\to\infty}\frac{P(n)}{Q(n)}$:
 
 1. Si grau $P(n)=$grau $Q(n)$, el límit del quocient és el quocient de coeficients dels termes de major grau de $P(n)$ i $Q(n)$, com a l'exemple anterior.
-2. Si grau $P(n)>$grau $Q(n)$, el límit del quocient és $\pm \infty$ depenent del signe del coeficient de més grau del numerador.
+2. Si grau $P(n)>$grau $Q(n)$, el límit del quocient és $\pm \infty$ depenent del signe del coeficient de més grau del numerador i del signe del coeficent de més grau del denominador.
 3. Si grau $P(n)<$grau $Q(n)$, el límit del quocient és 0.
 
 *Nota: A partir d'ara prescidirem del símbol $n\to\infty$ en el càlcul dels límits*
 
 ###Límit d'una potència
 
->$$lim(a_n)^b_n=\big(lim \qquad a_n \big)^{lim \qquad b_n}$$
+>$$lim(a_n)^{b_n}=\big(lim \qquad a_n \big)^{lim \qquad b_n}$$
 
 **Exemple 9**
 

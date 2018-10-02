@@ -14,7 +14,7 @@ En el triangle rectangle que veiem, les raons trigonomètriques de  l'angle $\al
 
 | Raó        | magnitud           |
 | ------------- |-------------|
-| $sin \alpha$      | $\frac{a}{b}$      | 
+| $sin \alpha$      | $\frac{a}{b}$      |
 | $cos \alpha$ | $\frac{c}{d}$      |
 | $tg \alpha$ | $\frac{a}{c}$      |
 
@@ -22,7 +22,7 @@ A partir d'aquestes 3 raons trigonomètriques se'n poden definir unes altres 3, 
 
 | Raó        | Definició           |
 | ------------- |-------------|
-| $sec \alpha$      | $\frac{1}{cos \alpha}$      | 
+| $sec \alpha$      | $\frac{1}{cos \alpha}$      |
 | $cosec \alpha$ | $\frac{1}{ sin \alpha}$      |
 | $cot \alpha$ | $\frac{1}{tg \alpha}= \frac{cos \alpha}{ sin \alpha}$      |
 
@@ -35,8 +35,8 @@ Aquests 4 angles surten molt sovint en diferents càlculs i és per això que é
 | Raó        | $30^o$           |$45^o$           |$60^o$           |$90^o$           |$180^o$           |
 | ------------- |-------------|-------------|-------------|-------------|-------------|
 | $sin$        |         $\frac{1}{2}$   |     $\frac{\sqrt{2}}{2}$        |         $\frac{\sqrt{3}}{2}$    | $1$        | $0$          |
-| $cos$        |   $\frac{\sqrt{3}}{2}$        |     $\frac{\sqrt{2}}{2}$      |       $\frac{1}{2}$      |        $0$   |        $1$   |
-| $tg$        |   $\frac{\sqrt{3}}{3}$         |      $1$     |      $\sqrt{3}$       |      $\nexists$ |        $1$   |
+| $cos$        |   $\frac{\sqrt{3}}{2}$        |     $\frac{\sqrt{2}}{2}$      |       $\frac{1}{2}$      |        $0$   |        $-1$   |
+| $tg$        |   $\frac{\sqrt{3}}{3}$         |      $1$     |      $\sqrt{3}$       |      $\nexists$ |        $0$   |
 
 Hi ha una regla mnemotècnica per recordar les raons de 30, 45 i 60 graus. Si ens fixem en la part de la taula que conté aquests valors, només cal per la fila del sinus escriure $1$, $2$ $3$ en aquest ordre. Llavors prenem l'arrel d'aquests valors (i recordem que $\sqrt{1}=1$). Finalment dividim el resultat per $2$ i ja tenim els sinus. Pel que fa els cosinus, escrivim $3$, $2$, $1$per 30, 45 i 60 graus respectivament. Després repetim l'operació anterior. Ja tenim els cosinus. Per les tangents, és la divisió del sinus entre el cosinus.
 ##La circumferència unitat
@@ -84,11 +84,11 @@ Qualsevol angle sobre la circumferència unitat es pot relacionar amb un angle d
 
     Un angle del segon quadrant sempre es pot expressar com  $180^o -\alpha$ on $\alpha$ és un angle del 1r quadrant. Per tant:        
 
-    
+
     $$sin(180^o -\alpha)=sin \alpha$$      
-   
+
     $$cos(180^o -\alpha)=-cos \alpha$$
-    
+
     ![*Angle segon quadrant*](img/raons_trigonometriques_segon_quad_2.png)
 
     __Exemple 1__
@@ -98,21 +98,21 @@ Qualsevol angle sobre la circumferència unitat es pot relacionar amb un angle d
     Sabem que: $150^o=180^o-30^o$ per tant:
 
     $$sin(150^o)=sin (30^o)=\frac{1}{2}$$      
-   
+
     $$cos(150^o)=-cos (30^o)=-\frac{\sqrt{3}}{2}$$
 
 2. __Tercer quadrant__
 
-    Un angle del segon tercer sempre es pot expressar com $180^o +\alpha$ on $\alpha$ és un angle del 1r quadrant. Per tant: 
-    
+    Un angle del segon tercer sempre es pot expressar com $180^o +\alpha$ on $\alpha$ és un angle del 1r quadrant. Per tant:
+
     $$sin(180^o +\alpha)=-sin \alpha$$
     $$cos(180^o +\alpha)=-cos \alpha$$
 
     ![*Angle tercer quadrant*](img/raons_trigonometriques_tercer_quad_2.png)
 
 3. __Quart quadrant__
-    
-    Un angle del quart quadrant sempre es pot expressar com $360^o-\alpha$ on $\alpha$ és un angle del 1r quadrant. Per tant: 
+
+    Un angle del quart quadrant sempre es pot expressar com $360^o-\alpha$ on $\alpha$ és un angle del 1r quadrant. Per tant:
 
     $$sin(360^o-\alpha)=-sin \alpha$$
     $$cos(360^o-\alpha)=cos \alpha$$
@@ -261,7 +261,7 @@ Apliquem el Teorema de Pitàgores al triangle rectangle de la dreta:
 
 $$a^2=e^2+f^2 \Rightarrow e^2=a^2-f^2$$
 
-L'apliquem també al triangle rectangle de la dreta:
+L'apliquem també al triangle rectangle de l'esquerra:
 
 $$c^2=e^2+(b-f)^2\Rightarrow c^2=e^2+b^2+f^2-2bf$$
 
@@ -308,16 +308,3 @@ Per tant, ja tenim el teorema del sinus:
 
 
 >"Els quocients entre qualsevol costat d'un triangle i el sinus del seu angle oposat són iguals".
-
-
-
-
-
-
-
-
-
-
-
-
-

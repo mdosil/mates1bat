@@ -51,7 +51,7 @@ Anem a definir més rigorosament el límit d'una funció en un punt:
 
 Quan parlem del límit d'una funció en un punt, també podem considerar-ne els límits laterals, què passa amb la funció quan ens acostem al punt per l'esquerra i què passa amb la funció quan ens acostem al punt per la dreta.
 
-Per estudiar això fixem-nos amb la funció part entera: $y=f(x)=E(x)$, que representem a continuació.
+Per estudiar això fixem-nos amb la funció part entera: $y=f(x)=E(x)$, que representem a continuació. Aquesta funció assigna a cada nombre real $x$ el nombre enter $k$ que compleix: $k\le x$.
 
 <iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/nEMUtsN9/width/520/height/751/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="520px" height="751px" style="border:0px;"> </iframe>
 
@@ -159,7 +159,7 @@ Intuïtivament una funció és contínua en un punt $a$ quan per dibuixar la gr�
 
 >1. $\exists f(a)\rightarrow a \in D_f$
 >2. $\exists \lim_{x\to a}f(x)$ i és un nombre
->3. $\lim_{x\to \pm a}f(x)=f(a)$
+>3. $\lim_{x\to a \pm }f(x)=f(a)$
 
 A partir d'aquí també podem afirmar:
 

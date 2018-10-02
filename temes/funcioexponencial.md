@@ -152,7 +152,7 @@ Veiem que són simètriques respecte la bisectriu del 1r i el 3r quadrants, la r
 7. $log_a \Big(\frac{x}{y} \Big)= log_a x- log_a y$
 8. $log_a x^n= n log_a x$
 9. $log_a \sqrt[p]{x}=\frac{1}{p} log_a x$
-10. $log_a x=\frac{log_b x}{log_a x}$ (canvi de base)
+10. $log_a x=\frac{log_b x}{log_b a}$ (canvi de base)
 
 
 
@@ -170,6 +170,6 @@ Veiem que són simètriques respecte la bisectriu del 1r i el 3r quadrants, la r
   $$
 5. La funció logarítmica té en l'eix de les $y$ una assímptota vertical
 6. La funció logarítmica no té màxims ni mínims
-7. Si $a>1$ la funció és còncava
-8. Si $0<a<1$ la funció és convexa
+7. Si $a>1$ la funció és convexa
+8. Si $0<a<1$ la funció és còncava
 9. La funció logarítmica no té ni màxims ni mínims

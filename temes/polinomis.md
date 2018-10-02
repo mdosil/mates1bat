@@ -24,7 +24,7 @@ __Exemple 1__
 Donats els polinomis: $P(x)=4x^5+2x+1$ i $Q(x)=2x^5+6x^2+3x$ calcula:
 
 1. $P(x)+Q(x)$
-2. $P(x)+Q(x)$
+2. $P(x)-Q(x)$
 3. $P(x)\cdot Q(x)$
 4. $P(3)$
 4. $P(x) \div (2x-1)$
@@ -41,12 +41,12 @@ $P(x)-Q(x)=4x^5+2x+1-(2x^5+6x^2+3x)=2x^5-6x^2-x+1$
     &=8x^{10}+24x^7+12x^6+4x^6+12x^3+6x^2+2x^5+6x^2+3x\\
     &=8x^{10}+24x^7+16x^6+2x^5+12x^3+12x^2+3x
 \end{align}
-    
+
 $P(3)=4 \cdot 3^5+2 \cdot 3+1=979$
 
 
 $P(x) \div (2x-1)$
-    
+
 ![*Divisió polinomis*](img/divisio_polinomis_4.png)
 
 $P(x) \div (x-2)$
@@ -138,7 +138,7 @@ El residu és per tant, $-5$.
 
 ##Arrels d'un polinomi
 
-Diem que $a$ és __arrel__ de $P(x)$ si el residu de dividir $P(x)$ per $(x-a)$ és $0$. De fet, això és el mateix que dir que $P(x)$ és __divisible__ per $(x-a)$. 
+Diem que $a$ és __arrel__ de $P(x)$ si el residu de dividir $P(x)$ per $(x-a)$ és $0$. De fet, això és el mateix que dir que $P(x)$ és __divisible__ per $(x-a)$.
 
 D'altra banda, dir que $a$ és arrel d'un polinomi és equivalent que dir que $a$ és solució de l'equació $P(x)=0$. Anem-ho a veure. Com que el residu és zero, si apliquem la prova de la divisió obtenim:
 
@@ -160,7 +160,7 @@ Així doncs, resumint, tenim que les afirmacions següents són equivalents:
 
 Es pot demostrar també que:
 
->Si $a$ és arrel entera de $P(x) \Rightarrow$ $a$ és __divisor del terme independent__ del polinomi. 
+>Si $a$ és arrel entera de $P(x) \Rightarrow$ $a$ és __divisor del terme independent__ del polinomi.
 
 __Demostració__
 
@@ -183,12 +183,12 @@ Tal i com hem vist, calcular les arrels d'un polinomi $P(x)$ és equivalent a re
 
 ####El grau de $P(x) < 3$
 
-En aquest cas, solucionarem l'equació de primer grau o de segon grau que se'n deriva. Les arrels del polinomi són les solucions de l'equació de segon grau. 
+En aquest cas, solucionarem l'equació de primer grau o de segon grau que se'n deriva. Les arrels del polinomi són les solucions de l'equació de segon grau.
 
 
 ####El grau de $P(x)>3$
 
-Llavors haurem d'aplicar altres tècniques per trobar les arrels. Tal i com hem vist, aquestes arrels seran divisors del terme independent (el contrari no és cert, els divisors del terme independent d'un polinomi no sempre són arrels). 
+Llavors haurem d'aplicar altres tècniques per trobar les arrels. Tal i com hem vist, aquestes arrels seran divisors del terme independent (el contrari no és cert, els divisors del terme independent d'un polinomi no sempre són arrels).
 
 Una manera de fer-ho seria trobar totes les arrels del polinomi i llavors provar si el valor numèric del polinomi per cadascuna d'elles és zero. A la pràctica aquest mètode és una mica feixuc i el que fem és, un cop tenim els divisors del terme independent, dividim $P(x)$ per cadascun d'ells amb Ruffini, i si el residu ens dóna zero, això voldrà dir que són arrels del polinomi. En aquest procés, quan arribem a un polinomi de grau 2, llavors resulta més ràpid resoldre l'equació de segon grau que se'n deriva.
 
@@ -224,7 +224,7 @@ Per tant,$P(x)$ té 3 arrels enteres: $1$, $2$ i $3$, i això vol dir que és di
 Factoritzar un polinomi consisteix en descomposar-lo com a producte de polinomis de grau menor. Per fer-ho, seguirem els passos següents:
 
 1. __Treure factor comú__
-    
+
     Mirarem primer si podem extreure algun factor numèric o de variable a davant del polinomi. Per exemple, donat el polinomi $P(x)=4x^4-2x^3+6x$, el podem començar a factoritzar com: $P(x)=2x(2x^3-x^2+3)$.
 
 2. __Identitats notables__
@@ -243,7 +243,7 @@ Comprovem que podem treure factor comú:
 
 $$P(x)=x^7-x^6-4x^4=x^4(x^3-x^2-4)$$.
 
-Anem a factoritzar ara el segon factor: $x^3-x^2-4$. Veiem que no correspon a cap identitat notable. El pas següent és mirar els divisors del terme independent i provar quins són arrels del polinomi. 
+Anem a factoritzar ara el segon factor: $x^3-x^2-4$. Veiem que no correspon a cap identitat notable. El pas següent és mirar els divisors del terme independent i provar quins són arrels del polinomi.
 
 Divisors del terme independent: $\pm 1$, $\pm 2$, $\pm 4$. Provem cada cas, o bé per Ruffini comprovant que el residu de fer la divisió de $x^3-x^2-4$ per $(x-a)$ és zero o bé aplicant el Teorema del Residu i calculant el valor numèric del polinomi quan $x=a$. Si ho fem, veiem que només quan $a=2$ el residu esdevé zero:
 

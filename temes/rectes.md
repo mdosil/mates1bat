@@ -13,7 +13,9 @@ Podem expressar qualsevol punt d'una recta donat un punt qualsevol d'aquesta i l
 
 on $\lambda$ és un nombre real. Anomenem aquesta expressió l'**equació vectorial de la recta**, i el vector $\vec{v}=(v_1,v_2)$ és el seu **vector director**.
 
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2403711/width/1600/height/951/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
+
+
+<iframe scrolling="no" title="Recta Equació Vectorial" src="https://www.geogebra.org/material/iframe/id/pBkqB7h6/width/600/height/500/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="600px" height="500px" style="border:0px;"> </iframe>
 
 ### Equacions paramètriques
 
@@ -71,7 +73,9 @@ Anem a veure ara què representa el pendent $m$:
 $$m=-\frac{A}{B}=\frac{v_2}{v_1}$$
 
 El pendent és el quocient entre les components $y$ i $x$ del vector director de la recta, i si mirem el gràfic següent:
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2413717/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
+
+<iframe scrolling="no" title="Recta Equació Explícita i pendent" src="https://www.geogebra.org/material/iframe/id/WZZHw3bZ/width/600/height/500/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="600px" height="500px" style="border:0px;"> </iframe>
+
 
 Veiem que **el pendent $m$ és la tangent de l'angle que forma el vector director de la recta amb l'eix $OX$**. Això vol dir que per rectes paral.leles a l'eix $OX$ el seu pendent serà $tg (0^o)=0$ i per rectes paral.leles a l'eix $OY$ el seu pendent serà màxim: $tg ( 90^0)=\infty$.
 
@@ -118,7 +122,10 @@ La $C$ la trobarem subtituint a l'equació el punt donat:
 $$P(3,4)\Rightarrow 5\cdot 4+3\cdot 3+C=0 \Rightarrow C=-29$$
 
 Per tant, l'equació de la recta és: $5x+3y-29=0$
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2450005/width/1938/height/951/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="300px" style="border:0px;"> </iframe>
+
+<iframe scrolling="no" title="Recta paral.lela a una altra que passa per un punt" src="https://www.geogebra.org/material/iframe/id/UD2erWMP/width/600/height/500/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="600px" height="500px" style="border:0px;"> </iframe>
+
+
 
 
 ### Rectes perpendiculars
@@ -153,7 +160,10 @@ $$3x-2y+1=0$$
 ####Projecció ortogonal d'un punt sobre una recta
 
 Donats un punt $P$ que no pertant a una recta i una recta $r$ qualsevol, sempre podem trobar la *projecció ortogonal* d'aquest punt sobre la recta. Ho entendrem millor amb un dibuix:
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2464393/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="300px" style="border:0px;"> </iframe>
+
+<iframe scrolling="no" title="Projecció ortogonal d'un punt sobre una recta" src="https://www.geogebra.org/material/iframe/id/n9yNGwkW/width/600/height/500/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="600px" height="500px" style="border:0px;"> </iframe>
+
+
 
 **$P_0$ és la projecció ortogonal de $P$ sobre la recta $r$**. També això ens dóna un punt **$P^\prime$ que és el punt simètric de $P$ sobre la recta $r$**. $P$ i $P^\prime$ estan a la mateixa distància de la recta $r$.
 
@@ -216,7 +226,10 @@ Per tant el punt simètric de $P$ respecte la recta $r$ és $P^\prime=\Big(\frac
 ## Angle entre dues rectes
 
 Donades dues rectes $r$ i $s$, si són secants podem definir l'angle entre elles dues com l'angle $\alpha \le 90^o$:
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2469765/width/1938/height/951/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="300px" style="border:0px;"> </iframe>
+
+<iframe scrolling="no" title="Angle entre dues rectes en el pla" src="https://www.geogebra.org/material/iframe/id/Wyu7Byfy/width/600/height/500/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="600px" height="500px" style="border:0px;"> </iframe>
+
+
 
 o sigui, dels dos angles que es formen, el més petit. Si ens hi fixem, es compleix que: $\alpha=180-\beta$. Com que $cos(\alpha)=-cos(180-\alpha)$, per trobar l'angle apliquem la fórmula del producte escalar entre dos vectors i demanem que el cosinus sigui positiu:
 
@@ -236,7 +249,8 @@ La distància entre dos punts es defineix com el mòdul del vector entre aquests
 Es defineix la distància d'un punt $P$ a una recta $r:Ax+By+C=0$ com la longitud del segment perpendicular que uneix el punt amb la recta.
 Per calcular-la n'hi hauria prou amb trobar la projecció ortogonal del punt sobre la recta, diem-li $P^\prime$, i fer el mòdul del vector entre els 2 punts, o sigui $|\vec{PP^{\prime}}|$. Això potser resultaria una mica llarg i existeix una fòrmula més compacta per trobar-ho. Anem-la a deduir. Fixem-nos amb el dibuix de sota:
 
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2496881/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="300px" style="border:0px;"> </iframe>
+<iframe scrolling="no" title="Distància entre un punt i una recta" src="https://www.geogebra.org/material/iframe/id/GSFVBDY7/width/600/height/500/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="600px" height="500px" style="border:0px;"> </iframe>
+
 
 A part dels punt $P(x_0,y_0)$ i la seva projecció ortogonal sobre $r$, $P'$, considerem també un punt $Q(x_1,y_1)$ pertanyent a la recta. El triangle $QP^\prime P$ és rectangle en $P^\prime$. Sabent això tenim que:
 
@@ -274,9 +288,10 @@ Així doncs, la distància d'un punt $P(x_0,y_0)$ a una recta $r:Ax+By+C=0$ ve d
 
 ### Distància entre dues rectes
 
-Si les dues rectes es tallen, la seva distància serà $0$. En cas de tenir dues rectes paral.leles (ho sabrem si els seus vectors directors són proporcionals, o sigui, linealment dependents), calcularem la seva distància a partir de la fòrmula anterior. Només ens caldrà saber l'equació d'una de les rectes i un punt que pertanyi a una de les dues rectes:
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2499067/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="300px" style="border:0px;"> </iframe>
+Si les dues rectes es tallen, la seva distància serà $0$. En cas de tenir dues rectes paral.leles (ho sabrem si els seus vectors directors són proporcionals, o sigui, linealment dependents), calcularem la seva distància a partir de la fòrmula anterior. Només ens caldrà saber l'equació d'una de les rectes i un punt que pertanyi a una de les dues rectes.
 
 Segons el gràfic:
 
 $$d(r,s)=d(P,r)=d(Q,s)$$
+
+<iframe scrolling="no" title="Distància entre dues rectes paral.leles" src="https://www.geogebra.org/material/iframe/id/eVkATtDX/width/600/height/500/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="600px" height="500px" style="border:0px;"> </iframe>

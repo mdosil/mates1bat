@@ -8,7 +8,7 @@
 La funció sinus és aquella funció que a cada nombre real se li associa el valor del sinus de l'angle en **radiants**:
 
 \begin{align}
-sin:& \mathbb{R} \rightarrow \mathbb{R} \\
+sin:& \mathbb{R} \rightarrow [-1,1] \\
 &x \rightarrow y=sin (x)\\
 &0 \rightarrow sin(0)=0\\
 &\frac{\pi}{2} \rightarrow sin(\frac{\pi}{2})=1\\
@@ -85,7 +85,7 @@ En el tercer cas, el fet de multiplicar la funció $sin(x)$ per $2$ provoca un a
 La funció cosinus és aquella funció que a cada nombre real se li associa el valor del cosinus de l'angle en **radiants**:
 
 \begin{align}
-cos:& \mathbb{R} \rightarrow \mathbb{R} \\
+cos:& \mathbb{R} \rightarrow [-1,1] \\
 &x \rightarrow y=cos (x)\\
 &0 \rightarrow cos(0)=1\\
 &\frac{\pi}{2} \rightarrow cos(\frac{\pi}{2})=0\\
@@ -107,7 +107,7 @@ R_f&=[-1,1]
 
 <iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/N83bumcF/width/830/height/700/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="830px" height="700px" style="border:0px;"> </iframe>
 
-Si mireu el gràfic es pot veure que la funció sinus i la cosinus són molt iguals. De fet, la funció cosinus és igual que la funció sinus (en verd clar) però desplaçada $\frac{pi}{2}$ unitats cap a la dreta.
+Si mireu el gràfic es pot veure que la funció sinus i la cosinus són molt iguals. De fet, la funció cosinus és igual que la funció sinus (en verd clar) però desplaçada $\frac{\pi}{2}$ unitats cap a la dreta.
 
 D'aquí també podem deduir que:
 
@@ -124,7 +124,7 @@ D'aquí també podem deduir que:
 4. És contínua en $\mathbb{R}$
 5. És creixent en els intervals $(\pi+2k\pi,2\pi+2k\pi)$, $k \in \mathbb{Z}$
 6. És decreixent en els intervals $(0+2k\pi,\pi+2k\pi)$, $k \in \mathbb{Z}$
-7. Els punts de tall amb l'eix $x$ són $x=\frac{\pi}{2}+2k\pi, $k \in \mathbb{Z}$
+7. Els punts de tall amb l'eix $x$ són $x=\frac{\pi}{2}+k\pi$, $k \in \mathbb{Z}$
 8. És còncava de $(\frac{\pi}{2}+2k\pi,\frac{3\pi}{2}+2k\pi)$, $k \in \mathbb{Z}$
 9. És convexa de $(\frac{-\pi}{2}+2k\pi,\frac{\pi}{2}+2k\pi)$, $k \in \mathbb{Z}$
 10. Els punts d'inflexió coincideixen amb els punts de tall amb l'eix $x$
@@ -173,7 +173,7 @@ Veiem que la funció tangent també és periòdica però en els punts que no só
 3. És una funció periòdica amb període $T=\pi$: $tan(x)=tan(x+k\pi) \mbox{ on } k \in \mathbb{Z}$
 4. Té discontinuïtats assimptòtiques en els punts $x=\frac{(2k+1)\pi}{2}$, $k \in \mathbb{Z}$
 5. És creixent en tot el seu domini
-6. Els punts de tall amb l'eix $x$ són $x=k\pi, $k \in \mathbb{Z}$
+6. Els punts de tall amb l'eix $x$ són $x=k\pi$, $k \in \mathbb{Z}$
 8. És còncava de $(0+k\pi,\frac{\pi}{2}+k\pi)$, $k \in \mathbb{Z}$
 9. És convexa de $(\frac{\pi}{2}+k\pi,\pi+k\pi)$, $k \in \mathbb{Z}$
 10. Els punts d'inflexió coincideixen amb els punts de tall amb l'eix $x$

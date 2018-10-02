@@ -6,7 +6,10 @@
 
 Un vector és un segment en el pla que determina una *direcció*, una *mòdul* o *magnitud* i un *sentit*. La direcció ve determinada per la recta sobre la qual es troba el vector, la magnitud és la llargada d'aquest vector i el sentit és, per entendre'ns, la punta de la fletxa del vector.
 
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2240083/width/1600/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="350px" style="border:0px;"> </iframe>
+<iframe scrolling="no" title="Vector en el pla" src="https://www.geogebra.org/material/iframe/id/Su5PkSCR/width/600/height/500/border/888888/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="600px" height="500px" style="border:0px;"> </iframe>
+
+
+
 
 ###Components cartesianes d'un vector
 
@@ -240,7 +243,7 @@ Per tant, les coordenades del punt mig d'un segment seran: $M(\frac{a_1+b_1}{2},
 
 ###Comprovació si 3 punts estan alineats
 
-Donats 3 punts qualsevol $A(a_1,a_2)$, $B(b_1,b_2)$ i $C(c_1,c_2)$ seran alineals si els vectors $|vec{AB}$ i $\vec{AC}$ són linealment dependents, o el que és el mateix, estan sobre la mateixa recta. Per tant, hem de trobar un nombre real $k$ que compleixi: $\vec{AB}=k \cdot {AC}$.
+Donats 3 punts qualsevol $A(a_1,a_2)$, $B(b_1,b_2)$ i $C(c_1,c_2)$ seran alineals si els vectors $\vec{AB}$ i $\vec{AC}$ són linealment dependents, o el que és el mateix, estan sobre la mateixa recta. Per tant, hem de trobar un nombre real $k$ que compleixi: $\vec{AB}=k \cdot {AC}$.
 
 **Exemple 4**
 

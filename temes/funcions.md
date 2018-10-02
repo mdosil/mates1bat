@@ -11,7 +11,7 @@ f:& A \rightarrow B \\
 
 $A$ és el conjunt inicial o de partida i i $B$ és el conjunt final o d'arribada. $a$ és l'element original o antiimatge, i $b$ és l'element final o imatge.
 
-No tots els elements del conjunt final són imatges. Només o són els que tenen associat algun element del conjunt inicial.
+__No tots els elements del conjunt final són imatges__. Només oh són els que tenen associat algun element del conjunt inicial.
 
 **Exemple 1**
 
@@ -57,11 +57,15 @@ f(b)=\frac{b+5}{2}\\
 \rightarrow f(a)=f(b)\rightarrow \frac{a+5}{2}=\frac{b+5}{2} \rightarrow a+5=b+5 \rightarrow a=b
 $$
 
+Donada una funció, això es pot fer gràficament de manera molt senzilla: tracem una recta horitzontal a la gràfica i si talla en més d'un punt, la funció __no és injectiva__ (perquè existeix més d'una $x$ per una mateixa $y$).
+
 ####Aplicació exhaustiva
 
 Una aplicació és exhaustiva quan tot element del conjunt final té **com a mínim** una antiimatge.
 
 > f és exhaustiva $\Longleftrightarrow \forall y \in B \quad \exists \quad x \in A \quad | f(x)=y$
+
+Dit d'una altra manera, __el conjunt de les antiimatges coincideix amb tot el conjunt final__.
 
 **Exemple 3**
 
@@ -87,7 +91,7 @@ Una funció real de variable real és una aplicació entre un subconjunt $A$ de 
 
 \begin{align}
 f:& A \rightarrow \mathbb{R} \\
-f:& {\mathbb{R}_0}^+ \rightarrow \mathbb{R} \\
+f:& {\mathbb{R}_0}^+ \rightarrow  {\mathbb{R}_0}^+\\
 & x \rightarrow y=f(x)=+\sqrt{x}
 &1 \rightarrow 1\\
 &\frac{2}{3} \rightarrow \sqrt{\frac{2}{3}}\\
@@ -227,7 +231,7 @@ D_{f\cdot g}&=A \cap B
 En l'exemple anterior:
 
 \begin{align}
-y&=(f\cdot g)(x)=\frac{x^2-1}{x}\cdot \frac{x+1}{x-1}=\frac{(x^2-1)(x+1)}{x(x-1)}=...=\frac{x^2+2x+1}{x}\\
+y&=(f\cdot g)(x)=\frac{x^2-1}{x}\cdot \frac{x+1}{x-1}=\frac{(x-1)(x+1)^2}{x(x-1)}\\
 D_{f\cdot g}&=\mathbb{R}-\{0,1\}
 \end{align}
 
@@ -243,11 +247,13 @@ D_{f/g}&=A \cap B - \{ x \mbox{ pels quals g(x)=0}\}
 En l'exemple anterior:
 
 \begin{align}
-y&=\Big(\frac{f}{g}\Big)(x)=\frac{x^2-1}{x}\div \frac{x+1}{x-1}=\frac{(x^2-1)(x-1)}{x(x+1)}=...=\frac{(x-1)^2}{x}=\frac{x^2-2x+1}{x}\\
+y&=\Big(\frac{f}{g}\Big)(x)=\frac{x^2-1}{x}\div \frac{x+1}{x-1}=\frac{(x-1)^2(x+1)}{x(x+1)}\\
 D_{f/g}&=\mathbb{R}-\{0,1, -1\}
 \end{align}
 
+__Nota__
 
+Quan el resultat de fer un producte o quocient de funcions obtenim una fracció algebraica, __no es poden simplificar factors__, ja en en fer-ho obtindríem una funció resultant on el domini seria menys restrictiu que el de les funcions originals. A part, quan fem això estem eliminant de la funció resultant els casos $\frac{ 0 }{ 0 }$ que són indeterminats.
 
 
 
@@ -314,10 +320,13 @@ Donades les funcions $f(x)=x^2$ i $g(x)=\sqrt{x+1}$ calcula si és possible $(g 
     Primer hem de comprovar que el recorregut de $g$ està dins el domini de $f$. De l'apartat anterior veiem que sí. Per tant, com que $R_g \subseteq D_f$, podem calcular la seva composició.
 
     \begin{align}
-    y&=(f \circ g)(x)=f(g(x))=f(\sqrt{x+1})=(\sqrt{x+1})^2=x+1\\
+    y&=(f \circ g)(x)=f(g(x))=f(\sqrt{x+1})=(\sqrt{x+1})^2\\
     D_{f \circ g}&=D_g=[-1, + \infty]
     \end{align}
 
+__Nota__
+
+Com en el cas d'operacions amb funcions, a la composició tampoc podem simplificar (com hem vist en l'exemple anterior). El domini de la funció composta és el domini de la primera funció (i si simplifiquéssim hi hauria el perill d'augmentar aquest domini).
 
 ##Funció inversa
 
@@ -341,7 +350,7 @@ Es pot demostrar que **una funció $f$ té inversa únicament quan és bijectiva
 
 Calcula la funció inversa de la funció $f(x)=x^3+2$.
 
-La manera més fàcil de veure si una funció és bijectiva és fer-ho gràficament: si per qualsevol línia horitzontal que tracem sobre la gràfica aquesta talla la funció només en un punt, la funció és bijectiva. En cas contrari no ho és.
+La manera més fàcil de veure si una funció és bijectiva és fer-ho gràficament: si per qualsevol línia horitzontal que tracem sobre la gràfica aquesta talla la funció només en un punt, la funció és injectiva. Si el recorregut són tots els reals, la funció és exhaustiva. I si es donen aquests dos supòsits, la funció és bijectiva.
 
 <iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/XfbujWBj/width/736/height/533/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="736px" height="533px" style="border:0px;"> </iframe>
 
