@@ -393,7 +393,6 @@ log_a\big(\frac{1}{a}\big) &=-1\\
 log_a(0) &=\nexists\\
 \end{align}
 
-
 __Exemple 12__
 
 Per calcular el $log_5{10}$ a la calculadora, haurem de fer doncs:
@@ -405,9 +404,9 @@ Entenent $log 5$ com el logaritme en base $10$ de $5$.
 
 ###El nombre $e$ i els logaritmes neperians
 
-El [nombre $e$](https://ca.wikipedia.org/wiki/Nombre_e) és una constant matemàtica que és la base principal de molts càlculs, com per exemple, en l'estudi de [l'interès compost](http://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_3eso_cat_progressions-JS/index.htm) d'un crèdit o dipòsit.
+El [nombre $e$](https://ca.wikipedia.org/wiki/Nombre_e) és un nombre irracional que igual que $\pi$ i el nombre d'or $\phi$ surt de manera espontània a la natura, com és ara en la [desintegració radioactiva](https://www.nuclear-power.net/nuclear-power/reactor-physics/atomic-nuclear-physics/radioactive-decay/) de nuclis inestables. De fet, la tècnica del Carboni-14 s'aprofita d'aquest fet per a datar mostres arqueològiques comparant la quantitat d'aquest isòtop radioactiu de la mostra morta amb les que tindria la mostra en un organisme viu.
 
-És un nombre irracional, això és, té infinits decimals:
+Aquí sota es llisten els primers decimals d'aquest nombre:
 
 $$e=2,718281828459045235....$$
 
