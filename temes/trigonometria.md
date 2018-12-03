@@ -44,8 +44,11 @@ Hi ha una regla mnemotècnica per recordar les raons de 30, 45 i 60 graus. Si en
 <!-------------------------------------------------->
 
 Construïm una circumferència de radi $1$ tal i com podem veure a la figura.
-Definim un punt $P(x,y)$ sobre la circumferència. Aquest punt defineix un angle $\alpha$ en el primer quadrant. Dibuixem també els triangles $OPQ$ i $OP'Q'$ (descarregueu-vos el fitxer [geogebra](../ggb/circumferencia_unitat_2.ggb)):
-![*Circumferència unitat*](img/circumferencia_unitat_2.png)
+Definim un punt $P(x,y)$ sobre la circumferència. Aquest punt defineix un angle $\alpha$ en el primer quadrant. Dibuixem també els triangles $OPQ$ i $OP'Q'$:
+
+<iframe scrolling="no" title="Circumferència trigonomètrica" src="https://www.geogebra.org/material/iframe/id/qxagju3f/width/800/height/746/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="800px" height="746px" style="border:0px;"> </iframe>
+
+ 
 
 Anem a veure quines són les raons trigonomètriques de l'angle $\alpha$:
 
