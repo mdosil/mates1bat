@@ -46,7 +46,7 @@ L'invers d'un nombre complex $z$ és aquell nombre $z^{-1}$ que compleix:
 
 $$z\cdot z^{-1}=1\rightarrow z^{-1}=\frac{1}{z}$$
 
-Després d'explicar la divisió de nombres complexos serà senzill calcular l'invers d'un nombre complex.
+Després de veure la divisió de nombres complexos serà senzill calcular l'invers d'un nombre complex.
 
 <!-------------------------------------------------->
 ##Operacions amb complexos
