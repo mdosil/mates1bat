@@ -101,11 +101,9 @@ $$x \in \lbrack 7, 13)$$
 
 ![fig1.6](img/interval6_rectareal_1.png)
 
-
-
 Aquí no hem parlat de les inequacions de segon grau i una incògnita, per exemple: $ 2x^2-5x+3 > 4$. Per resoldre aquest tipus d'inequacions cal primer resoldre l'equació de segon grau. En [aquest enllaç](http://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_B_cat_inequacions-JS/index.htm) hi podeu trobar el procediment.
 
-###Valor absolut. Distància. Entorn
+### Valor absolut. Distància. Entorn
 
 De cursos anteriors sabem que el **valor absolut** d'un nombre consisteix en prescindir del seu signe, és a dir: $|-3|=|+3|=3$, i és per tant, positiu.
 
@@ -150,7 +148,7 @@ Només cal trobar un entorn amb centre $3$ i sumar i restar 5 unitats a esquerra
 
 Una potència és una expressió del tipus $a^b$ on $a$ és la base i $b$ l'exponent, ambdós nombres reals. No cal afegir que $a^b$ significa multiplicar $a$ $b$ vegades per ell mateix. En [aquest enllaç](http://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_B_cat_radicals-JS/index.htm) hi podreu repassar el capítol de potències i radicals de 4t d'ESO.
 
-###Propietats
+### Propietats
 
 1. >$a^0=1$
 2. >$a^1=a$
@@ -159,7 +157,6 @@ Una potència és una expressió del tipus $a^b$ on $a$ és la base i $b$ l'expo
 5. >$\frac{a^m}{a^n}= a^{m-n}$
 6. >$(a^m)^n=a^{n \cdot m}$
 7. >$a^n \cdot b^n=(a\cdot b)^n$
-
 
 ## Radicals
 
@@ -220,7 +217,7 @@ __Exemple 7__
 
 $$2\sqrt[5]{21}+4 \sqrt[5]{21}=6 \sqrt[5]{21}$$
 
-###Multiplicacions i divisions
+### Multiplicacions i divisions
 
 Per multiplicar o dividir radicals han de tenir el __mateix índex__. Si tenen diferent índex els hem de reduir a __índex comú__ tal i com fem amb les fraccions. Llavors es multipliquen o divideixen els radicands.
 
@@ -228,7 +225,7 @@ __Exemple 8__
 
 $$\sqrt[3]{5}\cdot \sqrt{8}=\sqrt[6]{5^2}\cdot\sqrt[6]{8^3}=\sqrt[6]{5^2\cdot 8^3}$$
 
-###Arrel d'una arrel
+### Arrel d'una arrel
 
 Per treure l'arrel d'una arrel, es multipliquen els índexs.
 

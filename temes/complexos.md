@@ -40,6 +40,13 @@ Aquesta forma s'anomena __forma binòmica__ d'un nombre complex.
 
 Podem buscar també el complex conjugat d'un nombre $z=a+bi$. Es defineix com: $\bar{z}=a-bi$. 
 
+###Invers d'un nombre complex
+
+L'invers d'un nombre complex $z$ és aquell nombre $z^{-1}$ que compleix:
+
+$$z\cdot z^{-1}=1\rightarrow z^{-1}=\frac{1}{z}$$
+
+Després d'explicar la divisió de nombres complexos serà senzill calcular l'invers d'un nombre complex.
 
 <!-------------------------------------------------->
 ##Operacions amb complexos
