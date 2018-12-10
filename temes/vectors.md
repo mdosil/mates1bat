@@ -22,7 +22,6 @@ El mòdul o llargada del vector,$|\vec{AB}|$,   el calculem aplicant el teorema 
 
 >$$|\vec{AB}|=\sqrt{(b_1-a_1)^2+(b_2-a_2)^2}$$
 
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2240083/width/1600/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="350px" style="border:0px;"> </iframe>
 
 ###Vectors equipol.lents
 
@@ -41,7 +40,7 @@ Anem a calcular les components d'aquests vectors abans de dibuixar-los:
 
 Veiem que tenen les mateixes components.
 
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2240299/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="350px" style="border:0px;"> </iframe>
+<iframe scrolling="no" title="vectors equipol.lents" src="https://www.geogebra.org/material/iframe/id/kjhxwwyr/width/700/height/718/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="700px" height="718px" style="border:0px;"> </iframe>
 
 >Cada conjunt de vectors equipol.lents representen un sol vector anomenat **vector lliure**.
 
