@@ -23,7 +23,7 @@ El mòdul o llargada del vector,$|\vec{AB}|$,   el calculem aplicant el teorema 
 >$$|\vec{AB}|=\sqrt{(b_1-a_1)^2+(b_2-a_2)^2}$$
 
 
-###Vectors equipol.lents
+###Vectors equipol.lents. Vector lliure.
 
 Dos vectors són equipol.lents si tenen la mateixa direcció, mòdul i sentit. En definitiva, si tenen les mateixes coordenades. A la pràctica, els vectors equipol.lents són paral.lels en el pla i podem passar de l'un a l'altre amb un senzill moviment de translació.
 
