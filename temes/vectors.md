@@ -79,7 +79,7 @@ Donats $\vec{u}=(u_1,u_2)$ i $\vec{v}=(v_1,v_2)$, per restar-los algebraicament 
 
 Gràficament, el vector resta consisteix en el vector que s'obté unint l'extrem del primer vector amb el del segon vector.
 
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2240625/width/1600/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="350px" style="border:0px;"> </iframe>
+<iframe scrolling="no" title="resta de vectors" src="https://www.geogebra.org/material/iframe/id/yw4mYk9G/width/700/height/500/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="700px" height="500px" style="border:0px;"> </iframe>
 
 
 ###Producte d'un nombre real per un vector
