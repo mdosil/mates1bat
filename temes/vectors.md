@@ -47,7 +47,7 @@ Veiem que tenen les mateixes components.
 Els vectors lliures normalment es representen amb origen el punt $O(0,0)$ i extrem les coordenades del vector.
 
 
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2240397/width/1920/height/933/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="350px" style="border:0px;"> </iframe>
+<iframe scrolling="no" title="vectors lliure" src="https://www.geogebra.org/material/iframe/id/xsemzj7r/width/800/height/718/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="800px" height="718px" style="border:0px;"> </iframe>
 
 <!---------------------------------------------------------->
 ##Operacions amb vectors
