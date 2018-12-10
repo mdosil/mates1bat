@@ -112,7 +112,7 @@ El producte escalar té les propietats següents:
 
 A vegades ens pot interessar calcular la projecció d'un vector sobre un altre o el que és el mateix, donats dos vectors, buscar quina part d'un d'ells està en la mateixa direcció de l'altre. Fixeu-vos en la construcció següent:
 
-<iframe scrolling="no" title="projeccio_vector_sobreunaltre" src="https://www.geogebra.org/material/iframe/id/cPj29cQZ/width/1938/height/951/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1938px" height="951px" style="border:0px;"> </iframe>
+<iframe scrolling="no" title="projeccio_vector_sobreunaltre" src="https://www.geogebra.org/material/iframe/id/cPj29cQZ/width/700/height/500/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="700px" height="500px" style="border:0px;"> </iframe>
 
 Si considerem el triangle rectangle $ABD$, el cosinus de l'angle $\alpha$ es calcula segons:
 
