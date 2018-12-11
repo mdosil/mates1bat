@@ -232,7 +232,7 @@ Per tant, les components del vector  $\vec{u}=(4,5)$ en la base $B=\{(1,2), (3,-
 
 Donat un segment $\bar{AB}$ qualsevol. Considerem els punts $A(a_1,a_2)$ i $B(b_1,b_2)$. Ens agradaria trobar les coordenades del punt mig $M(x,y)$. Per fer-ho, considerem els vectors $\vec{AM}=(x-a_1,y-a_2)$ i $\vec{MB}=(b_1-x,b_2-y)$:
 
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2303625/width/1938/height/951/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="350px" style="border:0px;"> </iframe>
+<iframe scrolling="no" title="punt mig d'un segment" src="https://www.geogebra.org/material/iframe/id/YF76SGyV/width/700/height/500/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="700px" height="500px" style="border:0px;"> </iframe>
 
 Són vectors equipol.lents perquè tenen el mateix mòdul (la meitat del segment $\bar{AB}$), la mateixa direcció i el mateix sentit. Per tant, es compleix que:
 
@@ -262,7 +262,7 @@ Ja veiem que obtenim un sistema incompatible i per tant, no hi a cap valor de $k
 
 Volem calcular les coordenades del [baricentre](https://ca.wikipedia.org/wiki/Baricentre) d'un triangle. El baricentre és el punt on es creuen les mitjanes d'un triangle. Les mitjanes recordem que són els segments que uneixen el punt mig d'un costat amb el vèrtex oposat. Una propietat del baricentre que cal saber, és divideix la mitjana en 2 segments el qual un és el doble de llarg que l'altre:
 
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2303721/width/1938/height/951/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="350px" style="border:0px;"> </iframe>
+<iframe scrolling="no" title="baricentre d'un triangle" src="https://www.geogebra.org/material/iframe/id/pDgUpV8k/width/700/height/500/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="700px" height="500px" style="border:0px;"> </iframe>
 
 Per trobar les coordenades del baricentre $G(x,y)$ haurem d'aplicar el que hem après en les dues aplicacions anteriors:
 
