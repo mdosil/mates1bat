@@ -91,7 +91,8 @@ Per multiplicar un nombre real $k$ per un vector només cal multiplicar les comp
 ###Producte escalar
 
 El producte escalar entre dos vectors és un **nombre real** i es defineix com:
-      >$$\vec{u}\cdot \vec{v}=|\vec{u}|\cdot|\vec{v}|\cdot cos \alpha$$
+
+>$$\vec{u}\cdot \vec{v}=|\vec{u}|\cdot|\vec{v}|\cdot cos \alpha$$
 
 on $|\vec{u}|$ i $|\vec{v}|$ són els mòduls dels vectors i $\alpha$ l'angle que formen entre ells.
 
@@ -200,7 +201,7 @@ Quan dos vectors són perpendiculars entre ells diem que formen una **base orton
 
 La base ortogonal més coneguda és la formada pels vectors $\vec{i}=(1,0)$ i $\vec{j}=(0,1)$. Aquesta base també s'anomena **base canònica**.
 
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2303407/width/1938/height/951/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="600px" height="350px" style="border:0px;"> </iframe>
+<iframe scrolling="no" title="base canònica" src="https://www.geogebra.org/material/iframe/id/k6wajyq4/width/700/height/500/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="700px" height="500px" style="border:0px;"> </iframe>
 
 ####Propietats
 1. Són vectors unitaris $|\vec{i}|=|\vec{j}|=1$
