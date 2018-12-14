@@ -89,7 +89,7 @@ on $n \in \mathbb{N}$. Llavors per desenvolupar l'expressió ens caldrà aplicar
 
 ####Potències de $i$
 
-Ja hem vist anteriorment que $i^2=1$. Anem a veure què valen altres potències successives de $i$.
+Ja hem vist anteriorment que $i^2=-1$. Anem a veure què valen altres potències successives de $i$.
 
 \begin{align}
 i^0&=1\\
