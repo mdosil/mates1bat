@@ -220,7 +220,7 @@ Expressa el vector $\overrightarrow{u}=(4,5)$ en la base $B=\{(1,2), (3,-1)\}$.
 
 Per fer-ho, hem de resoldre l'equació:
 
-$$(4,5)=\lambda (1,2)+ \mu (3,-1) \begin{cases} 4 = \lambda +3 \mu \rightarrow ... \rightarrow \lambda=\frac{19}{7} \\ 5=2\lambda - \mu \rightarrow ... \rightarrow \lambda = \frac{3}{7}
+$$(4,5)=\lambda (1,2)+ \mu (3,-1) \begin{cases} 4 = \lambda +3 \mu \rightarrow ... \rightarrow \lambda=\frac{19}{7} \\ 5=2\lambda - \mu \rightarrow ... \rightarrow \mu = \frac{3}{7}
 \end{cases}$$
 
 Per tant, les components del vector  $\overrightarrow{u}=(4,5)$ en la base $B=\{(1,2), (3,-1)\}$ són $\overrightarrow{u}_B=(\frac{19}{7}, \frac{3}{7})$.
@@ -256,7 +256,7 @@ Comprova si els punts $A(2,5)$, $B(-1,0)$ i $C(2,8)$ estan alineats.
 \end{cases}
 \end{align}
 
-Ja veiem que obtenim un sistema incompatible i per tant, no hi a cap valor de $k$ pel qual els vectors $\overrightarrow{AB}$ i $\overrightarrow{AC}$ siguin linealment independents. Per tant, els 3 punts **no estan alineats**.
+Ja veiem que obtenim un sistema incompatible i per tant, no hi a cap valor de $k$ pel qual els vectors $\overrightarrow{AB}$ i $\overrightarrow{AC}$ siguin linealment dependents. Per tant, els 3 punts **no estan alineats**.
 
 ###Càlcul del baricentre d'un triangle
 
