@@ -7,7 +7,7 @@ Aquests llocs geomètrics també s'anomenen [Còniques](https://ca.wikipedia.org
 
 ##La circumferència
 
->La circumferència és el lloc geomètric dels punts del pla que equidisten d'un mateix punt anomenat centre.
+>La circumferència és el lloc geomètric dels punts del pla que equidisten d'un mateix punt anomenat *centre*.
 
 <iframe scrolling="no" title="circumferencia" src="https://www.geogebra.org/material/iframe/id/hn7v6fgf/width/700/height/608/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="700px" height="608px" style="border:0px;"> </iframe>
 
