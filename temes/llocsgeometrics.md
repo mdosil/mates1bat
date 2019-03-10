@@ -9,7 +9,7 @@ Aquests llocs geomètrics també s'anomenen [Còniques](https://ca.wikipedia.org
 
 >La circumferència és el lloc geomètric dels punts del pla que equidisten d'un mateix punt anomenat centre.
 
-<iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/2575689/width/1938/height/951/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="800px" height="500px" style="border:0px;"> </iframe>
+<iframe scrolling="no" title="circumferencia" src="https://www.geogebra.org/material/iframe/id/hn7v6fgf/width/700/height/608/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="700px" height="608px" style="border:0px;"> </iframe>
 
 Considerem ara una circumferència de centre $C(a,b)$ i radi $r$. Anem a veure quina equació han de complir els punts d'aquesta circumferència, $P(x,y)$. Si pensem en el triangle rectangle anterior, el catet de la base mesura necessàriament $x-a$ i el catet de l'altura $y-b$. Si apliquem el teorema de Pitàgores es compleix que:
 
