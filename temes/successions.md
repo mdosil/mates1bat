@@ -273,7 +273,7 @@ Veiem que sí que es compleix la desigualtat. Per tant, és una successió monò
 Anem a definir un parell de conceptes:
 
 1. Diem que una successió està **fitada inferiorment** si tots els membres de la successió són més grans o iguals que un nombre real $k$: $a_n\ge k, \forall n \in \mathbb{N}, k\in \mathbb{R}$.Diem que $k$ és una **fita inferior** de la successió.
-2. Diem que una successió està **superiorment** si tots els membres de la successió són més petits o iguals que un nombre real $k$: $a_n\le k, \forall n \in \mathbb{N}, k\in \mathbb{R}$. Diem que $k$ és una **fita superior** de la successió.
+2. Diem que una successió està **fitada superiorment** si tots els membres de la successió són més petits o iguals que un nombre real $k$: $a_n\le k, \forall n \in \mathbb{N}, k\in \mathbb{R}$. Diem que $k$ és una **fita superior** de la successió.
 3. Si una successió està fitada superiorment i inferiorment diem que és una successió **fitada**.
 
 **Exemple 7**
@@ -404,7 +404,7 @@ D'aquí es poden deduir 3 coses quan calculem $\lim_{n\to\infty}\frac{P(n)}{Q(n)
 
 ###Límit d'una potència
 
->$$lim(a_n)^{b_n}=\big(lim \qquad a_n \big)^{lim \qquad b_n}$$
+>$$lim(a_n)^{b_n}=\big(lim \qquad a_n \big)^{lim b_n}$$
 
 **Exemple 9**
 
