@@ -11,7 +11,7 @@ f:& A \rightarrow B \\
 
 $A$ és el conjunt inicial o de partida i i $B$ és el conjunt final o d'arribada. $a$ és l'element original o antiimatge, i $b$ és l'element final o imatge.
 
-__No tots els elements del conjunt final són imatges__. Només oh són els que tenen associat algun element del conjunt inicial.
+__No tots els elements del conjunt final són imatges__. Només ho són els que tenen associat algun element del conjunt inicial.
 
 **Exemple 1**
 
@@ -125,7 +125,7 @@ $$Dom \quad f=\mathbb{R}-\{\text{zeros del denominador}\}$$
 
 Calcula el domini de la funció $y=f(x)=\frac{x^2-2}{x^2-2x+1}$.
 
-$$x^2-2x+1=0 \rightarrow x=\pm 1$$
+$$x^2-2x+1=0 \rightarrow x=1$$
 
 $$D=\mathbb{R}-\{1\}$$
 
@@ -247,7 +247,7 @@ D_{f/g}&=A \cap B - \{ x \mbox{ pels quals g(x)=0}\}
 En l'exemple anterior:
 
 \begin{align}
-y&=\Big(\frac{f}{g}\Big)(x)=\frac{x^2-1}{x}\div \frac{x+1}{x-1}=\frac{(x-1)^2(x+1)}{x(x+1)}\\
+y&=\Big(\frac{f}{g}\Big)(x)=\frac{x^2-1}{x}\div \frac{x+1}{x-1}=\frac{(x-1)^2(x-1)}{x(x+1)}\\
 D_{f/g}&=\mathbb{R}-\{0,1, -1\}
 \end{align}
 
@@ -276,7 +276,7 @@ g:& C \rightarrow \mathbb{R} \\
 amb $D_g=C$ i $R_g=\mathbb{R}$. Si $B \subseteq C$, o el que és el mateix, les imatges de $f$ estan dins el domini de $g$, definim la composició de $f$ amb $g$ i ho escrivim com $g \circ f$ ($f$ composat en $g$) a la funció:
 
 \begin{align}
-g\circ f:& A \rightarrow B \\
+g\circ f:& A \rightarrow \mathbb{R} \\
 &x \rightarrow y=(g \circ f)(x)=g(f(x))\\
 D_{g \circ f}&=D_f=A
 \end{align}
