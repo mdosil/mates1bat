@@ -404,7 +404,7 @@ D'aquí es poden deduir 3 coses quan calculem $\lim_{n\to\infty}\frac{P(n)}{Q(n)
 
 ###Límit d'una potència
 
->$$lim(a_n)^{b_n}=\big(lim \qquad a_n \big)^{lim b_n}$$
+>$$lim(a_n)^{b_n}=\big(lim \qquad a_n \big)^{lim (b_n)}$$
 
 **Exemple 9**
 
