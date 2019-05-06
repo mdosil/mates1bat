@@ -18,7 +18,7 @@ En aquest tema traslladarem el concepte de límit a les funcions. Si tenim una f
 2. Què passa quan $x\rightarrow +\infty$
 3. Què passa quan $x\rightarrow a$ on $a \in \mathbb{R}$
 
-Ens fixarem aquí en el primer cas i més endavant ja pensarem què passa amb una funció en els límits infinits.
+
 
 ###Interpretació gràfica
 
