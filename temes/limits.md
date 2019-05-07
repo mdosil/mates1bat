@@ -62,7 +62,7 @@ Si estudiem què passa quan ens acostem a $x=1$ per l'esquerra (valors més peti
 \lim_{x\to 1^-}&=0
 \end{align}
 
-Quan els límits laterals **no coincideixen**, diem que $\lim_{x\to 1} E(x)=  \nexists$. Per tant:
+Quan els límits laterals **no coincideixen**, diem que $\lim_{x\to 1} floor(x)=  \nexists$. Per tant:
 
 >$$\text{Si } \lim_{x\to a-} f(x)=\lim_{x\to a-} f(x)=L \Rightarrow \lim_{x\to a} f(x)=L$$
 
