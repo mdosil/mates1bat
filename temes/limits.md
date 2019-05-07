@@ -51,7 +51,7 @@ Anem a definir més rigorosament el límit d'una funció en un punt:
 
 Quan parlem del límit d'una funció en un punt, també podem considerar-ne els límits laterals, què passa amb la funció quan ens acostem al punt per l'esquerra i què passa amb la funció quan ens acostem al punt per la dreta.
 
-Per estudiar això fixem-nos amb la funció part entera: $y=f(x)=E(x)$, que representem a continuació. Aquesta funció assigna a cada nombre real $x$ el nombre enter $k$ que compleix: $k\le x$.
+Per estudiar això fixem-nos amb la funció *terra* : $y=f(x)=floor(x)$, que representem a continuació. Aquesta funció assigna a cada nombre real $x$ el nombre enter $k$ que compleix: $k\le x$.
 
 <iframe scrolling="no" src="https://www.geogebra.org/material/iframe/id/nEMUtsN9/width/520/height/751/border/888888/rc/false/ai/false/sdz/true/smb/false/stb/false/stbh/true/ld/false/sri/true/at/auto" width="520px" height="751px" style="border:0px;"> </iframe>
 
