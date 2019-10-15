@@ -20,7 +20,7 @@ $$\mathbb{Z}=\{...-4, -3, -2, -1, 0, 1, 2, 3, 4,...\}$$
 La relació entre els conjunts $\mathbb{N}$, $\mathbb{Z}$ i $\mathbb{Q}$ és la següent: $\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q}$. Això vol dir que un nombre natural és alhora enter i racional, per exemple.
 
 
-Els nombres __decimals__ es divideixen en exactes i periòdics. Si el període comença just després de la coma s'anomenen __periòdics purs__  ($0'\stackrel\frown{3}=0'3333....$) i si hi ha alguna xifra que no es repeteix abans s'anomenen __periòdics mixtes__ ($0'2\stackrel\frown{45}=0'2454545....$). Per a tots els nombres decimals podem buscar la seva [fracció generatriu](https://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_cat_reales-JS-LOMCE/quincena1_contenidos_1b.htm).
+Els nombres __decimals__ es divideixen en exactes i periòdics. Si el període comença just després de la coma s'anomenen __periòdics purs__  ($0'\stackrel\frown{3}=0'3333....$) i si hi ha alguna xifra que no es repeteix abans s'anomenen __periòdics mixtes__ ($0'2\stackrel\frown{45}=0'2454545....$). Per a tots els nombres decimals podem buscar la seva [fracció generatriu](https://es.khanacademy.org/math/cc-eighth-grade-math/cc-8th-numbers-operations/cc-8th-repeating-decimals/v/coverting-repeating-decimals-to-fractions-1).
 
 
 
