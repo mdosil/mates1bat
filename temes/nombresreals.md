@@ -24,7 +24,7 @@ Els nombres __decimals__ es divideixen en exactes i periòdics. Si el període c
 
 ## Recta real
 
-Representar nombres sobre la recta real és ben fàcil en el cas que siguin racionals. Si estem parlant d'enters, els sabrem situar sobre la recta sense problema. Però què passa quan hem de situar per exemple, $\frac{3}{7}$ sobre la recta real? Hi ha varis mètodes. El mètode més ràpid és agafar la unitat, fer-ne 7 parts i agafar-ne 3. El mètode més exacte és utilitzant la tècnica de dibuixar un segment des del 0 amb un angle qualsevol i dividir-lo en 7 parts iguals. Seguidament, uneixes l'última part amb l'$1$ de la recta real i traces línies paral.leles a aquesta que passin per les altres divisions. Els punts d'intersecció amb la recta real i aquestes rectes paral.leles et donaran les diferents fraccions $\frac{1}{7}$, $\frac{2}{7}$, $\frac{3}{7}$, etc.
+Representar nombres sobre la recta real és ben fàcil si són racionals. Si estem parlant d'enters, els sabrem situar sobre la recta sense problema. Però què passa quan hem de situar per exemple, $\frac{3}{7}$ sobre la recta real? Hi ha varis mètodes. El mètode més ràpid és agafar la unitat, fer-ne 7 parts i agafar-ne 3. El mètode més exacte és utilitzant la tècnica de dibuixar un segment des del 0 amb un angle qualsevol i dividir-lo en 7 parts iguals. Seguidament, uneixes l'última part amb l'$1$ de la recta real i traces línies paral.leles a aquesta que passin per les altres divisions. Els punts d'intersecció amb la recta real i aquestes rectes paral.leles et donaran les diferents fraccions $\frac{1}{7}$, $\frac{2}{7}$, $\frac{3}{7}$, etc.
 
 ![*Representació de $\frac{3}{7}$ sobre la recta real*](img/fraccions_recta_real_1.png)
 
