@@ -191,11 +191,9 @@ $$z^n=z\cdot z\cdot z\cdot ....z=r_\alpha \cdot r_\alpha \cdot r_\alpha \cdot ..
 
 Per tant, per elevar un nombre complex expressat en forma polar a una potència $n$ només cal elevar el mòdul a aquesta potència i multiplicar l'argument per $n$.
 
-i si ho expressem de forma trigonomètrica obtenim la [__fòrmula de Moivre__](https://es.wikipedia.org/wiki/F%C3%B3rmula_de_De_Moivre):
 
->$$(cos \alpha + i sin \alpha)^n=cos(n \alpha)+i sin (n \alpha)$$
 
-Per tant, és molt més fàcil calcular les potències dels nombres complexos fent servir la forma polar i no la forma trigonomètrica.
+Per tant, és molt més fàcil calcular les potències dels nombres complexos fent servir la forma polar.
 
 ###Radicació
 
