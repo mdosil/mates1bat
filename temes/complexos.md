@@ -220,5 +220,20 @@ Primer de tot el passarem a forma polar:
 $$z=3+4i\Rightarrow \begin{cases} r=&\sqrt{3^2+4^2}=5 \\ 
 \alpha &= arctan(\frac{4}{3})=13.28º \end{cases} $$
 
-Per tant, el mòdul de les arrels quartes de $z$ serà: $r=\sqrt[4]{5}$ i els arguments de les arrels vindran donats per: $\beta=\frac{13.28+360k}{4}$, $k=0,1,2,3$. Notem que per $k=4$ tornem a obtenir el mateix angle que per $k=0$. Així doncs, les arrels quartes de $z+4i$ són:
+Per tant, el mòdul de les arrels quartes de $z$ serà: $r=\sqrt[4]{5}$ i els arguments de les arrels vindran donats per: $\beta=\frac{13.28+360k}{4}$, $k=0,1,2,3$. Notem que per $k=4$ tornem a obtenir el mateix angle que per $k=0$. 
+
+Així doncs, les arrels quartes de $z+4i$ són:
 $\sqrt[4]{5}_{3.32}$, $\sqrt[4]{5}_{93.32}$, $\sqrt[4]{5}_{183.32}$, $\sqrt[4]{5}_{273.32}$.
+
+Es podria comprovar que elevant aquests nombres a 4 ens dóna el nombre original.
+
+__Exemple 5__
+
+Resol l'equació $x^7+64x=0$ en el conjunt dels nombres complexos.
+
+Primer de tot traurem factor comú:
+
+$$x(x^6+64)=0 \begin{cases} x&=0 \\ 
+x^6 &= -64 \end{cases} $$
+
+Veiem que la primera solució és un nombre real i la segona donarà lloc a un nombre complex. Hem de trobar les arrels sisenes del nombre $-64+0i$.
