@@ -208,3 +208,14 @@ Anem a resoldre ara aquesta equació. Igualem per separat els mòduls i els argu
 
 $$s_{\beta} \Rightarrow \begin{cases} r=s^n &\rightarrow s=\sqrt[n]{r} \\ 
 n \beta= \alpha + 360 k & \beta= \frac{\alpha+360k}{n} & k \in \mathbb{N} \end{cases} $$
+
+Veurem que per cada nombre complex, hi ha $n$ arrels. Aquestes arrels són nombres complexos d'igual mòdul però diferent angle. Veiem-ne un exemple.
+
+__Exemple 4__
+
+Troba les arrels quartes del nombre $z=3+4i$.
+
+Primer de tot el passarem a forma polar:
+
+$$z=3+4i\Rightarrow \begin{cases} r=&\sqrt{3^2+4^2}=5 \\ 
+\alpha &= arctan(\frac{4}{3})=13.28º \end{cases} $$
