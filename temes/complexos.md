@@ -246,3 +246,21 @@ r=\sqrt{(-64)^2+0}\\
 \end{align}
 
 Fixem-nos que hi ha 2 angles que tenen tangent $0$, $0º$ i $180º$, però com que el nombre complex $z=-64+0i$ està en el 2n quadrant, l'angle ha de ser necessàriament $180º$.
+
+Per tant, hem de trobar les 6 arrels de $z=64_{180º}$. El mòdul d'aquestes arrels vindrà donat per: 
+
+$$\sqrt[6]{64}=2$$
+
+i els angles vindran definits per l'expressió:
+
+$$\alpha=\frac{180+k\cdot 360}{6}, k=0,1,2,3,4,5$$
+
+Si ho calculem, obtenim com a resultat:
+
+$$2_{30^º}, 2_{90ª}, 2_{150º}, 2_{180º}, 2_{210º}, 2_{270º}, 2_{330^º}$$
+
+Per tant, l'equació $x^7+64x=0$ té 7 solucions de les quals una és real ($x=0$) i les altres 6 complexes.
+
+Cal afegir que si representéssim gràficament les 6 arrels complexes al pla complex obtindríem un hexàgon regular.
+
+
