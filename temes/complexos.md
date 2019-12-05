@@ -217,13 +217,13 @@ Troba les arrels quartes del nombre $z=3+4i$.
 
 Primer de tot el passarem a forma polar:
 
-$$z=3+4i\Rightarrow \begin{cases} r=&\sqrt{3^2+4^2}=5 \\ 
-\alpha &= arctan(\frac{4}{3})=13.28º \end{cases} $$
+$$z=3+4i\Rightarrow \begin{cases} r&=\sqrt{3^2+4^2}=5 \\ 
+\alpha &= arctan(\frac{4}{3})=53.13º \end{cases} $$
 
-Per tant, el mòdul de les arrels quartes de $z$ serà: $r=\sqrt[4]{5}$ i els arguments de les arrels vindran donats per: $\beta=\frac{13.28+360k}{4}$, $k=0,1,2,3$. Notem que per $k=4$ tornem a obtenir el mateix angle que per $k=0$. 
+Per tant, el mòdul de les arrels quartes de $z$ serà: $r=\sqrt[4]{5}$ i els arguments de les arrels vindran donats per: $\beta=\frac{53.13+360k}{4}$, $k=0,1,2,3$. Notem que per $k=4$ tornem a obtenir el mateix angle que per $k=0$. 
 
 Així doncs, les arrels quartes de $z+4i$ són:
-$\sqrt[4]{5}_{3.32}$, $\sqrt[4]{5}_{93.32}$, $\sqrt[4]{5}_{183.32}$, $\sqrt[4]{5}_{273.32}$.
+$\sqrt[4]{5}_{13.28}$, $\sqrt[4]{5}_{103.28}$, $\sqrt[4]{5}_{193.28}$, $\sqrt[4]{5}_{283.28}$.
 
 Es podria comprovar que elevant aquests nombres a 4 ens dóna el nombre original.
 
@@ -236,4 +236,13 @@ Primer de tot traurem factor comú:
 $$x(x^6+64)=0 \begin{cases} x&=0 \\ 
 x^6 &= -64 \end{cases} $$
 
-Veiem que la primera solució és un nombre real i la segona donarà lloc a un nombre complex. Hem de trobar les arrels sisenes del nombre $-64+0i$.
+Veiem que la primera solució és un nombre real i la segona donarà lloc a un nombre complex. Hem de trobar les arrels sisenes del nombre real $-64$, que expressat com a complex i en forma binòmica és $-64+0i$.
+
+Primer de tot ens caldrà passar aquest nombre a forma polar:
+
+\begin{align}
+r=\sqrt{(-64)^2+0}\\
+\alpha=arctan\big(\frac{0}{-64}\big)=180º
+\end{align}
+
+Fixem-nos que hi ha 2 angles que tenen tangent $0$, $0º$ i $180º$, però com que el nombre complex $z=-64+0i$ està en el 2n quadrant, l'angle ha de ser necessàriament $180º$.
