@@ -241,8 +241,8 @@ Veiem que la primera solució és un nombre real i la segona donarà lloc a un n
 Primer de tot ens caldrà passar aquest nombre a forma polar:
 
 \begin{align}
-r=\sqrt{(-64)^2+0}\\
-\alpha=arctan\big(\frac{0}{-64}\big)=180º
+r&=\sqrt{(-64)^2+0}\\
+\alpha&=arctan\big(\frac{0}{-64}\big)=180º
 \end{align}
 
 Fixem-nos que hi ha 2 angles que tenen tangent $0$, $0º$ i $180º$, però com que el nombre complex $z=-64+0i$ està en el 2n quadrant, l'angle ha de ser necessàriament $180º$.
@@ -262,5 +262,7 @@ $$2_{30^º}, 2_{90ª}, 2_{150º}, 2_{180º}, 2_{210º}, 2_{270º}, 2_{330^º}$$
 Per tant, l'equació $x^7+64x=0$ té 7 solucions de les quals una és real ($x=0$) i les altres 6 complexes.
 
 Cal afegir que si representéssim gràficament les 6 arrels complexes al pla complex obtindríem un hexàgon regular.
+
+També es podria comprovar que elevant cadascun d'aquests nombres a $6$ s'obté el nombre original, $z=64_{180º}$.
 
 
