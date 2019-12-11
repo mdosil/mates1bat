@@ -147,7 +147,7 @@ Només cal trobar un entorn amb centre $3$ i sumar i restar 5 unitats a esquerra
 
 ## Potències
 
-Una potència és una expressió del tipus $a^b$ on $a$ és la base i $b$ l'exponent, ambdós nombres reals. No cal afegir que $a^b$ significa multiplicar $a$ $b$ vegades per ell mateix. En [aquest enllaç](http://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_B_cat_radicals-JS/index.htm) hi podreu repassar el capítol de potències i radicals de 4t d'ESO.
+Una potència és una expressió del tipus $a^b$ on $a$ és la base i $b$ l'exponent, ambdós nombres reals. No cal afegir que $a^b$ significa multiplicar $a$ $b$ vegades per ell mateix. En [aquest enllaç](https://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_cat_radicals-JS-LOMCE/index.htm) hi podreu repassar el capítol de potències i radicals de 4t d'ESO.
 
 ### Propietats
 
