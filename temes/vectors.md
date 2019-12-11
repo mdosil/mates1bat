@@ -66,7 +66,7 @@ Siguin $\overrightarrow{u}=(u_1,u_2)$ i $\overrightarrow{v}=(v_1,v_2)$, per suma
 
 La suma de vectors té les propietats següents:
 
-1. Associativa: $\overrightarrow{u}+\overrightarrow{v}+\overrightarrow{w}=(\overrightarrow{u}+\overrightarrow{v})+\overrightarrow{w}=\overrightarrow{u}+()\overrightarrow{v}+\overrightarrow{w})$
+1. Associativa: $\overrightarrow{u}+\overrightarrow{v}+\overrightarrow{w}=(\overrightarrow{u}+\overrightarrow{v})+\overrightarrow{w}=\overrightarrow{u}+(\overrightarrow{v}+\overrightarrow{w})$
 2. Commutativa: $\overrightarrow{u}+\overrightarrow{v}=\overrightarrow{v}+\overrightarrow{u}$
 3. Element neutre: $\overrightarrow{u}+\overrightarrow{0}=\overrightarrow{u}$ on $\overrightarrow{0}=(0,0)$
 4. Element oposat: $\overrightarrow{u}+(-\overrightarrow{u})=\overrightarrow{0}$
