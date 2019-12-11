@@ -172,4 +172,4 @@ Veiem que són simètriques respecte la bisectriu del 1r i el 3r quadrants, la r
 6. La funció logarítmica no té màxims ni mínims
 7. Si $a>1$ la funció és convexa
 8. Si $0<a<1$ la funció és còncava
-9. La funció logarítmica no té ni màxims ni mínims
+
