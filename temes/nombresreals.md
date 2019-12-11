@@ -102,7 +102,7 @@ $$x \in \lbrack 7, 13)$$
 
 ![fig1.6](img/interval6_rectareal_1.png)
 
-Aquí no hem parlat de les inequacions de segon grau i una incògnita, per exemple: $ 2x^2-5x+3 > 4$. Per resoldre aquest tipus d'inequacions cal primer resoldre l'equació de segon grau. En [aquest enllaç](http://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_B_cat_inequacions-JS/index.htm) hi podeu trobar el procediment.
+Aquí no hem parlat de les inequacions de segon grau i una incògnita, per exemple: $ 2x^2-5x+3 > 4$. Per resoldre aquest tipus d'inequacions cal primer resoldre l'equació de segon grau. En [aquest enllaç](https://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_cat_inequacions-JS-LOMCE/quincena5_contenidos_2a.htm) hi podeu trobar el procediment.
 
 ### Valor absolut. Distància. Entorn
 
