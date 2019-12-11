@@ -34,7 +34,7 @@ Per representar radicals irracionals sobre la recta real, cal utilitzar el [teor
 
 ### Intervals
 
-[Podem entendre un interval com una regió de la recta real](http://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_B_cat_reales-JS/index.htm). Agafem com a exemple , un de senzill: *Els nombres més grans que $4$*. Si ho representem sobre la recta real obtenim:
+[Podem entendre un interval com una regió de la recta real](https://proyectodescartes.org/EDAD/materiales_didacticos/EDAD_4eso_cat_reales-JS-LOMCE/quincena1_contenidos_3a.htm). Agafem com a exemple , un de senzill: *Els nombres més grans que $4$*. Si ho representem sobre la recta real obtenim:
 
 ![*Representació de $x > 4$ sobre la recta real*](img/interval1_rectareal_1.png)
 
