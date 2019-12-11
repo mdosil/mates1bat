@@ -55,15 +55,15 @@ Per fer aquesta divisió utilitzarem la [regla de Ruffini](http://proyectodescar
 
 $$
 \begin{array}{c|r r r r r}
- & 4 & 0 & 0 & 2 & 1 \\
- &  &  &  & \\
-2 &  & 8 & 16 & 32 & 68 \\
+ & 4 & 0 & 0 & 0 & 2 & 1 \\
+ &  &  &  & & \\
+2 &  & 8 & 16 & 32 & 64 & 132 \\
 \hline
- & 4 & 8 & 16 & 34 &\boxed{64}
+ & 4 & 8 & 16 & 32 & 66 &\boxed{133}
 \end{array}
 $$
 
-Per tant, el quocient de dividir $P(x)$ per $(x-2)$ és $Q(x)=4x^4+8x^3+16 x^2+34$ i el residu $64$.
+Per tant, el quocient de dividir $P(x)$ per $(x-2)$ és $Q(x)=4x^4+8x^3+16 x^2+32x+66$ i el residu $133$.
 
 
 
