@@ -246,16 +246,16 @@ Veiem que la funció $arccos (x)$ és contínua i decreixent en tot el seu domin
 Abans de definir la funció $arctan (x)$ o $tan^{-1}(x)$, definim la **funció tangent restringida** com aquella funció que compleix:
 
 \begin{align}
-tan:[-\frac{\pi}{2},\frac{\pi}{2}] & \rightarrow \mathbb{R} \\
+tan:(-\frac{\pi}{2},\frac{\pi}{2}) & \rightarrow \mathbb{R} \\
 x &\rightarrow y=tan (x)
 \end{align}
 
-Veiem que hem restringit el domini de la funció a l'interval $[-\frac{\pi}{2},\frac{\pi}{2}]$ i el recorregut continua essent el mateix que la funció tangent complerta. En aquest interval de $x$ la funció sí que és bijectiva, per tant, podrem calcular-ne la inversa.
+Veiem que hem restringit el domini de la funció a l'interval $(-\frac{\pi}{2},\frac{\pi}{2})$ i el recorregut continua essent el mateix que la funció tangent complerta. En aquest interval de $x$ la funció sí que és bijectiva, per tant, podrem calcular-ne la inversa.
 
 Definim la funció **$arctan (x)$ o $tan^{-1}(x)$** com aquella funció que a cada nombre **real** li fa correspondre el seu angle en radiants:
 
 \begin{align}
-arctan:\mathbb{R} & \rightarrow [-\frac{\pi}{2},\frac{\pi}{2}] \\
+arctan:\mathbb{R} & \rightarrow (-\frac{\pi}{2},\frac{\pi}{2}) \\
 x & \rightarrow y=arctan (x) \leftrightarrow x=tan (y)\\
 0 & \rightarrow 0\\
 1 & \rightarrow \frac{\pi}{4}(45^o)
