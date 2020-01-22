@@ -197,9 +197,9 @@ o el que és el mateix:
 
 
 ###Base ortogonal, ortonormal i canònica
-Quan dos vectors són perpendiculars entre ells diem que formen una **base ortonormal** i si a més tenen mòdul 1, són una base **ortogonal**.
+Quan dos vectors són perpendiculars entre ells diem que formen una **base ortogonal** i si a més tenen mòdul 1, són una base **ortonormal**.
 
-La base ortogonal més coneguda és la formada pels vectors $\overrightarrow{i}=(1,0)$ i $\overrightarrow{j}=(0,1)$. Aquesta base també s'anomena **base canònica**.
+La base ortonormal més coneguda és la formada pels vectors $\overrightarrow{i}=(1,0)$ i $\overrightarrow{j}=(0,1)$. Aquesta base també s'anomena **base canònica**.
 
 <iframe scrolling="no" title="base canònica" src="https://www.geogebra.org/material/iframe/id/k6wajyq4/width/700/height/500/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="700px" height="500px" style="border:0px;"> </iframe>
 
