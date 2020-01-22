@@ -1,7 +1,7 @@
 #Tema 1: Nombres reals
 
 ## El conjunt dels nombres reals
-Els __nombres reals__ es divideixen en __nombres racionals__ __$\mathbb{Q}$__, que són aquells que es poden expressar mitjançant una fracció i els __irracionals__ __$\mathbb{I}$__. Exemples de nombres racionals són $\frac{3}{4}$, $2'5$ i $0'\stackrel\frown{123}$. Els nombres irracionals no es poden expressar com a fracció. El nombre $\pi$ i $\sqrt{5}$ són nombres irracionals.
+Els nombres reals es divideixen en __nombres racionals__ __$\mathbb{Q}$__, que són aquells que es poden expressar mitjançant una fracció i els __irracionals__ __$\mathbb{I}$__. Exemples de nombres racionals són $\frac{3}{4}$, $2'5$ i $0'\stackrel\frown{123}$. Els nombres irracionals no es poden expressar com a fracció. El nombre $\pi$ i $\sqrt{5}$ són nombres irracionals.
 Un [nombre real](https://en.wikipedia.org/wiki/Real_number) és aquell que es pot representar al llarg d'una recta contínua. Per exemple, tots els nombres associats a mesures físiques (longitud, força, pes, etc) són nombres reals. [Exemples de nombres reals](http://www.mathsisfun.com/numbers/real-numbers.html) són: $1$, $-5$, $\sqrt{3}$, $\pi$, $4'15$, $2'\stackrel\frown{3}$, $\frac{4}{5}$. Al conjunt dels nombres reals se li dóna la lletra __$\mathbb{R}$__.
 
 La [__recta numèrica__](https://ca.wikipedia.org/wiki/Recta_num%C3%A8rica) està formada pel conjunt de tots els nombres reals. Els nombres reals són un __conjunt ordenat__ ja que donats dos nombres, sempre podem determinar-ne el més gran: si $a> b$ al representar-los sobre la recta, $a$ estarà a la dreta de $b$.
