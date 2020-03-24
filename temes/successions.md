@@ -233,9 +233,8 @@ Per trobar la suma dels $\infty$ primers termes només cal aplicar la fòrmula:
 \begin{align}
 S_{\infty}&=\frac{a_1}{1-r}\\
 S_{\infty}&=\frac{\frac{1}{2}}{1-\frac{1}{2}}\\
-S_{\infty}&=2\\
+S_{\infty}&=1\\
 \end{align}
-
 
 ##Successions monòtones
 
